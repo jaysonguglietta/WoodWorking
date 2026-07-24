@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+build/html/
+build/pdf/
+build/previews/
+build/templates/
+build/reports/page-images/
+tmp/
+

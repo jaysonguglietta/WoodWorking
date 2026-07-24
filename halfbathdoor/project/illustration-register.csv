@@ -1,0 +1,37 @@
+Figure,Slug,Type,Purpose,Source,QC status
+Fig. 1,finished-door-elevation,SVG + PNG technical diagram,Finished Door Elevation,generated from specification,dimension/text inspected
+Fig. 2,exploded-assembly,SVG + PNG technical diagram,Exploded Assembly,generated from specification,dimension/text inspected
+Fig. 3,door-anatomy,SVG + PNG technical diagram,Door Anatomy,generated from specification,dimension/text inspected
+Fig. 4,historical-reference,SVG + PNG technical diagram,Historical Reference,generated from specification,dimension/text inspected
+Fig. 5,component-identification,SVG + PNG technical diagram,Component Identification,generated from specification,dimension/text inspected
+Fig. 6,board-allocation,SVG + PNG technical diagram,Board Allocation,generated from specification,dimension/text inspected
+Fig. 7,milling-progression,SVG + PNG technical diagram,Milling Progression,generated from specification,dimension/text inspected
+Fig. 8,story-stick-layout,SVG + PNG technical diagram,Story Stick Layout,generated from specification,dimension/text inspected
+Fig. 9,panel-groove-section,SVG + PNG technical diagram,Panel Groove Section,generated from specification,dimension/text inspected
+Fig. 10,panel-movement,SVG + PNG technical diagram,Panel Movement,generated from specification,dimension/text inspected
+Fig. 11,df500-anatomy,SVG + PNG technical diagram,Df500 Anatomy,generated from specification,dimension/text inspected
+Fig. 12,df500-fence-height,SVG + PNG technical diagram,Df500 Fence Height,generated from specification,dimension/text inspected
+Fig. 13,df500-plunge-depth,SVG + PNG technical diagram,Df500 Plunge Depth,generated from specification,dimension/text inspected
+Fig. 14,single-tenon,SVG + PNG technical diagram,Single Tenon,generated from specification,dimension/text inspected
+Fig. 15,double-tenon,SVG + PNG technical diagram,Double Tenon,generated from specification,dimension/text inspected
+Fig. 16,triple-tenon,SVG + PNG technical diagram,Triple Tenon,generated from specification,dimension/text inspected
+Fig. 17,tight-loose-strategy,SVG + PNG technical diagram,Tight Loose Strategy,generated from specification,dimension/text inspected
+Fig. 18,groove-domino-coordination,SVG + PNG technical diagram,Groove Domino Coordination,generated from specification,dimension/text inspected
+Fig. 19,rail-stile-joint,SVG + PNG technical diagram,Rail Stile Joint,generated from specification,dimension/text inspected
+Fig. 20,muntin-joint,SVG + PNG technical diagram,Muntin Joint,generated from specification,dimension/text inspected
+Fig. 21,panel-construction,SVG + PNG technical diagram,Panel Construction,generated from specification,dimension/text inspected
+Fig. 22,panel-tongue,SVG + PNG technical diagram,Panel Tongue,generated from specification,dimension/text inspected
+Fig. 23,dry-assembly,SVG + PNG technical diagram,Dry Assembly,generated from specification,dimension/text inspected
+Fig. 24,diagonal-measurement,SVG + PNG technical diagram,Diagonal Measurement,generated from specification,dimension/text inspected
+Fig. 25,twist-check,SVG + PNG technical diagram,Twist Check,generated from specification,dimension/text inspected
+Fig. 26,glue-map,SVG + PNG technical diagram,Glue Map,generated from specification,dimension/text inspected
+Fig. 27,clamp-arrangement,SVG + PNG technical diagram,Clamp Arrangement,generated from specification,dimension/text inspected
+Fig. 28,door-fitting-reveals,SVG + PNG technical diagram,Door Fitting Reveals,generated from specification,dimension/text inspected
+Fig. 29,hinge-layout,SVG + PNG technical diagram,Hinge Layout,generated from specification,dimension/text inspected
+Fig. 30,hinge-mortise,SVG + PNG technical diagram,Hinge Mortise,generated from specification,dimension/text inspected
+Fig. 31,mortise-lock-layout,SVG + PNG technical diagram,Mortise Lock Layout,generated from specification,dimension/text inspected
+Fig. 32,strike-alignment,SVG + PNG technical diagram,Strike Alignment,generated from specification,dimension/text inspected
+Fig. 33,door-stop-section,SVG + PNG technical diagram,Door Stop Section,generated from specification,dimension/text inspected
+Fig. 34,casing-backband-section,SVG + PNG technical diagram,Casing Backband Section,generated from specification,dimension/text inspected
+Fig. 35,rubio-application,SVG + PNG technical diagram,Rubio Application,generated from specification,dimension/text inspected
+Fig. 36,finished-installed-door,SVG + PNG technical diagram,Finished Installed Door,generated from specification,dimension/text inspected

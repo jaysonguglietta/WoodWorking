@@ -1,0 +1,14 @@
+Category,Item,Specification,Quantity,Purpose,Selection notes,Substitution constraints,Field verification,Chapter
+Lumber,Door frame stock,"FAS 6/4 quarter-sawn white oak, 6-9% MC",26 board feet,"stiles, rails, muntin","straight, rift-to-quarter grain; 50% waste included",no MDF or finger-jointed stock,moisture and color sample,30/50
+Lumber,Panel stock,FAS 4/4 quarter-sawn white oak,8 board feet,five solid floating panels,vertical grain; match lower pair,solid oak only,final movement allowance,30/150
+Moulding stock,Casing/backband/stop,FAS 5/4 quarter-sawn white oak,12 board feet provisional,completed-jamb trim,add 20% after worksheet,field dimensions control,all lengths and profiles,220
+Domino,Factory beech tenons,10 x 50 mm,26 plus 20% spare,rail-to-stile joints,dry storage,DF 500 compatible only,fit on test pieces,100-140
+Domino,Factory beech tenons,6 x 40 mm,4 plus 50% spare,muntin joints,dry storage,no random scrap tenons,fit on test pieces,140
+Domino,Cutters,sharp 10 mm and 6 mm DF 500 cutters,1 each,mortising,inspect edge and shank,not DF 700 cutters,test cut,100
+Hardware,Mortise lock set,"traditional brass, complete with strike and knobs",1 set,latching and privacy,physical sample required,no invented dimensions,all dimensions,210
+Hardware,Butt hinges,"3-1/2-inch brass, loose-pin or period-compatible",3,hanging,matching visible screws,leaf thickness field-gated,actual leaves/screws,200
+Adhesive,Type II PVA,"fresh, within shelf life",16 oz,frame and panel edge glue-ups,verify open time,no polyurethane foaming adhesive,shop temperature,170
+Finish,Rubio Monocoat Oil Plus 2C,Pure,350 mL set,door and trim,make sample first,follow current TDS,color match,230
+Consumables,Abrasives,P80/P100/P120 discs and hand sheets,shop pack,surface preparation,"fresh, clean abrasive",stop at P120 unless current TDS differs,surface sample,180/230
+Jig materials,MDF-free stable plywood,1/2 and 3/4 inch Baltic birch,one half-sheet,"story sticks, supports, templates",flat and dry,jigs only; not door components,machine fit,60/80
+Safety,Oily-waste container,lidded metal can or water-filled sealed metal container,1,combustion control,label before finishing,required,local disposal rules,230

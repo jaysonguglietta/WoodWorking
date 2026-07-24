@@ -1,0 +1,12 @@
+{
+  "name": "dc-1916-001-five-panel-door",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Reproducible publication source for Project DC-1916-001",
+  "scripts": {
+    "build": "make all",
+    "test": "make validate",
+    "release": "make release"
+  }
+}
+
