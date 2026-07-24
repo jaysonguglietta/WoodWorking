@@ -1026,7 +1026,7 @@ def build_report(counts: dict) -> None:
 
 ## Created
 
-Complete Markdown manuscript; JSON-compatible YAML specification; historical, engineering, and modern-construction standards; procurement and cut lists; DF 500 register; 36 SVG/PNG technical figures; self-contained HTML; print and screen manuals; template package; moulding drawings; field worksheet; source archive; and SHA-256 checksums.
+Complete Markdown manuscript; JSON-compatible YAML specification; historical, engineering, and modern-construction standards; procurement and cut lists; DF 500 register; 36 SVG/PNG technical figures; self-contained HTML; print and screen manuals; companion visual cut-and-assembly guide; template package; moulding drawings; field worksheet; source archive; and SHA-256 checksums.
 
 ## Toolchain and commands
 

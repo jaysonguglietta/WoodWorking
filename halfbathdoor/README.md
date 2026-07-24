@@ -30,6 +30,10 @@ make clean      # remove reproducible build outputs
 
 The authoritative specification is `project/specification.yaml`. Release artifacts are under `release/`.
 
+For a bench-friendly version focused only on lumber preparation and assembly, use
+`release/DC-1916-001_Quick_Cut_and_Assembly_Guide.pdf`. Its six dimension-controlled
+assembly illustrations are generated from `scripts/generate_quick_assembly_diagrams.py`.
+
 ## Field gate
 
 Before final milling, complete the jamb and hardware worksheets. The fixed 24 x 79 inch slab is the design target, not permission to skip measuring the completed opening. Preserve a small fitting allowance until the opening, floor, handing, hinge leaves, and mortise lock are physically verified.
@@ -37,4 +41,3 @@ Before final milling, complete the jamb and hardware worksheets. The fixed 24 x 
 ## Source notes
 
 Historical design decisions are documented in `project/historical-appearance-standard.md`. Manufacturer limits for the DF 500 and the provenance for period precedents are recorded in `project/source-register.csv`.
-

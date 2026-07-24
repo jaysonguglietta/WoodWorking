@@ -13,6 +13,7 @@ from reportlab.platypus import (
     BaseDocTemplate, Frame, Image, PageBreak, PageTemplate, Paragraph,
     Spacer, Table, TableStyle
 )
+from generate_quick_assembly_diagrams import generate as generate_assembly_diagrams
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "quick-guide/DC-1916-001_Quick_Cut_and_Assembly_Guide.md"
@@ -93,6 +94,7 @@ def parse_section(lines, s):
 
 
 def build():
+    generate_assembly_diagrams()
     RELEASE.mkdir(exist_ok=True)
     text = SOURCE.read_text()
     sections = re.split(r"(?=^## )", text, flags=re.M)
@@ -110,32 +112,50 @@ def build():
         Paragraph("<b>24 x 79 x 1-3/8 inches target size - field verify the completed jamb before cutting.</b>", s["QBody"]),
         PageBreak(),
     ]
-    groups = [
+    intro_groups = [
         sections[1:4],
         sections[4:6],
         sections[6:8],
-        sections[8:10],
-        sections[10:12],
-        sections[12:],
     ]
-    figures = [
-        None, "milling-progression.png",
-        "panel-groove-section.png", "double-tenon.png",
-        "dry-assembly.png", None,
-    ]
-    for idx, group in enumerate(groups):
+    figures = [None, "milling-progression.png", "panel-groove-section.png"]
+    for idx, group in enumerate(intro_groups):
         for section in group:
             story += parse_section(section.splitlines(), s)
         if figures[idx]:
             fig = ROOT / "illustrations/technical" / figures[idx]
             if fig.exists():
                 story += [Spacer(1,6), Image(str(fig), width=3.0*inch, height=3.0*inch)]
-        if idx != len(groups)-1:
+        story.append(PageBreak())
+
+    visual_pages = [
+        ("01-parts-map.png", "1. Confirm the complete cut-part set before assembly."),
+        ("02-exploded-frame.png", "2. Dry-lay the stiles, rails, and muntin in final order."),
+        ("03-bottom-module.png", "3. Assemble the lower rail-muntin module and capture the paired panels."),
+        ("04-load-panels.png", "4. Seat rails in D-101A and load all five floating panels."),
+        ("05-close-lock-stile.png", "5. Bring D-101B onto all exposed rail tenons together."),
+        ("06-clamp-square.png", "6. Clamp at rail locations, compare diagonals, and verify panel movement."),
+    ]
+    illustration_dir = ROOT / "quick-guide/illustrations"
+    for filename, caption in visual_pages:
+        story += [
+            Paragraph("Visual assembly sequence", s["QH1"]),
+            Paragraph(caption, s["QBody"]),
+            Image(str(illustration_dir / filename), width=7.0*inch, height=4.67*inch),
+            PageBreak(),
+        ]
+
+    # Skip the prose-only visual-sequence section because the six illustrated
+    # pages above present the same steps at useful scale.
+    final_groups = [sections[9:11], sections[11:]]
+    for idx, group in enumerate(final_groups):
+        for section in group:
+            story += parse_section(section.splitlines(), s)
+        if idx != len(final_groups)-1:
             story.append(PageBreak())
     doc.build(story)
     reader = PdfReader(str(OUT))
     extracted = "\n".join(page.extract_text() or "" for page in reader.pages)
-    assert 6 <= len(reader.pages) <= 10
+    assert 11 <= len(reader.pages) <= 14
     assert "D-101A" in extracted and "DF 500" in extracted and "Glue-up" in extracted
     assert not re.search(r"\b(TODO|TBD|placeholder)\b", extracted, re.I)
     (RELEASE / SOURCE.name).write_text(text)

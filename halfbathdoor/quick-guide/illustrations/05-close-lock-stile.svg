@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">5</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Close the lock stile over every rail end</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">Keep the stile parallel so the tenons enter together.</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. A | show face up | drawings not cutting templates</text>
+<rect x="180" y="135" width="39.6" height="695.2" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="219.6" y="135.0" width="132.0" height="35.2" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="219.6" y="289.0" width="132.0" height="35.2" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="219.6" y="447.40000000000003" width="132.0" height="61.60000000000001" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="219.6" y="592.6" width="132.0" height="35.2" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="219.6" y="724.6" width="132.0" height="105.60000000000001" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="272.40000000000003" y="627.8000000000001" width="26.400000000000002" height="96.80000000000001" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="224.6" y="175.2" width="122.00000000000003" height="108.80000000000001" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="285.6" y="229.60000000000002" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101H</text>
+<rect x="224.6" y="329.20000000000005" width="122.00000000000003" height="113.20000000000002" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="285.6" y="385.8" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101J</text>
+<rect x="224.6" y="514.0" width="122.00000000000003" height="73.60000000000001" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="285.6" y="550.8" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101N</text>
+<rect x="224.6" y="632.8000000000001" width="42.800000000000004" height="86.80000000000001" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="246.0" y="676.2" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101K</text>
+<rect x="303.79999999999995" y="632.8000000000001" width="42.800000000000004" height="86.80000000000001" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="325.19999999999993" y="676.2" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101L</text>
+<rect x="349.6" y="139.73333333333335" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="151.46666666666667" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="293.73333333333335" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="305.4666666666667" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="455.8" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="471.20000000000005" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="486.6" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="597.3333333333334" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="609.0666666666666" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="738.7200000000001" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="759.84" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="780.96" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="349.6" y="802.08" width="46" height="14" rx="7.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1110" y="135" width="39.6" height="695.2" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<text x="1130" y="480" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101B</text>
+<polyline points="1075,330 411.6,330" fill="none" stroke="#2E6F73" stroke-width="9" stroke-linejoin="round"/>
+<polygon points="411.6,330 432.0605885294282,317.4555065056642 432.0605885294282,342.5444934943358" fill="#2E6F73"/>
+<polyline points="1075,650 411.6,650" fill="none" stroke="#2E6F73" stroke-width="9" stroke-linejoin="round"/>
+<polygon points="411.6,650 432.0605885294282,637.4555065056642 432.0605885294282,662.5444934943358" fill="#2E6F73"/>
+<rect x="850" y="740" width="540" height="160" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="868" y="766" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="start" dominant-baseline="middle">Close evenly</text>
+<text x="874" y="798" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Start every tenon by hand</text>
+<text x="874" y="828" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Tap only through a padded caul</text>
+<text x="874" y="858" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Stop if one shoulder hangs open</text>
+<text x="760" y="115" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">All panels already seated in their grooves</text>
+</svg>

@@ -10,6 +10,7 @@ all: sources
 
 .PHONY: quick-guide
 quick-guide: sources
+	$(PYTHON) scripts/generate_quick_assembly_diagrams.py
 	$(PYTHON) scripts/build_quick_guide.py
 	$(PYTHON) scripts/package_release.py
 

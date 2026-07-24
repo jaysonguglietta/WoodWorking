@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">1</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Lay out every cut part</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">Confirm identifiers, orientation, and count before mortising.</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. A | show face up | drawings not cutting templates</text>
+<rect x="90" y="150" width="39.15" height="687.3" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="259.65" y="150" width="39.15" height="687.3" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="129.15" y="150.0" width="130.5" height="34.8" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="194.39999999999998" y="167.4" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101C</text>
+<rect x="129.15" y="302.25" width="130.5" height="34.8" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="194.39999999999998" y="319.65" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101M</text>
+<rect x="129.15" y="458.84999999999997" width="130.5" height="60.89999999999999" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="194.39999999999998" y="489.29999999999995" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101D</text>
+<rect x="129.15" y="602.4" width="130.5" height="34.8" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="194.39999999999998" y="619.8" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101E</text>
+<rect x="129.15" y="732.9" width="130.5" height="104.39999999999999" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="194.39999999999998" y="785.0999999999999" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101F</text>
+<rect x="181.34999999999997" y="637.1999999999999" width="26.099999999999998" height="95.69999999999999" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<text x="194.39999999999998" y="685.05" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101G</text>
+<rect x="134.15" y="189.8" width="120.49999999999997" height="107.44999999999999" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="194.39999999999998" y="243.52499999999998" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101H</text>
+<rect x="134.15" y="342.04999999999995" width="120.49999999999997" height="111.79999999999998" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="194.39999999999998" y="397.95" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101J</text>
+<rect x="134.15" y="524.75" width="120.49999999999997" height="72.64999999999999" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="194.39999999999998" y="561.075" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101N</text>
+<rect x="134.15" y="642.1999999999999" width="42.199999999999996" height="85.69999999999999" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="155.25" y="685.05" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101K</text>
+<rect x="212.45" y="642.1999999999999" width="42.199999999999996" height="85.69999999999999" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="233.54999999999998" y="685.05" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101L</text>
+<rect x="370" y="145" width="440" height="235" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="388" y="171" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="start" dominant-baseline="middle">Frame parts</text>
+<text x="394" y="203" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• D-101A/B: 4-1/2 x 79 stiles</text>
+<text x="394" y="233" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• D-101C/M/E: 4 x 15 rails</text>
+<text x="394" y="263" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• D-101D: 7 x 15 lock rail</text>
+<text x="394" y="293" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• D-101F: 12 x 15 bottom rail</text>
+<text x="394" y="323" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• D-101G: 3 x 11 muntin</text>
+<rect x="370" y="410" width="440" height="250" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="388" y="436" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="start" dominant-baseline="middle">Floating panels</text>
+<text x="394" y="468" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• D-101H/J/N: 15-3/4 wide</text>
+<text x="394" y="498" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• D-101K/L: 6-7/8 wide</text>
+<text x="394" y="528" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• All panel grain runs vertically</text>
+<text x="394" y="558" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Panel tongues are never glued</text>
+<rect x="850" y="145" width="555" height="515" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="868" y="171" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="start" dominant-baseline="middle">Mark before assembly</text>
+<text x="874" y="203" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Show face on every frame member</text>
+<text x="874" y="233" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Reference face and reference edge</text>
+<text x="874" y="263" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Top and bottom of both stiles</text>
+<text x="874" y="293" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Top/reference edge of every rail</text>
+<text x="874" y="323" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Joint IDs at each rail end</text>
+<text x="874" y="353" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Panel ID on the back face</text>
+<text x="874" y="383" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Pair D-101K and D-101L visually</text>
+<text x="874" y="413" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Keep all show faces upward on bench</text>
+<polyline points="820,735 520,735" fill="none" stroke="#2E6F73" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="520,735 537.0504904411902,724.5462554213868 537.0504904411902,745.4537445786132" fill="#2E6F73"/>
+<text x="1110" y="735" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">If one label is missing, stop and remark the part.</text>
+</svg>

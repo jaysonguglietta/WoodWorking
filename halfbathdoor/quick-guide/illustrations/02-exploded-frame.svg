@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Dry-lay the frame in final order</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">Use the master story stick; do not chain rail locations.</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. A | show face up | drawings not cutting templates</text>
+<rect x="105" y="150" width="62" height="700" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<text x="136" y="500" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101A</text>
+<rect x="1325" y="150" width="62" height="700" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<text x="1356" y="500" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101B</text>
+<rect x="480" y="165" width="520" height="44" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="740" y="187.0" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101C</text>
+<rect x="445" y="173.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="173.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="445" y="201.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="201.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<polyline points="420,187.0 180,187.0" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="180,187.0 195.3454413970711,177.59162987924813 195.3454413970711,196.40837012075187" fill="#2E6F73"/>
+<polyline points="1060,187.0 1310,187.0" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="1310,187.0 1294.654558602929,196.40837012075187 1294.654558602929,177.59162987924813" fill="#2E6F73"/>
+<rect x="480" y="320" width="520" height="44" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="740" y="342.0" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101M</text>
+<rect x="445" y="328.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="328.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="445" y="356.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="356.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<polyline points="420,342.0 180,342.0" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="180,342.0 195.3454413970711,332.59162987924816 195.3454413970711,351.40837012075184" fill="#2E6F73"/>
+<polyline points="1060,342.0 1310,342.0" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="1310,342.0 1294.654558602929,351.40837012075184 1294.654558602929,332.59162987924816" fill="#2E6F73"/>
+<rect x="480" y="485" width="520" height="75" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="740" y="522.5" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101D</text>
+<rect x="445" y="493.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="493.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="445" y="522.5" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="522.5" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="445" y="552.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="552.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<polyline points="420,522.5 180,522.5" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="180,522.5 195.3454413970711,513.0916298792481 195.3454413970711,531.9083701207519" fill="#2E6F73"/>
+<polyline points="1060,522.5 1310,522.5" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="1310,522.5 1294.654558602929,531.9083701207519 1294.654558602929,513.0916298792481" fill="#2E6F73"/>
+<rect x="480" y="655" width="520" height="44" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="740" y="677.0" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101E</text>
+<rect x="445" y="663.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="663.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="445" y="691.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="691.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<polyline points="420,677.0 180,677.0" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="180,677.0 195.3454413970711,667.5916298792481 195.3454413970711,686.4083701207519" fill="#2E6F73"/>
+<polyline points="1060,677.0 1310,677.0" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="1310,677.0 1294.654558602929,686.4083701207519 1294.654558602929,667.5916298792481" fill="#2E6F73"/>
+<rect x="480" y="785" width="520" height="100" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="740" y="835.0" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101F</text>
+<rect x="445" y="793.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="793.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="445" y="821.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="821.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="445" y="849.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="849.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="445" y="877.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1000" y="877.0" width="35" height="13" rx="6.5" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<polyline points="420,835.0 180,835.0" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="180,835.0 195.3454413970711,825.5916298792481 195.3454413970711,844.4083701207519" fill="#2E6F73"/>
+<polyline points="1060,835.0 1310,835.0" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="1310,835.0 1294.654558602929,844.4083701207519 1294.654558602929,825.5916298792481" fill="#2E6F73"/>
+<text x="136" y="875" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">HINGE STILE</text>
+<text x="1356" y="875" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">LOCK STILE</text>
+<rect x="1080" y="700" width="340" height="170" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="1098" y="726" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="start" dominant-baseline="middle">Alignment rule</text>
+<text x="1104" y="758" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• First mortise tight</text>
+<text x="1104" y="788" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Followers medium</text>
+<text x="1104" y="818" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• All show faces up</text>
+</svg>

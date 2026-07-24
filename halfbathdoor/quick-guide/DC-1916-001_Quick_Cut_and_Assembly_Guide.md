@@ -81,6 +81,17 @@ All frame joints use a 10 mm cutter, 10 x 50 mm factory beech tenons, 25 mm plun
 
 The muntin joints use a 6 mm cutter, two 6 x 40 mm factory beech tenons, 20 mm plunge in each member, and centerlines 15/16 and 2-1/16 inches from the left reference edge.
 
+## Visual assembly sequence
+
+1. Lay every cut component on the bench in final door order. Keep all show faces upward and confirm every identifier.
+2. Dry-lay D-101A and D-101B outside the rails. Place D-101C, D-101M, D-101D, D-101E, and D-101F at their story-stick positions.
+3. Build the lower module from D-101E, D-101G, and D-101F. Capture D-101K and D-101L in their grooves without panel glue.
+4. Seat all rail tenons into D-101A. Load D-101H, D-101J, and D-101N from bottom to top, followed by the completed lower module.
+5. Start D-101B over every exposed rail tenon. Keep it parallel to D-101A so all joints enter together.
+6. Install alternating-face clamps at the rail locations. Close shoulders with moderate pressure, compare diagonals, check twist, and confirm panel movement.
+
+The following drawings are assembly views, not cutting templates. The written cut list and specification remain authoritative.
+
 ## Dry assembly
 
 1. Insert dry-fit tenons and assemble the complete frame with all five panels.
@@ -115,4 +126,3 @@ The muntin joints use a 6 mm cutter, two 6 x 40 mm factory beech tenons, 20 mm p
 ## Essential safety
 
 Use guards, dust extraction, hearing protection, eye protection, and respiratory protection. Clamp work for Domino and router operations. Use push blocks for non-through dado cuts. Change the DF 500 mortise-width setting only while the motor is running and never during a plunge. Establish brass screw holes with matching steel screws and drive brass screws by hand.
-
