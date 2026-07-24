@@ -7,5 +7,6 @@ build/pdf/
 build/previews/
 build/templates/
 build/reports/page-images/
+build/reports/quick-guide-pages*/
+build/reports/quick-guide-contact-sheet*.jpg
 tmp/
-

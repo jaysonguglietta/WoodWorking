@@ -5,6 +5,13 @@ POPPLER_BIN ?=
 
 all: sources
 	$(PYTHON) scripts/build_project.py build
+	$(PYTHON) scripts/build_quick_guide.py
+	$(PYTHON) scripts/package_release.py
+
+.PHONY: quick-guide
+quick-guide: sources
+	$(PYTHON) scripts/build_quick_guide.py
+	$(PYTHON) scripts/package_release.py
 
 sources:
 	$(PYTHON) scripts/build_project.py sources
@@ -26,4 +33,3 @@ release: validate all preview
 
 clean:
 	$(PYTHON) scripts/build_project.py clean
-
