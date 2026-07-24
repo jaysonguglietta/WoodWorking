@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">0</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">How the cut geometry nests</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Panel tongues float; shoulders close; concealed tenons remain in solid wood.</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. A | show face up | drawings not cutting templates</text>
+<polyline points="500,120 500,900" fill="none" stroke="#65717A" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1000,120 1000,900" fill="none" stroke="#65717A" stroke-width="2" stroke-linejoin="round"/>
+<text x="250" y="145" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">PANEL / GROOVE</text>
+<rect x="70" y="205" width="360" height="230" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="215" y="205" width="70" height="105" fill="white" stroke="#20272D" stroke-width="4"/>
+<polygon points="130,775 370,775 370,535 305,535 278,310 222,310 195,535 130,535" fill="#E8D4AD" stroke="#2E6F73" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="250,500 250,335" fill="none" stroke="#173A56" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="250,335 261.4991190364745,353.7555394853091 238.5008809635255,353.7555394853091" fill="#173A56"/>
+<text x="250" y="180" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle" dominant-baseline="middle">1/4 W x 1/2 D GROOVE</text>
+<text x="250" y="565" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle" dominant-baseline="middle">7/32 TONGUE</text>
+<text x="250" y="815" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">NO GLUE ON TONGUE OR GROOVE</text>
+<polyline points="205,295 295,325" fill="none" stroke="#A33B32" stroke-width="6" stroke-linejoin="round"/>
+<polyline points="295,295 205,325" fill="none" stroke="#A33B32" stroke-width="6" stroke-linejoin="round"/>
+<text x="750" y="145" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">RAIL / STILE</text>
+<rect x="525" y="225" width="125" height="540" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="610" y="335" width="40" height="54" fill="white" stroke="#2E6F73" stroke-width="4"/>
+<rect x="610" y="565" width="40" height="54" fill="white" stroke="#2E6F73" stroke-width="4"/>
+<rect x="805" y="245" width="150" height="455" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="805" y="245" width="150" height="58" fill="#F4F0E8" stroke="#A33B32" stroke-width="3"/>
+<rect x="805" y="642" width="150" height="58" fill="#F4F0E8" stroke="#A33B32" stroke-width="3"/>
+<rect x="735" y="342" width="70" height="40" rx="20.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="735" y="572" width="70" height="40" rx="20.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<polyline points="790,470 675,470" fill="none" stroke="#2E6F73" stroke-width="9" stroke-linejoin="round"/>
+<polygon points="675,470 695.4605885294282,457.4555065056642 695.4605885294282,482.5444934943358" fill="#2E6F73"/>
+<text x="875" y="475" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="middle" dominant-baseline="middle">RAIL</text>
+<text x="588" y="500" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">STILE</text>
+<text x="880" y="275" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">GROOVE ZONE</text>
+<text x="880" y="670" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">GROOVE ZONE</text>
+<text x="750" y="795" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">GLUE: MORTISE WALLS + ALL TENON FACES</text>
+<text x="750" y="835" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">SHOULDER MUST CLOSE BY HAND</text>
+<text x="1250" y="145" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">MUNTIN / RAILS</text>
+<rect x="1040" y="210" width="420" height="105" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="1250" y="262" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101E</text>
+<rect x="1180" y="410" width="140" height="245" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<text x="1250" y="532" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101G</text>
+<rect x="1040" y="750" width="420" height="125" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="1250" y="812" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101F</text>
+<rect x="1192" y="350" width="52" height="24" rx="12.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1192" y="690" width="52" height="24" rx="12.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1262" y="350" width="52" height="24" rx="12.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<rect x="1262" y="690" width="52" height="24" rx="12.0" fill="#2E6F73" stroke="#20272D" stroke-width="2"/>
+<polyline points="1250,395 1250,325" fill="none" stroke="#2E6F73" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="1250,325 1261.4991190364744,343.7555394853091 1238.5008809635256,343.7555394853091" fill="#2E6F73"/>
+<polyline points="1250,670 1250,738" fill="none" stroke="#2E6F73" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="1250,738 1238.5008809635256,719.2444605146909 1261.4991190364744,719.2444605146909" fill="#2E6F73"/>
+<text x="1085" y="350" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">2 x 6 x 40</text>
+<text x="1085" y="705" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">2 x 6 x 40</text>
+<text x="1250" y="905" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">G: 15/16 + 2-1/16 FROM G LEFT EDGE</text>
+<text x="1250" y="938" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">E/F: 6-15/16 + 8-1/16 FROM HINGE-SIDE SHOULDER</text>
+</svg>

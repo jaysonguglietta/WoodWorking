@@ -4,10 +4,12 @@
 <circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
 <text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">4</text>
 <text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Attach rails to the hinge stile and load panels</text>
-<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">Work from bottom to top with the door lying show-face up.</text>
-<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. A | show face up | drawings not cutting templates</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Slide panels laterally from the open lock-stile end; keep the door show-face up.</text>
+<rect x="1240" y="18" width="230" height="56" fill="#A33B32" stroke="#A33B32" stroke-width="0"/>
+<text x="1355" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">DRY FIT / NO GLUE</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. A | show face up | drawings not cutting templates</text>
 <rect x="115" y="135" width="65" height="745" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
-<text x="147" y="510" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101A</text>
+<text x="100" y="510" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="middle">D-101A</text>
 <rect x="180" y="160" width="650" height="40" fill="#C29359" stroke="#20272D" stroke-width="3"/>
 <text x="505" y="180.0" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101C</text>
 <rect x="180" y="310" width="650" height="40" fill="#C29359" stroke="#20272D" stroke-width="3"/>
@@ -21,33 +23,28 @@
 <rect x="470" y="680" width="75" height="100" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
 <rect x="235" y="210" width="530" height="80" fill="#E8D4AD" stroke="#A46F36" stroke-width="3"/>
 <text x="500.0" y="250.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101H</text>
-<polyline points="500.0,182 500.0,206" fill="none" stroke="#173A56" stroke-width="6" stroke-linejoin="round"/>
-<polygon points="500.0,206 492.1596915660401,193.2121321691074 507.8403084339599,193.2121321691074" fill="#173A56"/>
 <rect x="235" y="370" width="530" height="80" fill="#E8D4AD" stroke="#A46F36" stroke-width="3"/>
 <text x="500.0" y="410.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101J</text>
-<polyline points="500.0,342 500.0,366" fill="none" stroke="#173A56" stroke-width="6" stroke-linejoin="round"/>
-<polygon points="500.0,366 492.1596915660401,353.2121321691074 507.8403084339599,353.2121321691074" fill="#173A56"/>
 <rect x="235" y="565" width="530" height="55" fill="#E8D4AD" stroke="#A46F36" stroke-width="3"/>
 <text x="500.0" y="592.5" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101N</text>
-<polyline points="500.0,537 500.0,561" fill="none" stroke="#173A56" stroke-width="6" stroke-linejoin="round"/>
-<polygon points="500.0,561 492.1596915660401,548.2121321691075 507.8403084339599,548.2121321691075" fill="#173A56"/>
 <rect x="225" y="690" width="210" height="70" fill="#E8D4AD" stroke="#A46F36" stroke-width="3"/>
 <text x="330.0" y="725.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101K</text>
-<polyline points="330.0,662 330.0,686" fill="none" stroke="#173A56" stroke-width="6" stroke-linejoin="round"/>
-<polygon points="330.0,686 322.1596915660401,673.2121321691075 337.8403084339599,673.2121321691075" fill="#173A56"/>
 <rect x="580" y="690" width="210" height="70" fill="#E8D4AD" stroke="#A46F36" stroke-width="3"/>
 <text x="685.0" y="725.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101L</text>
-<polyline points="685.0,662 685.0,686" fill="none" stroke="#173A56" stroke-width="6" stroke-linejoin="round"/>
-<polygon points="685.0,686 677.1596915660401,673.2121321691075 692.8403084339599,673.2121321691075" fill="#173A56"/>
-<rect x="1180" y="135" width="65" height="745" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
-<text x="1212" y="510" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101B waits</text>
-<polyline points="1135,510 885,510" fill="none" stroke="#2E6F73" stroke-width="7" stroke-linejoin="round"/>
-<polygon points="885,510 900.3454413970711,500.59162987924816 900.3454413970711,519.4083701207519" fill="#2E6F73"/>
-<rect x="885" y="650" width="520" height="230" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
-<text x="903" y="676" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="start" dominant-baseline="middle">Loading order</text>
-<text x="909" y="708" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Seat rails in D-101A</text>
-<text x="909" y="738" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Load D-101H, J, and N</text>
-<text x="909" y="768" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Load lower module with K/L</text>
-<text x="909" y="798" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Confirm every tongue is captured</text>
-<text x="909" y="828" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">• Do not use panel glue</text>
+<polyline points="1080,250 785,250" fill="none" stroke="#173A56" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="785,250 801.1979659191306,240.06894265031747 801.1979659191306,259.93105734968253" fill="#173A56"/>
+<polyline points="1080,410 785,410" fill="none" stroke="#173A56" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="785,410 801.1979659191306,400.06894265031747 801.1979659191306,419.93105734968253" fill="#173A56"/>
+<polyline points="1080,592 785,592" fill="none" stroke="#173A56" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="785,592 801.1979659191306,582.0689426503175 801.1979659191306,601.9310573496825" fill="#173A56"/>
+<polyline points="1080,725 830,725" fill="none" stroke="#173A56" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="830,725 846.1979659191306,715.0689426503175 846.1979659191306,734.9310573496825" fill="#173A56"/>
+<text x="1090" y="165" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">OPEN LOCK-STILE END</text>
+<rect x="875" y="650" width="530" height="230" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="893" y="679" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">Loading order</text>
+<text x="899" y="717" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Seat rails in D-101A</text>
+<text x="899" y="751" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Slide D-101H, J, and N leftward</text>
+<text x="899" y="785" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Slide lower module left as one unit</text>
+<text x="899" y="819" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Confirm every tongue is captured</text>
+<text x="899" y="853" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Do not use panel glue</text>
 </svg>

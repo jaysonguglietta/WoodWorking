@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">0</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Story-stick rail stack</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">All vertical locations originate at the top edge of the finished slab.</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. A | show face up | drawings not cutting templates</text>
+<rect x="610" y="135" width="41.4" height="726.8" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="789.4" y="135" width="41.4" height="726.8" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="651.4" y="135.0" width="138.0" height="36.8" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="720.4" y="153.4" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101C</text>
+<rect x="651.4" y="296.0" width="138.0" height="36.8" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="720.4" y="314.4" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101M</text>
+<rect x="651.4" y="461.59999999999997" width="138.0" height="64.39999999999999" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="720.4" y="493.79999999999995" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101D</text>
+<rect x="651.4" y="613.4" width="138.0" height="36.8" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="720.4" y="631.8" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101E</text>
+<rect x="651.4" y="751.4" width="138.0" height="110.39999999999999" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="720.4" y="806.5999999999999" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101F</text>
+<rect x="706.6" y="650.1999999999999" width="27.599999999999998" height="101.19999999999999" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<text x="720.4" y="700.8" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">G</text>
+<rect x="656.4" y="176.8" width="127.99999999999997" height="114.19999999999999" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="720.4" y="233.89999999999998" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101H</text>
+<rect x="656.4" y="337.79999999999995" width="127.99999999999997" height="118.79999999999998" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="720.4" y="397.2" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101J</text>
+<rect x="656.4" y="531.0" width="127.99999999999997" height="77.39999999999999" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="720.4" y="569.7" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101N</text>
+<rect x="656.4" y="655.1999999999999" width="45.199999999999996" height="91.19999999999999" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="679.0" y="700.8" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">K</text>
+<rect x="739.2" y="655.1999999999999" width="45.199999999999996" height="91.19999999999999" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<text x="761.8000000000001" y="700.8" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">L</text>
+<polyline points="485,135 485,861.8" fill="none" stroke="#173A56" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="473,135.0 602,135.0" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="465" y="135.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="middle">0 in</text>
+<polyline points="473,171.8 602,171.8" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="465" y="171.8" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="middle">4 in</text>
+<polyline points="473,296.0 602,296.0" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="465" y="296.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="middle">17-1/2 in</text>
+<polyline points="473,332.79999999999995 602,332.79999999999995" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="465" y="332.79999999999995" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="middle">21-1/2 in</text>
+<polyline points="473,461.59999999999997 602,461.59999999999997" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="465" y="461.59999999999997" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="middle">35-1/2 in</text>
+<polyline points="473,526.0 602,526.0" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="465" y="526.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="middle">42-1/2 in</text>
+<polyline points="473,613.4 602,613.4" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="465" y="613.4" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="middle">52 in</text>
+<polyline points="473,650.1999999999999 602,650.1999999999999" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="465" y="650.1999999999999" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="middle">56 in</text>
+<polyline points="473,751.4 602,751.4" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="465" y="751.4" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="middle">67 in</text>
+<polyline points="473,861.8 602,861.8" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="465" y="861.8" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="middle">79 in</text>
+<rect x="950" y="170" width="450" height="290" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="968" y="199" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">Use one master story stick</text>
+<text x="974" y="237" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Hook the top of D-101A/B</text>
+<text x="974" y="271" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Knife every shoulder location</text>
+<text x="974" y="305" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Transfer to both stiles together</text>
+<text x="974" y="339" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Do not leapfrog a tape measure</text>
+<text x="974" y="373" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Stack must total exactly 79 inches</text>
+<rect x="950" y="510" width="450" height="250" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="968" y="539" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">Opening checks</text>
+<text x="974" y="577" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Upper: 13-1/2 inches</text>
+<text x="974" y="611" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Center: 14 inches</text>
+<text x="974" y="645" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Lower-center: 9-1/2 inches</text>
+<text x="974" y="679" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Bottom: 11 inches</text>
+<text x="974" y="713" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Bottom pair: 6 inches each</text>
+<text x="950" y="830" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">Top datum</text>
+<polyline points="1060,830 720.4,135" fill="none" stroke="#A33B32" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="720.4,135 735.5902123471144,144.6569896370231 718.68384116373,152.91800208864515" fill="#A33B32"/>
+</svg>

@@ -309,12 +309,12 @@ OP_DATA = {
         ["diagonal difference no more than 1/16 inch", "twist no more than 1/32 inch", "every shoulder gap under 0.005 inch"]),
     "glue": ("Assemble square and flat within the adhesive's open time.",
         ["Type II PVA", "parallel clamps", "cauls", "acid brush", "timer", "scraper"],
-        ["Lay out clamps, cauls, clean factory tenons, panels, and subassemblies in rehearsed order.",
-         "Apply a controlled film to mortise walls and all tenon faces; never fill the bottom of a mortise.",
-         "Assemble center muntin and bottom frame first, then remaining rails, panels, and stiles.",
-         "Clamp shoulders closed, then measure diagonals and correct while pressure remains light.",
-         "Bring to final pressure, verify flatness, remove accessible squeeze-out, and leave undisturbed for the adhesive maker's full cure."],
-        ["all shoulders closed", "diagonals within 1/16 inch", "door flat within 1/32 inch"]),
+        ["Rehearse each glue-up stage with relieved test tenons; recorded time plus a 25 percent margin must remain within the selected adhesive's published open or assembly time at the measured shop temperature.",
+         "Stage A: glue the center muntin to D-101E and D-101F with four clean 6 x 40 mm tenons, capture D-101K/L dry with compliant spacers, clamp square, and allow the module to reach full cure.",
+         "Stage B: apply a controlled film to both mating mortise walls and every face of twenty-six clean 10 x 50 mm frame tenons; never fill the bottom of a mortise.",
+         "Load the cured lower module, remaining rails, and panels between the stiles; never glue a panel tongue or groove.",
+         "Clamp shoulders closed, measure diagonals, remove twist with winding sticks while pressure remains light, then clean squeeze-out and allow full cure."],
+        ["all shoulders closed", "diagonals within 1/16 inch", "twist within 1/32 inch"]),
     "fit": ("Fit the cured slab to the existing completed jamb while retaining a final adjustment margin.",
         ["No. 4 plane", "block plane", "track-guided saw optional", "bevel gauge", "story stick"],
         ["Measure jamb width and height at three locations; record plumb, square, twist, floor, and swing.",
@@ -424,7 +424,7 @@ Required work remains executable with the listed home-shop machines. No router t
         "", "## Structural and fabrication review", "",
         "- Multiple anti-rotation tenons, a 12-inch bottom rail, full-height stiles, and the center muntin resist sag and racking. This is conservative cabinetmaking engineering, not stamped structural engineering.",
         "- The lock body must be proven against the actual lock stile and adjacent Domino mortises before machining.",
-        "- Glue-up is feasible as a rehearsed bottom-frame subassembly followed by rails, panels, and stiles. Clamp map and open-time rehearsal are mandatory.",
+        "- Glue-up is controlled in two stages: cure the four-tenon lower module first, then assemble the twenty-six-tenon frame. Each stage requires a timed dry rehearsal plus a 25 percent handling margin within the selected adhesive's published open or assembly time at measured shop temperature.",
         "- Solid-panel movement is across the vertical grain. Full-width panels receive 1/4 inch total side clearance; lower panels receive 1/8 inch. Only compliant anti-rattle spacers are allowed.",
         "- Final slab fitting remains subordinate to the completed jamb and finished floor. The 24 x 79 inch value is a target size, not a substitute for measurement.",
         "", "## Audit conclusion", "",
@@ -474,6 +474,7 @@ Acceptance gate: lock body remains fully inside D-101B with safe clearance to fa
 5. Assigned two tenons to 4-inch rails, three to the lock rail, four to the bottom rail, and two to each muntin joint.
 6. Classified 24 x 79 inches as the target finished slab size, pending completed-jamb verification.
 7. Used a restrained 4-1/2-inch casing and modest backband as defaults, subordinate to surviving house evidence.
+8. Split glue-up into a cured four-tenon lower module followed by the twenty-six-tenon frame assembly; both stages require a timed dry rehearsal with a 25 percent handling margin.
 """)
     write(PROJECT / "assumptions.md", """# Assumptions
 
@@ -855,7 +856,7 @@ class ManualDoc(BaseDocTemplate):
 def pdf_styles(screen=False):
     s = getSampleStyleSheet()
     s.add(ParagraphStyle(name="H1", parent=s["Heading1"], fontName="Helvetica-Bold", fontSize=22 if screen else 19, leading=25, textColor=colors.HexColor(BLUE), spaceAfter=12))
-    s.add(ParagraphStyle(name="H2x", parent=s["Heading2"], fontName="Helvetica-Bold", fontSize=13, leading=16, textColor=colors.HexColor(TEAL), spaceBefore=9, spaceAfter=5))
+    s.add(ParagraphStyle(name="H2x", parent=s["Heading2"], fontName="Helvetica-Bold", fontSize=13, leading=16, textColor=colors.HexColor(TEAL), spaceBefore=9, spaceAfter=5, keepWithNext=1))
     s.add(ParagraphStyle(name="Bodyx", parent=s["BodyText"], fontName="Helvetica", fontSize=10.2 if screen else 9.3, leading=14 if screen else 12.5, textColor=colors.HexColor(INK), spaceAfter=6))
     s.add(ParagraphStyle(name="Bulletx", parent=s["Bodyx"], leftIndent=15, firstLineIndent=-8, bulletIndent=2))
     s.add(ParagraphStyle(name="Smallx", parent=s["Bodyx"], fontSize=8, leading=10, textColor=colors.HexColor("#4E5A60")))

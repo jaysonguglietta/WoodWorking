@@ -31,8 +31,9 @@ make clean      # remove reproducible build outputs
 The authoritative specification is `project/specification.yaml`. Release artifacts are under `release/`.
 
 For a bench-friendly version focused only on lumber preparation and assembly, use
-`release/DC-1916-001_Quick_Cut_and_Assembly_Guide.pdf`. Its six dimension-controlled
-assembly illustrations are generated from `scripts/generate_quick_assembly_diagrams.py`.
+`release/DC-1916-001_Quick_Cut_and_Assembly_Guide.pdf`. Its eight dimension-controlled
+shop diagrams—including a six-step assembly sequence—are generated from
+`scripts/generate_quick_assembly_diagrams.py`.
 
 ## Field gate
 

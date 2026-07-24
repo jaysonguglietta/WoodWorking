@@ -6,7 +6,15 @@ from pypdf import PdfReader
 ROOT=Path(__file__).resolve().parents[1]
 release=ROOT/"release"
 pdfs=list(release.glob("*.pdf"))
-assert len(pdfs)==5
+expected_pdfs = {
+    "DC-1916-001_Illustrated_Shop_Manual_Print.pdf",
+    "DC-1916-001_Illustrated_Shop_Manual_Screen.pdf",
+    "DC-1916-001_Printable_Templates.pdf",
+    "DC-1916-001_Moulding_Drawings.pdf",
+    "DC-1916-001_Moulding_Field_Measurement_Worksheet.pdf",
+    "DC-1916-001_Quick_Cut_and_Assembly_Guide.pdf",
+}
+assert {pdf.name for pdf in pdfs} == expected_pdfs
 report=[]
 for p in sorted(pdfs):
     reader=PdfReader(str(p))
@@ -18,4 +26,3 @@ manual=PdfReader(str(release/"DC-1916-001_Illustrated_Shop_Manual_Print.pdf"))
 assert 45 <= len(manual.pages) <= 70, f"manual page target missed: {len(manual.pages)}"
 (ROOT/"build/reports/pdf-inspection.md").write_text("# PDF Inspection\n\n"+"\n".join(report)+"\n")
 print("PASS: PDF count, searchable text, page target, and prohibited strings")
-

@@ -23,7 +23,7 @@ Status: **PASS for fabrication after field gates are completed.**
 
 - Multiple anti-rotation tenons, a 12-inch bottom rail, full-height stiles, and the center muntin resist sag and racking. This is conservative cabinetmaking engineering, not stamped structural engineering.
 - The lock body must be proven against the actual lock stile and adjacent Domino mortises before machining.
-- Glue-up is feasible as a rehearsed bottom-frame subassembly followed by rails, panels, and stiles. Clamp map and open-time rehearsal are mandatory.
+- Glue-up is controlled in two stages: cure the four-tenon lower module first, then assemble the twenty-six-tenon frame. Each stage requires a timed dry rehearsal plus a 25 percent handling margin within the selected adhesive's published open or assembly time at measured shop temperature.
 - Solid-panel movement is across the vertical grain. Full-width panels receive 1/4 inch total side clearance; lower panels receive 1/8 inch. Only compliant anti-rattle spacers are allowed.
 - Final slab fitting remains subordinate to the completed jamb and finished floor. The 24 x 79 inch value is a target size, not a substitute for measurement.
 

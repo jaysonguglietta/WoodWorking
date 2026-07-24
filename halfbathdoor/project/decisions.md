@@ -7,3 +7,4 @@
 5. Assigned two tenons to 4-inch rails, three to the lock rail, four to the bottom rail, and two to each muntin joint.
 6. Classified 24 x 79 inches as the target finished slab size, pending completed-jamb verification.
 7. Used a restrained 4-1/2-inch casing and modest backband as defaults, subordinate to surviving house evidence.
+8. Split glue-up into a cured four-tenon lower module followed by the twenty-six-tenon frame assembly; both stages require a timed dry rehearsal with a 25 percent handling margin.
