@@ -1,0 +1,7 @@
+Part identifier,Part name,Quantity,Rough thickness,Rough width,Rough length,Finished thickness,Finished width,Finished length,Profile,Grain orientation,Field-fit allowance,Installation location,Fastener type,Finish requirement
+M-201A/B,Side casing,2,1.0,4.75,jamb height + 2,0.75,4.5,field verify,"flat, eased 1/32",vertical,2 inches,jamb sides,15-ga finish nails into framing; 18-ga to jamb,Rubio Pure
+M-201C,Head casing,1,1.0,4.75,outside casing width + 2,0.75,4.5,field verify,"flat, eased 1/32",horizontal,2 inches,jamb head,15/18-ga finish nails,Rubio Pure
+M-202A-C,Backband,3,1.25,1.375,matched casing + 2,1.0,1.125,field verify,"1/4 projection, small eased arris",long grain,2 inches,casing perimeter,18-ga nails and glue only at casing,Rubio Pure
+M-203A-C,Door stop,3,0.5,1.5,jamb member + 2,0.375,1.25,field verify,"flat, 1/16 eased arris",long grain,2 inches,jamb rabbet face,18-ga nails,Rubio Pure
+M-204,Optional head cap,1,1.0,1.75,head casing + 1.5,0.875,1.5,field verify,restrained bevel/ease,horizontal,2 inches,above head casing,finish nails and concealed screws if needed,Rubio Pure
+M-205A/B,Optional plinth blocks,2,1.0,casing + 0.5,baseboard height,0.875,field verify,field verify,"flat, evidence-matched",vertical,1/4 inch,casing bases,finish nails,Rubio Pure

@@ -1,0 +1,280 @@
+{
+  "project": {
+    "number": "DC-1916-001",
+    "title": "Building a Historically Appropriate Five-Panel Door",
+    "classification": "Historically appropriate reproduction door using modern concealed joinery",
+    "year": 2026,
+    "edition": "First Edition",
+    "revision": "Rev. A",
+    "copyright_holder": "Jayson Guglietta"
+  },
+  "units": {
+    "primary": "inch",
+    "domino": "millimetre"
+  },
+  "slab": {
+    "finished_width": 24.0,
+    "finished_height": 79.0,
+    "finished_thickness": 1.375,
+    "target_status": "design target; field-confirm completed jamb before final fitting",
+    "fitting_allowance_per_edge": 0.0625,
+    "finished_tolerance_width": 0.03125,
+    "finished_tolerance_height": 0.0625,
+    "diagonal_difference_max": 0.0625,
+    "twist_max": 0.03125
+  },
+  "frame": {
+    "stile_width": 4.5,
+    "rail_shoulder_length": 15.0,
+    "muntin_width": 3.0,
+    "rail_widths": {
+      "D-101C": 4.0,
+      "D-101M": 4.0,
+      "D-101D": 7.0,
+      "D-101E": 4.0,
+      "D-101F": 12.0
+    },
+    "vertical_openings": {
+      "P-01 upper": 13.5,
+      "P-02 center": 14.0,
+      "P-03 lower-center": 9.5,
+      "P-04 bottom": 11.0
+    },
+    "bottom_opening_each": 6.0
+  },
+  "components": [
+    {
+      "id": "D-101A",
+      "name": "Hinge stile",
+      "qty": 1,
+      "t": 1.375,
+      "w": 4.5,
+      "l": 79.0
+    },
+    {
+      "id": "D-101B",
+      "name": "Lock stile",
+      "qty": 1,
+      "t": 1.375,
+      "w": 4.5,
+      "l": 79.0
+    },
+    {
+      "id": "D-101C",
+      "name": "Top rail",
+      "qty": 1,
+      "t": 1.375,
+      "w": 4.0,
+      "l": 15.0
+    },
+    {
+      "id": "D-101M",
+      "name": "Upper intermediate rail",
+      "qty": 1,
+      "t": 1.375,
+      "w": 4.0,
+      "l": 15.0
+    },
+    {
+      "id": "D-101D",
+      "name": "Lock rail",
+      "qty": 1,
+      "t": 1.375,
+      "w": 7.0,
+      "l": 15.0
+    },
+    {
+      "id": "D-101E",
+      "name": "Lower intermediate rail",
+      "qty": 1,
+      "t": 1.375,
+      "w": 4.0,
+      "l": 15.0
+    },
+    {
+      "id": "D-101F",
+      "name": "Bottom rail",
+      "qty": 1,
+      "t": 1.375,
+      "w": 12.0,
+      "l": 15.0
+    },
+    {
+      "id": "D-101G",
+      "name": "Center muntin",
+      "qty": 1,
+      "t": 1.375,
+      "w": 3.0,
+      "l": 11.0
+    },
+    {
+      "id": "D-101H",
+      "name": "Upper panel",
+      "qty": 1,
+      "t": 0.5,
+      "w": 15.75,
+      "l": 14.4375
+    },
+    {
+      "id": "D-101J",
+      "name": "Center panel",
+      "qty": 1,
+      "t": 0.5,
+      "w": 15.75,
+      "l": 14.9375
+    },
+    {
+      "id": "D-101N",
+      "name": "Lower-center panel",
+      "qty": 1,
+      "t": 0.5,
+      "w": 15.75,
+      "l": 10.4375
+    },
+    {
+      "id": "D-101K",
+      "name": "Lower-left panel",
+      "qty": 1,
+      "t": 0.5,
+      "w": 6.875,
+      "l": 11.9375
+    },
+    {
+      "id": "D-101L",
+      "name": "Lower-right panel",
+      "qty": 1,
+      "t": 0.5,
+      "w": 6.875,
+      "l": 11.9375
+    }
+  ],
+  "panels": {
+    "material": "FAS quarter-sawn white oak",
+    "grain": "vertical",
+    "field_thickness": 0.5,
+    "tongue_thickness": 0.21875,
+    "tongue_depth": 0.5,
+    "full_width_clearance_across_grain_total": 0.25,
+    "small_width_clearance_across_grain_total": 0.125,
+    "clearance_parallel_to_grain_total": 0.0625,
+    "anti_rattle": "two small silicone space balls per long edge, compressed without restraining movement"
+  },
+  "groove": {
+    "width": 0.25,
+    "depth": 0.5,
+    "centerline_from_show_face": 0.6875,
+    "stile_type": "stopped at every rail joint; opening-only segments",
+    "rail_type": "through along panel-facing edges; plug exposed end only if necessary"
+  },
+  "milling": {
+    "frame_rough_thickness": 1.5,
+    "frame_rough_width_allowance": 0.25,
+    "frame_rough_length_allowance": 2.0,
+    "rail_rough_length": 16.0,
+    "panel_rough_thickness": 0.625,
+    "panel_rough_width_allowance": 0.5,
+    "panel_rough_length_allowance": 0.5,
+    "moisture_content_percent": {
+      "min": 6,
+      "max": 9
+    }
+  },
+  "domino": {
+    "model": "Festool Domino DF 500",
+    "cutters_mm": [
+      5,
+      6,
+      8,
+      10
+    ],
+    "plunge_presets_mm": [
+      12,
+      15,
+      20,
+      25,
+      28
+    ],
+    "maximum_plunge_mm": 28,
+    "fence_height_mm": 17.5,
+    "fence_angle_degrees": 90,
+    "mortise_widths": {
+      "tight": "13 mm + cutter",
+      "medium": "19 mm + cutter",
+      "wide": "23 mm + cutter"
+    },
+    "frame_tenon": "10 x 50 mm factory beech",
+    "muntin_tenon": "6 x 40 mm factory beech",
+    "glue": "fresh Type II PVA; complete mortise walls and tenon faces without hydraulic overfill"
+  },
+  "hardware": {
+    "hinges": {
+      "qty": 3,
+      "nominal_size": "3-1/2 inch brass butt hinge",
+      "locations": "field verify leaf thickness, screw sizes, and existing-jamb gains"
+    },
+    "lock": "traditional brass mortise lock; obtain and measure before machining",
+    "nominal_lock_center_above_slab_bottom": 40.0,
+    "required_measurements": [
+      "manufacturer",
+      "model",
+      "backset",
+      "body height",
+      "body thickness",
+      "faceplate height",
+      "faceplate width",
+      "spindle size",
+      "key/privacy location",
+      "strike dimensions",
+      "hinge leaf thickness",
+      "screw diameter",
+      "screw length"
+    ]
+  },
+  "trim": {
+    "material": "quarter-sawn white oak",
+    "side_casing_finished": {
+      "t": 0.75,
+      "w": 4.5,
+      "l": "field verify"
+    },
+    "head_casing_finished": {
+      "t": 0.75,
+      "w": 4.5,
+      "l": "field verify"
+    },
+    "backband_finished": {
+      "t": 1.0,
+      "w": 1.125,
+      "projection": 0.25,
+      "l": "field verify"
+    },
+    "stop_finished": {
+      "t": 0.375,
+      "w": 1.25,
+      "l": "field verify"
+    },
+    "reveal": 0.1875,
+    "optional_head_cap": {
+      "t": 0.875,
+      "depth": 1.5,
+      "side_overhang": 0.75
+    },
+    "plinth": "use only when adjacent original trim supports it; field verify all dimensions"
+  },
+  "finish": {
+    "product": "Rubio Monocoat Oil Plus 2C",
+    "color": "Pure",
+    "surface_grit": 120,
+    "panel_edges_prefinish": true,
+    "cure": "follow the current product technical data sheet; ventilation and oily-cloth controls required"
+  },
+  "field_verify": [
+    "completed jamb width and height at three locations",
+    "jamb plumb, square, twist, and projection",
+    "finished-floor elevation and required undercut",
+    "door handing, swing, stop, strike, and any reusable hinge gains",
+    "wall thickness and flatness",
+    "adjacent casing, backband, baseboard, head treatment, and plinth evidence",
+    "all physical mortise-lock, strike, hinge-leaf, and screw dimensions"
+  ]
+}
