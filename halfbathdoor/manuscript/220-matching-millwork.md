@@ -27,16 +27,17 @@ Machine guards remain installed wherever their use is intended. Support long and
 
 ## Procedure
 
-1. Complete the millwork field worksheet; photograph adjacent original profiles before milling.
-2. Mill 3/4 x 4-1/2-inch flat casing, 1 x 1-1/8-inch backband, and 3/8 x 1-1/4-inch stop unless field evidence controls.
-3. Scribe jamb projection and wall irregularity before cutting final miters or butt joints.
-4. Set a consistent 3/16-inch casing reveal, fit side casings, then head casing, backband, and evidence-supported cap or plinth.
-5. Install stops with the latched door as the reference, leaving uniform quiet contact without springing the slab.
+1. Complete and sign the four-page millwork field worksheet; record both legs plumb in both planes, head level, diagonals/square, winding-stick face twist, and whether one or both faces receive new trim.
+2. Choose either a mitered surround or square-butt head from adjacent evidence; do not mix joint schemes on one face.
+3. Calculate every rough blank from the longest required point plus at least 2 inches total allowance; never use jamb height alone for a mitered leg.
+4. Mill 3/4 x 4-1/2-inch flat casing, 1 x 1-1/8-inch edge-applied backband, and 3/8 x 1-1/4-inch stop unless field evidence controls; the default profiles require no dado stack.
+5. Scribe jamb projection and wall irregularity, then fit side casings and head casing, mandatory M-202C head backband, and only evidence-supported cap or plinth parts; the optional cap sits atop the completed head backband.
+6. Dry-fit, label, and remove all trim for finishing. After full cure install evidence-supported plinths first as the casing datum, then casing, backband/self-returns, cap, and the head/side stops last after tack-and-cycle proof.
 
 ## Quality-control checklist
 
 - reveal variation no more than 1/32 inch
-- miters under 0.010 inch
+- joint gaps under 0.010 inch and faces flush within 0.010 inch
 - stop contact continuous without latch preload
 
 ## Common problems

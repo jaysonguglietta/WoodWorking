@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import html
+import json
 import math
+from fractions import Fraction
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -11,6 +13,13 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "quick-guide/illustrations"
 OUT.mkdir(parents=True, exist_ok=True)
+SPEC = json.loads(
+    (ROOT / "project/specification.yaml").read_text(encoding="utf-8")
+)
+REVISION = SPEC["project"]["revision"]
+SLAB = SPEC["slab"]
+FRAME = SPEC["frame"]
+COMPONENTS = {item["id"]: item for item in SPEC["components"]}
 
 W, H = 1500, 1000
 INK = "#20272D"
@@ -22,6 +31,54 @@ PANEL = "#E8D4AD"
 PALE = "#F4F0E8"
 RED = "#A33B32"
 GRAY = "#65717A"
+
+
+def rail_top_positions() -> dict[str, float]:
+    """Derive the rail stack from the controlled model."""
+
+    rail_ids = ("D-101C", "D-101M", "D-101D", "D-101E", "D-101F")
+    opening_ids = (
+        "P-01 upper",
+        "P-02 center",
+        "P-03 lower-center",
+        "P-04 bottom",
+    )
+    cursor = 0.0
+    positions: dict[str, float] = {}
+    for index, rail_id in enumerate(rail_ids):
+        positions[rail_id] = cursor
+        cursor += FRAME["rail_widths"][rail_id]
+        if index < len(opening_ids):
+            cursor += FRAME["vertical_openings"][opening_ids[index]]
+    if not math.isclose(cursor, SLAB["finished_height"], abs_tol=1e-9):
+        raise ValueError(
+            f"rail/opening stack is {cursor:g}, not {SLAB['finished_height']:g}"
+        )
+    return positions
+
+
+RAIL_TOPS = rail_top_positions()
+
+
+def inch_label(value: float) -> str:
+    fraction = Fraction(value).limit_denominator(16)
+    whole, remainder = divmod(fraction.numerator, fraction.denominator)
+    if remainder == 0:
+        return str(whole)
+    if whole:
+        return f"{whole}-{remainder}/{fraction.denominator}"
+    return f"{remainder}/{fraction.denominator}"
+
+
+def panel_opening_top(panel_id: str) -> float:
+    mapping = {
+        "D-101H": RAIL_TOPS["D-101C"] + FRAME["rail_widths"]["D-101C"],
+        "D-101J": RAIL_TOPS["D-101M"] + FRAME["rail_widths"]["D-101M"],
+        "D-101N": RAIL_TOPS["D-101D"] + FRAME["rail_widths"]["D-101D"],
+        "D-101K": RAIL_TOPS["D-101E"] + FRAME["rail_widths"]["D-101E"],
+        "D-101L": RAIL_TOPS["D-101E"] + FRAME["rail_widths"]["D-101E"],
+    }
+    return mapping[panel_id]
 
 
 def font(size: int, bold: bool = False):
@@ -51,7 +108,15 @@ class Scene:
         if number > 0:
             self.rect(1240, 18, 230, 56, RED, RED, 0)
             self.text(1355, 46, "DRY FIT / NO GLUE", 22, "white", True)
-        self.text(30, 975, "DC-1916-001 | Rev. A | show face up | drawings not cutting templates", 17, GRAY, False, "lm")
+        self.text(
+            30,
+            975,
+            f"DC-1916-001 | {REVISION} | show face up | drawings not cutting templates",
+            17,
+            GRAY,
+            False,
+            "lm",
+        )
 
     def rect(self, x, y, w, h, fill, outline=INK, width=3):
         self.draw.rectangle((x, y, x+w, y+h), fill=fill, outline=outline, width=width)
@@ -118,53 +183,69 @@ class Scene:
 
 
 def door_frame(scene, x, y, scale=7.5, panels=True, labels=True, lock_stile=True):
-    ow, oh = 24*scale, 79*scale
-    sw = 4.5*scale
+    ow, oh = SLAB["finished_width"]*scale, SLAB["finished_height"]*scale
+    sw = FRAME["stile_width"]*scale
     scene.rect(x, y, sw, oh, OAK_DARK)
     if lock_stile:
         scene.rect(x+ow-sw, y, sw, oh, OAK_DARK)
     rail_data = [
-        ("D-101C", 0, 4), ("D-101M", 17.5, 4), ("D-101D", 35.5, 7),
-        ("D-101E", 52, 4), ("D-101F", 67, 12),
+        (part_id, RAIL_TOPS[part_id], FRAME["rail_widths"][part_id])
+        for part_id in ("D-101C", "D-101M", "D-101D", "D-101E", "D-101F")
     ]
     for pid, top, height in rail_data:
         scene.rect(x+sw, y+top*scale, ow-2*sw, height*scale, OAK)
         if labels:
             scene.text(x+ow/2, y+(top+height/2)*scale, pid, 22, INK, True)
-    scene.rect(x+ow/2-1.5*scale, y+56*scale, 3*scale, 11*scale, OAK_DARK)
+    bottom_opening_top = panel_opening_top("D-101K")
+    bottom_opening_height = FRAME["vertical_openings"]["P-04 bottom"]
+    scene.rect(
+        x+ow/2-FRAME["muntin_width"]*scale/2,
+        y+bottom_opening_top*scale,
+        FRAME["muntin_width"]*scale,
+        bottom_opening_height*scale,
+        OAK_DARK,
+    )
     if labels:
-        scene.text(x+ow/2, y+61.5*scale, "G", 22, INK, True)
+        scene.text(x+ow/2, y+(bottom_opening_top+bottom_opening_height/2)*scale, "G", 22, INK, True)
     if panels:
         panel_rects = [
-            ("D-101H", 4, 13.5, sw, ow-sw),
-            ("D-101J", 21.5, 14, sw, ow-sw),
-            ("D-101N", 42.5, 9.5, sw, ow-sw),
+            ("D-101H", panel_opening_top("D-101H"), FRAME["vertical_openings"]["P-01 upper"], sw, ow-sw),
+            ("D-101J", panel_opening_top("D-101J"), FRAME["vertical_openings"]["P-02 center"], sw, ow-sw),
+            ("D-101N", panel_opening_top("D-101N"), FRAME["vertical_openings"]["P-03 lower-center"], sw, ow-sw),
         ]
         for pid, top, height, left, right in panel_rects:
             scene.rect(x+left+5, y+top*scale+5, right-left-10, height*scale-10, PANEL, OAK_DARK, 2)
             scene.text(x+ow/2, y+(top+height/2)*scale, pid, 22, BLUE, True)
-        bottom_w = 6*scale
-        for pid, px in [("D-101K", x+sw), ("D-101L", x+sw+bottom_w+3*scale)]:
-            scene.rect(px+5, y+56*scale+5, bottom_w-10, 11*scale-10, PANEL, OAK_DARK, 2)
-            scene.text(px+bottom_w/2, y+61.5*scale, pid[-1], 21, BLUE, True)
+        bottom_w = FRAME["bottom_opening_each"]*scale
+        for pid, px in [
+            ("D-101K", x+sw),
+            ("D-101L", x+sw+bottom_w+FRAME["muntin_width"]*scale),
+        ]:
+            scene.rect(px+5, y+bottom_opening_top*scale+5, bottom_w-10, bottom_opening_height*scale-10, PANEL, OAK_DARK, 2)
+            scene.text(px+bottom_w/2, y+(bottom_opening_top+bottom_opening_height/2)*scale, pid[-1], 21, BLUE, True)
     return ow, oh
 
 
 def parts_map():
     s = Scene(1, "Lay out every cut part", "Confirm identifiers, orientation, and count before mortising.")
     door_frame(s, 90, 150, 8.7, True, True)
-    s.note(370, 145, 440, 235, "Frame parts", [
-        "D-101A/B: 4-1/2 x 79 stiles",
-        "D-101C/M/E: 4 x 15 rails",
-        "D-101D: 7 x 15 lock rail",
-        "D-101F: 12 x 15 bottom rail",
+    s.note(370, 145, 440, 265, "Frame parts", [
+        (
+            f"D-101A/B: {inch_label(FRAME['stile_width'])} x "
+            f"{inch_label(SLAB['finished_height'])} equal stiles"
+        ),
+        f"D-101C/M/E: 4 x {inch_label(FRAME['rail_shoulder_length'])} rails",
+        f"D-101D: 7 x {inch_label(FRAME['rail_shoulder_length'])} lock rail",
+        f"D-101F: 12 x {inch_label(FRAME['rail_shoulder_length'])} bottom rail",
         "D-101G: 3 x 11 muntin",
+        "Frame section: 1/4 + 7/8 + 1/4",
     ])
-    s.note(370, 410, 440, 250, "Floating panels", [
-        "D-101H/J/N: 15-3/4 wide",
-        "D-101K/L: 6-7/8 wide",
+    s.note(370, 425, 440, 250, "Floating panels", [
+        f"H: {inch_label(COMPONENTS['D-101H']['w'])} W x {inch_label(COMPONENTS['D-101H']['l'])} L",
+        f"J: {inch_label(COMPONENTS['D-101J']['w'])} W x {inch_label(COMPONENTS['D-101J']['l'])} L",
+        f"N: {inch_label(COMPONENTS['D-101N']['w'])} W x {inch_label(COMPONENTS['D-101N']['l'])} L",
+        f"K/L: {inch_label(COMPONENTS['D-101K']['w'])} W x {inch_label(COMPONENTS['D-101K']['l'])} L",
         "All panel grain runs vertically",
-        "Panel tongues are never glued",
     ])
     s.note(850, 145, 555, 515, "Mark before assembly", [
         "Show face on every frame member",
@@ -185,18 +266,14 @@ def rail_stack_dimensions():
     s = Scene(0, "Story-stick rail stack", "All vertical locations originate at the top edge of the finished slab.")
     x, y, scale = 610, 135, 9.2
     ow, oh = door_frame(s, x, y, scale, True, True, True)
-    positions = [
-        (0, "0"),
-        (4, "4"),
-        (17.5, "17-1/2"),
-        (21.5, "21-1/2"),
-        (35.5, "35-1/2"),
-        (42.5, "42-1/2"),
-        (52, "52"),
-        (56, "56"),
-        (67, "67"),
-        (79, "79"),
-    ]
+    positions = [(0.0, "0")]
+    rail_ids = ("D-101C", "D-101M", "D-101D", "D-101E", "D-101F")
+    for index, rail_id in enumerate(rail_ids):
+        bottom = RAIL_TOPS[rail_id] + FRAME["rail_widths"][rail_id]
+        positions.append((bottom, inch_label(bottom)))
+        if index < len(rail_ids) - 1:
+            next_top = RAIL_TOPS[rail_ids[index + 1]]
+            positions.append((next_top, inch_label(next_top)))
     dim_x = x - 125
     s.line([(dim_x, y), (dim_x, y+oh)], BLUE, 4)
     for pos, label in positions:
@@ -208,28 +285,40 @@ def rail_stack_dimensions():
         "Knife every shoulder location",
         "Transfer to both stiles together",
         "Do not leapfrog a tape measure",
-        "Stack must total exactly 79 inches",
+        f"Stack must total exactly {inch_label(SLAB['finished_height'])} inches",
     ])
     s.note(950, 510, 450, 250, "Opening checks", [
-        "Upper: 13-1/2 inches",
-        "Center: 14 inches",
-        "Lower-center: 9-1/2 inches",
-        "Bottom: 11 inches",
-        "Bottom pair: 6 inches each",
+        f"Upper: {inch_label(FRAME['vertical_openings']['P-01 upper'])} inches",
+        f"Center: {inch_label(FRAME['vertical_openings']['P-02 center'])} inches",
+        f"Lower-center: {inch_label(FRAME['vertical_openings']['P-03 lower-center'])} inches",
+        f"Bottom: {inch_label(FRAME['vertical_openings']['P-04 bottom'])} inches",
+        f"Bottom pair: {inch_label(FRAME['bottom_opening_each'])} inches each",
     ])
-    s.text(950, 830, "Top datum", 20, RED, True, "lm")
-    s.arrow(1060, 830, x+ow/2, y, RED, 6, 18)
+    s.text(860, 112, "TOP DATUM", 18, RED, True, "rm")
+    s.arrow(850, 118, x+ow/2, y, RED, 5, 15)
     s.save("00-rail-stack")
 
 
 def groove_domino_register():
-    s = Scene(0, "How the cut geometry nests", "Panel tongues float; shoulders close; concealed tenons remain in solid wood.")
+    s = Scene(
+        0,
+        "How the cut geometry nests",
+        "Grooves and DF cutters stay inside the 7/8-inch core; Rev. G bottom-rail receiver centers are shown.",
+    )
     s.line([(500, 120), (500, 900)], GRAY, 2)
     s.line([(1000, 120), (1000, 900)], GRAY, 2)
 
     # Panel tongue entering a centered groove.
     s.text(250, 145, "PANEL / GROOVE", 28, BLUE, True)
-    s.rect(70, 205, 360, 230, OAK)
+    # Proportional finished section: 1/4 face + 7/8 core + 1/4 face.
+    frame_section_w = 360
+    face_w = frame_section_w * (0.25 / 1.375)
+    core_w = frame_section_w * (0.875 / 1.375)
+    s.rect(70, 205, face_w, 230, OAK_DARK)
+    s.rect(70 + face_w, 205, core_w, 230, OAK)
+    s.rect(70 + face_w + core_w, 205, face_w, 230, OAK_DARK)
+    s.line([(70 + face_w, 205), (70 + face_w, 435)], TEAL, 4)
+    s.line([(70 + face_w + core_w, 205), (70 + face_w + core_w, 435)], TEAL, 4)
     s.rect(215, 205, 70, 105, "white", INK, 4)
     panel_outline = [
         (130, 775), (370, 775), (370, 535), (305, 535),
@@ -238,7 +327,8 @@ def groove_domino_register():
     s.polygon(panel_outline, PANEL, TEAL, 4)
     s.arrow(250, 500, 250, 335, BLUE, 8, 22)
     s.text(250, 180, "1/4 W x 1/2 D GROOVE", 23, INK, True)
-    s.text(250, 565, "7/32 TONGUE", 23, BLUE, True)
+    s.text(250, 462, "1/4 FACE  |  7/8 CORE  |  1/4 FACE", 19, TEAL, True)
+    s.text(250, 565, "7/32 ±0.005 THICK x 7/16 ±0.005 PROJECTION", 19, BLUE, True)
     s.text(250, 815, "NO GLUE ON TONGUE OR GROOVE", 22, RED, True)
     s.line([(205, 295), (295, 325)], RED, 6)
     s.line([(295, 295), (205, 325)], RED, 6)
@@ -260,6 +350,7 @@ def groove_domino_register():
     s.text(880, 670, "GROOVE ZONE", 19, RED, True)
     s.text(750, 795, "GLUE: MORTISE WALLS + ALL TENON FACES", 20, TEAL, True)
     s.text(750, 835, "SHOULDER MUST CLOSE BY HAND", 21, RED, True)
+    s.text(750, 875, "DF CUTTER TO FACE GLUE LINE ≥ 0.200", 18, BLUE, True)
 
     # Center muntin entering the lower intermediate and bottom rails.
     s.text(1250, 145, "MUNTIN / RAILS", 28, BLUE, True)
@@ -276,13 +367,51 @@ def groove_domino_register():
     s.arrow(1250, 670, 1250, 738, TEAL, 8, 22)
     s.text(1085, 350, "2 x 6 x 40", 20, TEAL, True, "lm")
     s.text(1085, 705, "2 x 6 x 40", 20, TEAL, True, "lm")
-    s.text(1250, 905, "G: 15/16 + 2-1/16 FROM G LEFT EDGE", 19, BLUE, True)
-    s.text(1250, 938, "E/F: 6-15/16 + 8-1/16 FROM HINGE-SIDE SHOULDER", 18, RED, True)
+    s.text(1250, 895, "G: 1 + 2 IN | BOTH TIGHT", 19, BLUE, True)
+    receiver_centers = SPEC["domino"]["muntin_centers_in"][
+        "D-101E and D-101F from hinge-side shoulder"
+    ]
+    footprint = SPEC["groove"]["muntin_footprint_from_hinge_side_rail_shoulder"]
+    s.text(
+        1250,
+        925,
+        (
+            f"E/F: {inch_label(receiver_centers[0])} + "
+            f"{inch_label(receiver_centers[1])} IN | TIGHT + MEDIUM"
+        ),
+        18,
+        RED,
+        True,
+    )
+    s.text(
+        1250,
+        952,
+        (
+            f"FOOTPRINT {inch_label(footprint[0])}–"
+            f"{inch_label(footprint[1])} IN / NO RAIL GROOVE"
+        ),
+        16,
+        TEAL,
+        True,
+    )
     s.save("00-groove-domino")
 
 
 def exploded_frame():
     s = Scene(2, "Dry-lay the frame in final order", "Use the master story stick; do not chain rail locations.")
+    # Keep the mortise-width control in the dedicated band above the exploded
+    # frame so it cannot obscure either stile, its label, or an assembly arrow.
+    s.rect(180, 104, 1130, 36, PALE, TEAL, 2)
+    s.text(198, 122, "MORTISE-WIDTH RULE", 18, BLUE, True, "lm")
+    s.text(
+        430,
+        122,
+        "first frame mortise tight | followers medium | D-101G both tight | show faces up",
+        17,
+        INK,
+        False,
+        "lm",
+    )
     # stiles
     s.rect(105, 150, 62, 700, OAK_DARK)
     s.rect(1325, 150, 62, 700, OAK_DARK)
@@ -304,22 +433,20 @@ def exploded_frame():
     s.domino(743, 785, 16, 9)
     s.text(136, 875, "D-101A / HINGE STILE", 17, BLUE, True)
     s.text(1356, 875, "D-101B / LOCK STILE", 17, BLUE, True)
-    s.note(1080, 700, 340, 170, "Alignment rule", [
-        "First mortise tight",
-        "Followers medium",
-        "All show faces up",
-    ])
     s.save("02-exploded-frame")
 
 
 def bottom_module():
-    s = Scene(3, "Build the lower module first", "D-101E + D-101G + D-101F establish the paired bottom openings.")
+    s = Scene(3, "Build one lower module first", "Place 3/4-in-long foam panel spacers in G side grooves before K/L; no panel glue.")
     s.rect(250, 165, 1000, 78, OAK)
     s.text(750, 204, "D-101E  LOWER INTERMEDIATE RAIL", 24, INK, True)
     s.rect(250, 730, 1000, 150, OAK)
     s.text(750, 805, "D-101F  BOTTOM RAIL", 24, INK, True)
     s.rect(706, 290, 88, 390, OAK_DARK)
     s.text(750, 485, "D-101G", 20, "white", True)
+    for spacer_y in (405, 565):
+        s.circle(695, spacer_y, 8, TEAL, "white", 2)
+        s.circle(805, spacer_y, 8, TEAL, "white", 2)
     for x in (714, 758):
         s.domino(x, 250, 28, 18); s.domino(x, 690, 28, 18)
     s.arrow(750, 275, 750, 290, TEAL, 7, 18)
@@ -328,67 +455,111 @@ def bottom_module():
     s.text(495, 490, "D-101K", 28, BLUE, True)
     s.rect(840, 325, 330, 330, PANEL, OAK_DARK, 3)
     s.text(1005, 490, "D-101L", 28, BLUE, True)
-    s.arrow(495, 300, 495, 325, BLUE, 7, 17)
-    s.arrow(1005, 300, 1005, 325, BLUE, 7, 17)
-    s.text(750, 920, "Panels float in grooves. Rehearse this subassembly dry before final glue-up.", 22, RED, True)
+    s.arrow(655, 490, 700, 490, BLUE, 7, 17)
+    s.arrow(845, 490, 800, 490, BLUE, 7, 17)
+    s.text(750, 125, "1  PLACE 2 FOAM SPACERS (3/4 IN LONG) IN EACH D-101G SIDE GROOVE", 21, TEAL, True)
+    s.text(750, 920, "2  ENTER K/L TONGUES  |  3  CLOSE E/G/F  |  NO PANEL GLUE", 21, RED, True)
     s.save("03-bottom-module")
 
 
 def load_hinge_stile():
-    s = Scene(4, "Attach rails to the hinge stile and load panels", "Slide panels laterally from the open lock-stile end; keep the door show-face up.")
+    s = Scene(4, "Load D-101A without duplicating the lower module", "Stage 3/4-in-long foam panel spacers in A before any panel or module tongue enters.")
     s.rect(115, 135, 65, 745, OAK_DARK)
     s.text(100, 510, "D-101A", 18, BLUE, True, "rm")
-    rails = [(160,40,"D-101C"),(310,40,"D-101M"),(470,70,"D-101D"),(640,40,"D-101E"),(780,100,"D-101F")]
+    rails = [(160,40,"D-101C"),(310,40,"D-101M"),(470,70,"D-101D")]
     for yy,hh,pid in rails:
         s.rect(180, yy, 650, hh, OAK)
         s.text(505, yy+hh/2, pid, 20, INK, True)
-    # bottom muntin already fitted
-    s.rect(470, 680, 75, 100, OAK_DARK)
-    # Panels are shown seated, with arrows indicating the required lateral
-    # loading direction from the still-open lock-stile end.
+    # H/J can enter after C/M/D. N must remain visibly staged at the open
+    # lock-stile side until the one completed lower module has seated E.
     panels = [
         (235, 210, 530, 80, "D-101H"),
         (235, 370, 530, 80, "D-101J"),
-        (235, 565, 530, 55, "D-101N"),
-        (225, 690, 210, 70, "D-101K"),
-        (580, 690, 210, 70, "D-101L"),
     ]
     for x,y,w,h,pid in panels:
         s.rect(x, y, w, h, PANEL, OAK_DARK, 3)
         s.text(x+w/2, y+h/2, pid, 20, BLUE, True)
-    for yy in (250, 410, 592):
-        s.arrow(1080, yy, 785, yy, BLUE, 7, 19)
-    s.arrow(1080, 725, 830, 725, BLUE, 7, 19)
-    s.text(1090, 165, "OPEN LOCK-STILE END", 20, RED, True)
-    s.note(875, 650, 530, 230, "Loading order", [
-        "Seat rails in D-101A",
-        "Slide D-101H, J, and N leftward",
-        "Slide lower module left as one unit",
-        "Confirm every tongue is captured",
-        "Do not use panel glue",
+    n_x, n_y, n_w, n_h = 920, 555, 420, 58
+    s.rect(n_x, n_y, n_w, n_h, PANEL, OAK_DARK, 3)
+    s.text(n_x + n_w / 2, n_y + n_h / 2, "D-101N — STAGED RIGHT", 19, BLUE, True)
+    # One grouped E/G/F/K/L module—there are no separate E/F rails in this
+    # scene, which prevents the old drawing from implying duplicate parts.
+    module_x, module_y, module_w = 850, 650, 500
+    s.rect(module_x, module_y, module_w, 38, OAK)
+    s.rect(module_x, module_y + 190, module_w, 70, OAK)
+    s.rect(module_x + 235, module_y + 38, 30, 152, OAK_DARK)
+    s.rect(module_x + 35, module_y + 62, 180, 105, PANEL, OAK_DARK, 3)
+    s.rect(module_x + 285, module_y + 62, 180, 105, PANEL, OAK_DARK, 3)
+    s.text(module_x + module_w / 2, module_y + 19, "D-101E", 17, INK, True)
+    s.text(module_x + module_w / 2, module_y + 225, "D-101F", 17, INK, True)
+    s.text(module_x + module_w / 2, module_y + 113, "ONE CURED E/G/F/K/L MODULE", 17, BLUE, True)
+    for spacer_y in (235, 270, 395, 430, 575, 600, 710, 760):
+        s.circle(193, spacer_y, 7, TEAL, "white", 2)
+    for yy in (250, 410):
+        s.arrow(810, yy, 785, yy, BLUE, 7, 19)
+    s.arrow(835, 775, 560, 775, TEAL, 7, 19)
+    s.circle(815, 775, 18, TEAL, "white", 2)
+    s.text(815, 775, "4", 17, "white", True)
+    s.arrow(n_x - 18, n_y + n_h / 2, 785, n_y + n_h / 2, BLUE, 7, 19)
+    s.circle(n_x - 42, n_y + n_h / 2, 18, BLUE, "white", 2)
+    s.text(n_x - 42, n_y + n_h / 2, "5", 17, "white", True)
+    s.text(1090, 135, "OPEN LOCK-STILE END", 20, RED, True)
+    s.note(875, 160, 530, 300, "Loading order", [
+        "1  Place 8 A-side foam spacers",
+        "2  Seat only C / M / D in A",
+        "3  Slide H / J leftward",
+        "4  Slide ONE lower module left",
+        "5  Slide N through D / E",
+        "6  No loose duplicate E / F",
+        "7  No panel glue",
     ])
     s.save("04-load-panels")
 
 
 def close_lock_stile():
-    s = Scene(5, "Close the lock stile over every rail end", "Keep the stile parallel so the tenons enter together.")
+    s = Scene(5, "Close the lock stile over every rail end", "Stage eight 3/4-in-long foam panel spacers in B; keep B parallel as every joint enters.")
     # assembled left portion
     door_frame(s, 180, 135, 8.8, True, False, False)
     # exposed tenons on right ends
-    rail_top = [0,17.5,35.5,52,67]
-    rail_h = [4,4,7,4,12]
+    rail_ids = ("D-101C", "D-101M", "D-101D", "D-101E", "D-101F")
+    rail_top = [RAIL_TOPS[part_id] for part_id in rail_ids]
+    rail_h = [FRAME["rail_widths"][part_id] for part_id in rail_ids]
     counts = [2,2,3,2,4]
-    scale=8.8; x_end=180+(24-4.5)*scale
+    scale=8.8
+    x_end = 180 + (SLAB["finished_width"] - FRAME["stile_width"]) * scale
     for top, height, count in zip(rail_top, rail_h, counts):
         for j in range(count):
             yy=135+(top+(j+1)*height/(count+1))*scale
             s.domino(x_end-2, yy-7, 46, 14)
     stile_x=1110
-    s.rect(stile_x, 135, 4.5*scale, 79*scale, OAK_DARK)
+    s.rect(stile_x, 135, FRAME["stile_width"]*scale, SLAB["finished_height"]*scale, OAK_DARK)
     s.text(stile_x+65, 480, "D-101B", 20, BLUE, True, "lm")
+    spacer_y_by_panel = []
+    panel_opening_keys = (
+        ("D-101H", "P-01 upper"),
+        ("D-101J", "P-02 center"),
+        ("D-101N", "P-03 lower-center"),
+        ("D-101L", "P-04 bottom"),
+    )
+    for panel_id, opening_key in panel_opening_keys:
+        opening_top = panel_opening_top(panel_id)
+        opening_height = FRAME["vertical_openings"][opening_key]
+        spacer_y_by_panel.extend(
+            [
+                (panel_id[-1], opening_top + opening_height / 3),
+                (panel_id[-1], opening_top + 2 * opening_height / 3),
+            ]
+        )
+    for index, (_, panel_z) in enumerate(spacer_y_by_panel, 1):
+        cy = 135 + panel_z * scale
+        s.circle(stile_x - 14, cy, 11, TEAL, "white", 2)
+        s.text(stile_x - 14, cy, str(index), 12, "white", True)
+    s.text(stile_x + 18, 110, "8 B-SIDE FOAM SPACERS", 20, TEAL, True)
+    s.text(stile_x + 18, 875, "H / J / N / L × 2", 18, TEAL, True)
     s.arrow(stile_x-35, 330, x_end+60, 330, TEAL, 9, 24)
     s.arrow(stile_x-35, 650, x_end+60, 650, TEAL, 9, 24)
-    s.note(850, 740, 540, 160, "Close evenly", [
+    s.note(500, 735, 525, 190, "Close evenly", [
+        "Verify all 8 foam spacers before B moves",
         "Start every tenon by hand",
         "Tap only through a padded caul",
         "Stop if one shoulder hangs open",
@@ -398,11 +569,15 @@ def close_lock_stile():
 
 
 def clamp_square():
-    s = Scene(6, "Clamp, square, and verify movement", "Close shoulders first; use diagonal measurements to correct square.")
+    s = Scene(6, "Clamp, square, and verify movement", "During glue-up, keep the timer live through this final geometry and panel-movement gate.")
     x,y,scale=585,125,9.2
     ow,oh=door_frame(s,x,y,scale,True,False,True)
     # clamps
-    clamp_ys=[y+35,y+185,y+355,y+520,y+690]
+    rail_ids = ("D-101C", "D-101M", "D-101D", "D-101E", "D-101F")
+    clamp_ys = [
+        y + (RAIL_TOPS[part_id] + FRAME["rail_widths"][part_id] / 2) * scale
+        for part_id in rail_ids
+    ]
     for index, cy in enumerate(clamp_ys):
         clamp_color = BLUE if index % 2 == 0 else TEAL
         face_label = "FRONT" if index % 2 == 0 else "BACK"
@@ -420,16 +595,24 @@ def clamp_square():
     s.text(x+ow/2,y+oh/2-20,"A",34,RED,True)
     s.text(x+ow/2,y+oh/2+25,"B",34,RED,True)
     # One visible side-play check; repeat at all five panels.
-    panel_y = y + 27*scale
+    panel_y = y + (
+        panel_opening_top("D-101J")
+        + FRAME["vertical_openings"]["P-02 center"] / 2
+    ) * scale
     s.arrow(x+ow/2, panel_y, x+55, panel_y, TEAL, 5, 14)
     s.arrow(x+ow/2, panel_y, x+ow-55, panel_y, TEAL, 5, 14)
     s.text(x+ow/2, panel_y-24, "SIDE PLAY", 18, TEAL, True)
-    s.note(55, 155, 430, 265, "Acceptance", [
+    s.note(55, 155, 430, 300, "Acceptance", [
         "A - B <= 1/16 inch",
         "Twist <= 1/32 inch",
         "Shoulder gaps <= 0.005 inch",
         "Panels slide side-to-side",
-        "Door remains 24 x 79 target",
+        (
+            f"Fitted slab remains {inch_label(SLAB['finished_width'])} x "
+            f"{inch_label(SLAB['finished_height'])}"
+        ),
+        "Clamp complete = checkpoint only",
+        "Final gate <= 75% published OPEN",
     ])
     s.rect(55, 520, 430, 225, PALE, TEAL, 3)
     s.text(75, 550, "WINDING-STICK CHECK", 25, BLUE, True, "lm")

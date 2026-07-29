@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">5</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">DF 500 rail-to-stile joint</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">The locator is tight and the follower medium; section and measure every relevant mortise-to-groove web.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">JOINT</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<text x="445" y="150" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="middle" dominant-baseline="middle">4-INCH RAIL  /  EDGE ELEVATION</text>
+<rect x="230" y="205" width="430" height="480.0" fill="#C29359" stroke="#20272D" stroke-width="4"/>
+<rect x="230" y="205" width="430" height="60.0" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<rect x="230" y="625.0" width="430" height="60.0" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<rect x="375" y="300.6692913385827" width="140" height="108.66141732283465" fill="#35454F" stroke="#FFFFFF" stroke-width="2"/>
+<text x="545" y="355.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">TIGHT</text>
+<polyline points="190.00,205.00 190.00,355.00" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="190.00,205.00 196.79,216.08 183.21,216.08" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="190.00,355.00 183.21,343.92 196.79,343.92" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<text x="132.0" y="280.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">1.25</text>
+<rect x="375" y="466.496062992126" width="140" height="137.00787401574803" fill="#35454F" stroke="#FFFFFF" stroke-width="2"/>
+<text x="545" y="535.0" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">MEDIUM</text>
+<polyline points="190.00,205.00 190.00,535.00" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="190.00,205.00 196.79,216.08 183.21,216.08" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="190.00,535.00 183.21,523.92 196.79,523.92" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<text x="132.0" y="370.0" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">2.75</text>
+<polyline points="350.00,603.50 350.00,625.00" fill="none" stroke="#A33B32" stroke-width="6" stroke-linejoin="round"/>
+<text x="345" y="607.0" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="end" dominant-baseline="middle">EACH RELEVANT WEB ≥ 0.150</text>
+<text x="445.0" y="740.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">PANEL GROOVES 0.250 W × 0.500 D</text>
+<polygon points="1076.25,738.25 1054.82,750.62 1054.82,480.62 1076.25,468.25" fill="#765027" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1010.00,430.00 1076.25,468.25 1054.82,480.62 988.57,442.38" fill="#BE813F" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1010.00,700.00 1076.25,738.25 1076.25,468.25 1010.00,430.00" fill="#A46F36" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1250.06,739.60 1228.63,751.97 1228.63,679.97 1250.06,667.60" fill="#8C6A40" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1125.35,595.60 1250.06,667.60 1228.63,679.97 1103.92,607.98" fill="#E1AB67" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1125.35,667.60 1250.06,739.60 1250.06,667.60 1125.35,595.60" fill="#C29359" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1116.00,623.14 1106.65,628.54 1106.65,620.26 1116.00,614.86" fill="#A3895E" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1065.34,585.61 1116.00,614.86 1106.65,620.26 1055.99,591.01" fill="#FFDC97" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1065.34,593.89 1116.00,623.14 1116.00,614.86 1065.34,585.61" fill="#E2BE82" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1116.00,650.14 1106.65,655.54 1106.65,647.26 1116.00,641.86" fill="#A3895E" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1065.34,612.61 1116.00,641.86 1106.65,647.26 1055.99,618.01" fill="#FFDC97" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1065.34,620.89 1116.00,650.14 1116.00,641.86 1065.34,612.61" fill="#E2BE82" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1172.71,667.60 1070.02,610.45" fill="none" stroke="#2E6F73" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="1070.02,610.45 1090.00,609.61 1079.83,627.88" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<text x="910" y="190" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">10 × 50 FACTORY TENONS</text>
+<polyline points="918.00,204.00 966.00,204.00 1095.74,621.70" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="910" y="265" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">25 mm PLUNGE / MEMBER</text>
+<polyline points="918.00,279.00 966.00,279.00 1066.90,596.05" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<rect x="880" y="570" width="650" height="300" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="898" y="600" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="start" dominant-baseline="middle">DF 500 test-piece gate</text>
+<text x="904" y="638" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• 10 mm cutter; fence 17.5 mm at 90°</text>
+<text x="904" y="674" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• First position tight; follower medium</text>
+<text x="904" y="710" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Section both tight + medium groove webs</text>
+<text x="904" y="746" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Every relevant measured web ≥0.150</text>
+<text x="904" y="782" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• DF band to face glue line ≥0.200</text>
+<text x="904" y="818" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Shoulder gap ≤0.005; faces ≤0.010</text>
+<text x="904" y="854" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• No groove intersection or breakout</text>
+</svg>

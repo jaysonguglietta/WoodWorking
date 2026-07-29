@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Field measurement gate</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Measure the completed jamb and trim footprint before any production blank is sized.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">HOLD</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="365" y="100" width="630" height="780" fill="#E9E5DE" stroke="#65717A" stroke-width="3"/>
+<rect x="465" y="165" width="430" height="650" fill="white" stroke="#20272D" stroke-width="5"/>
+<polyline points="483,213 877,767" fill="none" stroke="#9CA8AD" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="877,213 483,767" fill="none" stroke="#9CA8AD" stroke-width="2" stroke-linejoin="round"/>
+<text x="680.0" y="445.0" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">DIAGONAL A / B</text>
+<text x="680.0" y="131" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">HEAD LEVEL</text>
+<polyline points="465,195 895,195" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="465,195 478,188 478,202" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="895,195 882,188 882,202" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="653.5" y="164" width="53" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="680.0" y="177" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">W1</text>
+<polyline points="465,490.0 895,490.0" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="465,490.0 478,483.0 478,497.0" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="895,490.0 882,483.0 882,497.0" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="653.5" y="459.0" width="53" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="680.0" y="472.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">W2</text>
+<polyline points="465,785 895,785" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="465,785 478,778 478,792" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="895,785 882,778 882,792" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="653.5" y="754" width="53" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="680.0" y="767" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">W3</text>
+<polyline points="465,165 347,165" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="465,815 347,815" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="355,165 355,815" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="355,165 348,178 362,178" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="355,815 348,802 362,802" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="365" y="476.0" width="172" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="373" y="490.0" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">H-L</text>
+<polyline points="895,165 997,165" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="895,815 997,815" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1005,165 1005,815" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1005,165 998,178 1012,178" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="1005,815 998,802 1012,802" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="1015" y="476.0" width="172" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="1023" y="490.0" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">H-R</text>
+<circle cx="455" cy="185" r="10" fill="#C29359" stroke="#A33B32" stroke-width="2"/>
+<text x="437" y="185" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="middle">JP1</text>
+<circle cx="905" cy="185" r="10" fill="#C29359" stroke="#A33B32" stroke-width="2"/>
+<text x="923" y="185" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="start" dominant-baseline="middle">JP2</text>
+<circle cx="455" cy="490.0" r="10" fill="#C29359" stroke="#A33B32" stroke-width="2"/>
+<text x="437" y="517.0" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="middle">JP3</text>
+<circle cx="905" cy="490.0" r="10" fill="#C29359" stroke="#A33B32" stroke-width="2"/>
+<text x="923" y="517.0" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="start" dominant-baseline="middle">JP4</text>
+<circle cx="455" cy="795" r="10" fill="#C29359" stroke="#A33B32" stroke-width="2"/>
+<text x="437" y="795" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="middle">JP5</text>
+<circle cx="905" cy="795" r="10" fill="#C29359" stroke="#A33B32" stroke-width="2"/>
+<text x="923" y="795" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="start" dominant-baseline="middle">JP6</text>
+<polyline points="390,665 970,640" fill="none" stroke="#2E6F73" stroke-width="7" stroke-linejoin="round"/>
+<text x="680.0" y="700" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">STRAIGHTEDGE: record wall gap</text>
+<rect x="1060" y="150" width="365" height="305" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="1078" y="179" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">Record before milling</text>
+<text x="1084" y="217" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Trimmed faces: one or two</text>
+<text x="1084" y="251" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Mitered or square-butt head</text>
+<text x="1084" y="285" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Each leg: plumb in both planes</text>
+<text x="1084" y="319" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Head level; diagonals A and B</text>
+<text x="1084" y="353" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Backband width B and projection</text>
+<text x="1084" y="387" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Floor / plinth bottom datum</text>
+<rect x="1060" y="505" width="365" height="270" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="1078" y="534" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">Stop work</text>
+<text x="1084" y="572" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Any leg fails either plumb plane</text>
+<text x="1084" y="606" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Head not level; diagonals differ</text>
+<text x="1084" y="640" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Winding sticks show face twist</text>
+<text x="1084" y="674" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Projection exceeds relief limit</text>
+<text x="1084" y="708" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Cap / plinth evidence unresolved</text>
+<text x="1084" y="742" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Utility may cross fastener path</text>
+<polyline points="400,845 920,845" fill="none" stroke="#173A56" stroke-width="7" stroke-linejoin="round"/>
+<polyline points="420,872 940,872" fill="none" stroke="#2E6F73" stroke-width="7" stroke-linejoin="round"/>
+<text x="670" y="910" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">WINDING STICKS: HEAD / MID / BOTTOM - RECORD FACE TWIST</text>
+<rect x="1035" y="810" width="390" height="100" fill="#FAEFEC" stroke="#A33B32" stroke-width="3"/>
+<text x="1230" y="842" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">FIELD RELEASE HOLD</text>
+<text x="1230" y="877" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">until every geometry value is recorded</text>
+</svg>

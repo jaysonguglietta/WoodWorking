@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">14</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Scribing and corner conditions</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Resolve the substrate deliberately; never use fasteners to bend stain-grade casing into place.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">DETAILS</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="55" y="140" width="675" height="330" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="83" y="180" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">A  PROUD JAMB</text>
+<rect x="130" y="275" width="300" height="70" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="130" y="330" width="95" height="15" fill="white" stroke="#A33B32" stroke-width="2"/>
+<rect x="130" y="348" width="95" height="38" fill="#D7B47B" stroke="#20272D" stroke-width="2"/>
+<text x="460" y="267" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">Route shallow</text>
+<text x="460" y="291" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">back relief</text>
+<text x="460" y="330" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="start" dominant-baseline="middle">Keep &gt;= 1/2 in</text>
+<text x="460" y="353" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="start" dominant-baseline="middle">sound casing</text>
+<text x="460" y="395" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="middle">Prove on scrap / dry fit</text>
+<rect x="770" y="140" width="675" height="330" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="798" y="180" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">B  RECESSED JAMB</text>
+<rect x="845" y="265" width="300" height="70" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="845" y="338" width="110" height="20" fill="#D7B47B" stroke="#20272D" stroke-width="2"/>
+<rect x="845" y="335" width="110" height="8" fill="#547A58" stroke="#547A58" stroke-width="0"/>
+<text x="1175" y="267" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">Fit a continuous</text>
+<text x="1175" y="291" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">wood shim</text>
+<text x="1175" y="330" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="start" dominant-baseline="middle">Do not bridge</text>
+<text x="1175" y="353" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="start" dominant-baseline="middle">a hollow</text>
+<text x="1175" y="395" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="middle">Prove on scrap / dry fit</text>
+<rect x="55" y="515" width="675" height="330" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="83" y="555" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">C  INSIDE CORNER</text>
+<rect x="150" y="615" width="45" height="170" fill="#E9E5DE" stroke="#65717A" stroke-width="2"/>
+<polygon points="140,640 390,620 390,720 140,740" fill="#C29359" stroke="#20272D" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="140,640 140,740" fill="none" stroke="#A33B32" stroke-width="5" stroke-linejoin="round"/>
+<text x="460" y="642" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">Scribe the</text>
+<text x="460" y="666" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">terminating edge</text>
+<text x="460" y="705" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="start" dominant-baseline="middle">Keep casing reveal</text>
+<text x="460" y="728" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="start" dominant-baseline="middle">unchanged</text>
+<text x="460" y="770" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="middle">Prove on scrap / dry fit</text>
+<rect x="770" y="515" width="675" height="330" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="798" y="555" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">D  EXPOSED END</text>
+<rect x="845" y="650" width="260" height="70" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<polygon points="1105,650 1155,685 1105,720" fill="#A46F36" stroke="#20272D" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="1105,650 1155,685 1105,720" fill="none" stroke="#A33B32" stroke-width="4" stroke-linejoin="round"/>
+<text x="1175" y="642" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">Dry-fit / label</text>
+<text x="1175" y="666" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">self-return</text>
+<text x="1175" y="705" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="start" dominant-baseline="middle">Glue only after</text>
+<text x="1175" y="728" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="start" dominant-baseline="middle">finish cure</text>
+<text x="1175" y="770" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="start" dominant-baseline="middle">Prove on scrap / dry fit</text>
+<text x="120" y="910" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" dominant-baseline="middle">STOP when projection &gt; 1/8 in or substrate damage prevents full bearing - repair the condition first.</text>
+</svg>

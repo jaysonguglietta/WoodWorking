@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">13</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Optional cap, plinth, and baseboard</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">M-202C is mandatory; cap and plinth remain evidence-supported options.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">OPTIONS</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="60" y="140" width="1365" height="360" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="90" y="176" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">CAP STACK - FIT ONLY AFTER THE COMPLETE HEAD BACKBAND</text>
+<rect x="430" y="345" width="640" height="74" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="390" y="310" width="720" height="35" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="340" y="270" width="820" height="28" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<text x="750" y="382" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">M-201C HEAD CASING</text>
+<text x="750" y="328" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">M-202C MANDATORY HEAD BACKBAND</text>
+<text x="750" y="284" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">M-204 OPTIONAL CAP</text>
+<polyline points="340,270 340,243" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="390,310 390,243" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="340,235 390,235" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="340,235 353,228 353,242" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="390,235 377,228 377,242" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="322.5" y="204" width="85" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="365.0" y="217" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">P = 3/4</text>
+<polyline points="1110,310 1110,243" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1160,270 1160,243" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1110,235 1160,235" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1110,235 1123,228 1123,242" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="1160,235 1147,228 1147,242" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="1092.5" y="204" width="85" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="1135.0" y="217" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">P = 3/4</text>
+<text x="105" y="452" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">Finished cap = actual fitted head-backband outside width + 2P</text>
+<text x="885" y="452" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">Rough blank = finished target + 2 in</text>
+<rect x="60" y="545" width="650" height="325" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="90" y="582" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" dominant-baseline="middle">NO PLINTH - WHEN EVIDENCE IS ABSENT</text>
+<rect x="155" y="635" width="95" height="190" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="250" y="650" width="32" height="175" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="282" y="735" width="300" height="90" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<polyline points="282,735 282,825" fill="none" stroke="#A33B32" stroke-width="4" stroke-linejoin="round"/>
+<text x="430" y="780" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">BASEBOARD BUTTS TO TRIM</text>
+<text x="90" y="845" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">Floor is casing bottom datum; do not notch casing.</text>
+<rect x="760" y="545" width="665" height="325" fill="#F4F0E8" stroke="#A46F36" stroke-width="3"/>
+<text x="790" y="582" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" dominant-baseline="middle">PLINTH - EVIDENCE REQUIRED</text>
+<rect x="850" y="690" width="135" height="135" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<rect x="880" y="620" width="75" height="70" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="985" y="745" width="300" height="80" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<text x="1135" y="786" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">BASEBOARD</text>
+<text x="1020" y="630" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">1  Install cured plinth first</text>
+<text x="1020" y="666" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">2  Use plinth top as casing datum</text>
+<text x="1020" y="702" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">3  No glue to floor or wall</text>
+<text x="1020" y="844" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">WIDTH / HEIGHT / PROFILE: FIELD VERIFY</text>
+<text x="750" y="915" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">Post-cure glue only at masked plinth-to-trim and cap-to-head-band joints.</text>
+</svg>

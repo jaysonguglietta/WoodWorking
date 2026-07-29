@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle" dominant-baseline="middle">12A</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Casing wall-scribe and local bearing correction</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">Preserve the jamb reveal while correcting only the back of the casing enough to bear on sound substrate.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">SCRIBE DETAIL</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<rect x="45" y="145" width="730" height="780" fill="#FFFFFF" stroke="#173A56" stroke-width="3"/>
+<rect x="45" y="145" width="730" height="58" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<text x="67" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">A  WALL HUMP / LOCAL RELIEF</text>
+<rect x="825" y="145" width="730" height="780" fill="#FFFFFF" stroke="#2E6F73" stroke-width="3"/>
+<rect x="825" y="145" width="730" height="58" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="847" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">B  SHIMMED LOW AREA</text>
+<polygon points="120.00,340.00 210.00,330.00 300.00,360.00 390.00,315.00 500.00,345.00 690.00,330.00 690.00,720.00 120.00,720.00" fill="#E7E4DE" stroke="#65717A" stroke-width="4" stroke-linejoin="round"/>
+<rect x="170" y="245" width="470" height="70" fill="#C29359" stroke="#20272D" stroke-width="4"/>
+<polygon points="330.00,315.00 390.00,315.00 360.00,350.00" fill="#FFFFFF" stroke="#A33B32" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="120.00,315.00 690.00,315.00" fill="none" stroke="#173A56" stroke-width="4" stroke-linejoin="round" stroke-dasharray="12 8"/>
+<text x="405" y="225" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">CASING FACE REMAINS TRUE</text>
+<text x="405" y="780" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">RELIEVE BACK LOCALLY — NEVER FACE-PLANE</text>
+<polyline points="650.00,315.00 650.00,330.00" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="650.00,315.00 656.79,326.08 643.21,326.08" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="650.00,330.00 643.21,318.92 656.79,318.92" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<text x="650.0" y="367.5" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">GAP ≤ 0.0312</text>
+<polygon points="900.00,350.00 1020.00,350.00 1120.00,380.00 1250.00,380.00 1460.00,350.00 1460.00,720.00 900.00,720.00" fill="#E7E4DE" stroke="#65717A" stroke-width="4" stroke-linejoin="round"/>
+<rect x="930" y="245" width="500" height="70" fill="#C29359" stroke="#20272D" stroke-width="4"/>
+<polygon points="1080.00,315.00 1280.00,315.00 1250.00,380.00 1120.00,380.00" fill="#EEF4F7" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="1180" y="430" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">TAPERED SHIM</text>
+<text x="1180" y="780" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">FULL BEARING • NO ROCK • NO WALL GLUE</text>
+<text x="1180" y="845" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">CASING-TO-JAMB REVEAL 0.1875</text>
+<text x="800" y="955" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">HOLD FOR MOISTURE, LOOSE PLASTER, OR UNSOUND SUBSTRATE</text>
+</svg>

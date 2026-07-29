@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">12</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Wrap the fitted casing with backband</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Transfer from fitted casing; keep glue faces dry until post-cure installation.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">DRY FIT 04</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="440" y="300" width="360" height="570" fill="white" stroke="#20272D" stroke-width="4"/>
+<rect x="368" y="228" width="504" height="72" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="368" y="300" width="72" height="570" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="800" y="300" width="72" height="570" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="246" y="228" width="27" height="570" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="967" y="228" width="27" height="570" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="343" y="111" width="554" height="27" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<polyline points="313,585.0 363,585.0" fill="none" stroke="#2E6F73" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="363,585.0 344.2444605146909,596.4991190364746 344.2444605146909,573.5008809635254" fill="#2E6F73"/>
+<polyline points="927,585.0 877,585.0" fill="none" stroke="#2E6F73" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="877,585.0 895.7555394853091,573.5008809635254 895.7555394853091,596.4991190364744" fill="#2E6F73"/>
+<polyline points="620.0,173 620.0,223" fill="none" stroke="#2E6F73" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="620.0,223 608.5008809635254,204.24446051469087 631.4991190364746,204.24446051469087" fill="#2E6F73"/>
+<polyline points="365,228 365,870" fill="none" stroke="#547A58" stroke-width="8" stroke-linejoin="round"/>
+<polyline points="875,228 875,870" fill="none" stroke="#547A58" stroke-width="8" stroke-linejoin="round"/>
+<polyline points="368,225 872,225" fill="none" stroke="#547A58" stroke-width="8" stroke-linejoin="round"/>
+<text x="620" y="915" fill="#547A58" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">GREEN = POST-CURE GLUE AT CASING EDGE / RETURNS ONLY</text>
+<rect x="990" y="185" width="410" height="340" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="1020" y="220" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">FACE PROJECTION</text>
+<rect x="1040" y="335" width="220" height="55" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="1260" y="315" width="90" height="75" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<polyline points="1350,315 1367,315" fill="none" stroke="#A33B32" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1350,390 1367,390" fill="none" stroke="#A33B32" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1375,315 1375,390" fill="none" stroke="#A33B32" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1375,315 1368,328 1382,328" fill="#A33B32" stroke="#A33B32" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="1375,390 1368,377 1382,377" fill="#A33B32" stroke="#A33B32" stroke-width="0" stroke-linejoin="round"/>
+<rect x="1385" y="338.5" width="172" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="1393" y="352.5" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">1/4 PROUD</text>
+<rect x="990" y="575" width="410" height="240" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="1008" y="604" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">Fasten</text>
+<text x="1014" y="642" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• 18-ga into casing at 8-12 in OC</text>
+<text x="1014" y="676" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Embed &gt;= 1/2 in; no exit or split</text>
+<text x="1014" y="710" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Offset from casing fasteners</text>
+<text x="1014" y="744" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• No glue to plaster or drywall</text>
+<text x="1014" y="778" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Returns stay dry until post-cure install</text>
+</svg>

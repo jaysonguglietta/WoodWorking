@@ -25,15 +25,17 @@ Machine guards remain installed wherever their use is intended. Support long and
 
 ## Procedure
 
-1. Mark one master top datum and all rail shoulders from specification coordinates.
-2. Create a paired mortise story stick with each joint ID and tight/loose designation.
-3. Transfer only from the master; never leapfrog a rule.
-4. Check the complete stack against 79 inches and bottom-opening widths against 6 inches.
-5. Seal and label approved story sticks; retain them through installation.
+1. Scribe the final 23-3/4 x 80-1/2 rectangle inside the 23-7/8 x 80-5/8 pre-fit assembly.
+2. Mark one master final-top datum and all rail shoulders from specification coordinates.
+3. Create a paired mortise story stick with each joint ID and tight/loose designation.
+4. Transfer only from the master; never leapfrog a rule or hook from a temporary rough end.
+5. Check the complete stack against 80-1/2 inches and both bottom-opening widths against 6-1/8 inches.
+6. Destroy or conspicuously obsolete every Rev. F/LS-04 story stick before transferring Rev. G.
+7. Seal and label approved story sticks; retain them through installation.
 
 ## Quality-control checklist
 
-- stack totals exactly 79 inches
+- stack totals exactly 80-1/2 inches
 - paired marks agree within 0.010 inch
 - all identifiers readable
 

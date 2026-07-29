@@ -9,4 +9,14 @@
 - [x] Searchable-text, page-count, and asset validation
 - [ ] Completed-jamb measurements entered before milling
 - [ ] Physical lock, strike, hinge, and screw measurements entered before machining
+- [ ] Actual 3/4-inch-long foam spacer manufacturer, SKU, cross-section, and firmness/force-deflection recorded; separate full-size H/J/N and K/L samples released before panel loading
+- [ ] LS-05 CHK-RS-01 records species, moisture, minimum dimensions, bow, cup, twist, checks, knots, pith, grain runout, and clear squared-end limits for A-O before critical crosscuts; N/O are confirmed finished white oak and remain full until a signed short-core fallback is required
+- [ ] LS-05 CHK-ST-01 proves STOCK-B/C each yield one continuous 5/16 x 4-3/8 x 81-1/8-inch stile show face by the coupon-proven staged plane/rest/carrier method; no A-O board is resawn
+- [ ] LS-05 CHK-ST-02 proves STOCK-I/K each yield two continuous 4-3/8-inch lanes by ordinary width ripping: one 7/8 x 4-3/8 x 81-inch core and one 5/16 x 4-3/8 x 81-1/8-inch back face after staged planing and rest
+- [ ] LS-05 CHK-SM-01 signs CM-05 before J/L are cut and proves every short-member core billet without consuming a critical stile lane
+- [ ] LS-05 CHK-FP-01 signs FP-05 and assigns every C/M/D/E/F/G show/back face strip, all controlled D/F seam stations, coupons, and repair reserve from the released face pool
+- [ ] LS-05 CHK-P-01 releases the mapped panel sources only after every planned stave proves post-flattening thickness, aggregate clean width, clear squared length, grain, color, and defect placement
+- [ ] LS-05 CHK-LAM-01 destructively releases same-layup coupons at 5/16 + 7/8 + 5/16 preglue and 1/4 + 7/8 + 1/4 finished, with no void and at least 0.200 inch actual core wood beyond cutter envelopes
+- [ ] LS-05 CHK-SEAM-01 verifies every released D-101D and D-101F core/show/back seam against the LS-05 map, within +/-1/32 inch and clear of the mortise planforms
+- [ ] Separate moulding stock received: seven S4S 4/4 x 6 x 8-foot boards and two S4S 6/4 x 6 x 8-foot boards; no plinths unless field evidence releases them
 - [ ] Finish sample compared with adjacent house millwork

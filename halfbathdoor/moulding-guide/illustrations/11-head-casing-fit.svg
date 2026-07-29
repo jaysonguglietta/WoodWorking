@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">11</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Transfer and fit the head casing</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Tune one end, return to the opening, and mark the second end from the actual work.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">DRY FIT 03</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="420" y="290" width="430" height="505" fill="white" stroke="#20272D" stroke-width="4"/>
+<rect x="345" y="290" width="75" height="505" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="850" y="290" width="75" height="505" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="345" y="155" width="580" height="75" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<polyline points="635.0,245 635.0,278" fill="none" stroke="#2E6F73" stroke-width="9" stroke-linejoin="round"/>
+<polygon points="635.0,278 622.4555065056642,257.53941147057185 647.5444934943358,257.53941147057185" fill="#2E6F73"/>
+<polyline points="345,290 420,215" fill="none" stroke="#A33B32" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="850,215 925,290" fill="none" stroke="#A33B32" stroke-width="4" stroke-linejoin="round"/>
+<text x="705" y="125" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">CUT LONG - TRANSFER BOTH JOINTS</text>
+<circle cx="85" cy="250" r="24" fill="#C29359" stroke="#173A56" stroke-width="3"/>
+<text x="85" y="250" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">1</text>
+<text x="123" y="250" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" dominant-baseline="middle">Fit first end</text>
+<circle cx="85" cy="390" r="24" fill="#C29359" stroke="#173A56" stroke-width="3"/>
+<text x="85" y="390" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+<text x="123" y="390" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" dominant-baseline="middle">Return to opening</text>
+<circle cx="85" cy="530" r="24" fill="#C29359" stroke="#173A56" stroke-width="3"/>
+<text x="85" y="530" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">3</text>
+<text x="123" y="530" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" dominant-baseline="middle">Scribe second end</text>
+<circle cx="85" cy="670" r="24" fill="#C29359" stroke="#173A56" stroke-width="3"/>
+<text x="85" y="670" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">4</text>
+<text x="123" y="670" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" dominant-baseline="middle">Dry-fit head + legs</text>
+<rect x="1030" y="175" width="370" height="360" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="1060" y="210" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">TUNE, DO NOT FORCE</text>
+<polygon points="1100,435 1290,245 1340,295 1150,485" fill="#C29359" stroke="#20272D" stroke-width="3" stroke-linejoin="round"/>
+<rect x="1080" y="455" width="260" height="30" fill="#A46F36" stroke="#20272D" stroke-width="2"/>
+<polyline points="1300,400 1220,330" fill="none" stroke="#2E6F73" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="1220,330 1237.7440766424734,333.02452378169323 1225.3531664883783,347.185563957802" fill="#2E6F73"/>
+<text x="1070" y="515" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">Shooting board or fine hand plane</text>
+<rect x="1010" y="610" width="410" height="220" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="1028" y="639" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">Release</text>
+<text x="1034" y="677" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Head level &lt;= 1/16</text>
+<text x="1034" y="711" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Reveal within 1/32</text>
+<text x="1034" y="745" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Gap &lt; 0.010</text>
+<text x="1034" y="779" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Faces flush &lt;= 0.010</text>
+</svg>

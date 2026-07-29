@@ -1,6 +1,6 @@
 # Glue-up clamp map
 
-Project DC-1916-001 | Rev. A | Print at 100% / Actual Size
+Project DC-1916-001 | Rev. G | Print at 100% / Actual Size
 
 Rehearse sequence and open time.
 

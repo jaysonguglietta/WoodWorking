@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">7A</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Two whole-door dry fits bracket Stage A</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">The complete door is dry assembled once before lower-module glue and again after that module cures.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">TWO GATES</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<polyline points="150.00,320.00 1430.00,320.00" fill="none" stroke="#65717A" stroke-width="9" stroke-linejoin="round"/>
+<circle cx="150" cy="320" r="45" fill="#173A56" stroke="#FFFFFF" stroke-width="4"/>
+<text x="150" y="320" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">1</text>
+<rect x="20.0" y="405" width="260" height="190" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="150" y="440" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">WHOLE-DOOR</text>
+<text x="150" y="476" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">DRY FIT #1</text>
+<text x="150" y="528" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="middle">All 13 parts</text>
+<text x="150" y="562" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="middle">Stage A remains dry</text>
+<polyline points="202.00,320.00 418.00,320.00" fill="none" stroke="#173A56" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="418.00,320.00 402.65,329.41 402.65,310.59" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<circle cx="470" cy="320" r="45" fill="#2E6F73" stroke="#FFFFFF" stroke-width="4"/>
+<text x="470" y="320" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+<rect x="340.0" y="405" width="260" height="190" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="470" y="440" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">STAGE A</text>
+<text x="470" y="476" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">GLUE</text>
+<text x="470" y="528" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="middle">E/G/F joinery only</text>
+<text x="470" y="562" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="middle">K/L panels remain dry</text>
+<polyline points="522.00,320.00 738.00,320.00" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="738.00,320.00 722.65,329.41 722.65,310.59" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<circle cx="790" cy="320" r="45" fill="#173A56" stroke="#FFFFFF" stroke-width="4"/>
+<text x="790" y="320" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">3</text>
+<rect x="660.0" y="405" width="260" height="190" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="790" y="440" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">FULL CURE</text>
+<text x="790" y="476" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">+ MODULE QC</text>
+<text x="790" y="528" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="middle">Two 6-1/8 × 11 openings</text>
+<text x="790" y="562" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="middle">Both panels move</text>
+<polyline points="842.00,320.00 1058.00,320.00" fill="none" stroke="#173A56" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="1058.00,320.00 1042.65,329.41 1042.65,310.59" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<circle cx="1110" cy="320" r="45" fill="#2E6F73" stroke="#FFFFFF" stroke-width="4"/>
+<text x="1110" y="320" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">4</text>
+<rect x="980.0" y="405" width="260" height="190" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="1110" y="440" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">WHOLE-DOOR</text>
+<text x="1110" y="476" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">DRY FIT #2</text>
+<text x="1110" y="528" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="middle">Cured module + frame</text>
+<text x="1110" y="562" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="middle">Recheck every limit</text>
+<polyline points="1162.00,320.00 1378.00,320.00" fill="none" stroke="#2E6F73" stroke-width="6" stroke-linejoin="round"/>
+<polygon points="1378.00,320.00 1362.65,329.41 1362.65,310.59" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<circle cx="1430" cy="320" r="45" fill="#A33B32" stroke="#FFFFFF" stroke-width="4"/>
+<text x="1430" y="320" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">5</text>
+<rect x="1300.0" y="405" width="260" height="190" fill="#EEF4F7" stroke="#A33B32" stroke-width="3"/>
+<text x="1430" y="440" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">RELEASE</text>
+<text x="1430" y="476" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">STAGE B GLUE</text>
+<text x="1430" y="528" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="middle">Timed rehearsal passes</text>
+<text x="1430" y="562" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="middle">Geometry released</text>
+<rect x="100" y="660" width="660" height="270" fill="#FFFFFF" stroke="#173A56" stroke-width="3"/>
+<rect x="100" y="660" width="660" height="58" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<text x="122" y="690" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">EACH WHOLE-DOOR DRY FIT</text>
+<text x="140" y="750" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">□ Diagonals differ ≤0.0625</text>
+<text x="140" y="793" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">□ Twist ≤0.03125</text>
+<text x="140" y="836" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">□ Shoulder gaps ≤0.005</text>
+<text x="140" y="879" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">□ All five panels move by hand</text>
+<rect x="840" y="660" width="660" height="270" fill="#FFFFFF" stroke="#2E6F73" stroke-width="3"/>
+<rect x="840" y="660" width="660" height="58" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="862" y="690" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">TIMING RELEASE</text>
+<text x="880" y="750" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">REHEARSED STAGE B TIME</text>
+<text x="880" y="795" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">MINUTES</text>
+<polyline points="880.00,819.00 1130.00,819.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<text x="1170" y="852" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">FINAL REHEARSAL GATE</text>
+<text x="1170" y="885" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">≤ 0.75 × CURRENT PUBLISHED OPEN</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">6A</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Muntin mortise and groove clearance</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">  The corrected J-11/J-12 pattern preserves solid wood beside both panel grooves.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">CRITICAL JOINT</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<polygon points="536.47,944.00 457.88,989.38 457.88,593.38 536.47,548.00" fill="#765027" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="365.00,449.00 536.47,548.00 457.88,593.38 286.41,494.38" fill="#BE813F" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="365.00,845.00 536.47,944.00 536.47,548.00 365.00,449.00" fill="#A46F36" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<text x="451.30809174115717" y="696.17" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101G</text>
+<polygon points="332.85,466.90 361.43,483.40 347.14,491.65 318.56,475.15" fill="#EEF4F7" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="475.74,549.40 504.32,565.90 490.03,574.15 461.45,557.65" fill="#EEF4F7" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="368.23,487.13 410.99,511.81 397.49,519.61 354.73,494.92" fill="#35454F" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="425.39,520.13 468.15,544.81 454.65,552.61 411.89,527.92" fill="#35454F" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+<text x="75" y="205" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">1/2-DEEP PANEL GROOVE</text>
+<polyline points="83.00,220.00 337.14,478.29" fill="none" stroke="#173A56" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="337.14,478.29 324.52,475.15 334.21,465.62" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<text x="80" y="345" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">TWO 19 mm TIGHT MORTISES</text>
+<polyline points="88.00,360.00 411.44,521.19" fill="none" stroke="#2E6F73" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="411.44,521.19 398.49,522.33 404.55,510.16" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<text x="85" y="505" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">LEFT WEB  0.126 in</text>
+<polyline points="310.00,520.00 357.88,490.27" fill="none" stroke="#A33B32" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="357.88,490.27 352.05,501.89 344.88,490.34" fill="#A33B32" stroke="#A33B32" stroke-width="0" stroke-linejoin="round"/>
+<text x="85" y="635" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">RIGHT WEB  0.126 in</text>
+<polyline points="325.00,650.00 465.00,552.11" fill="none" stroke="#A33B32" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="465.00,552.11 459.81,564.03 452.02,552.89" fill="#A33B32" stroke="#A33B32" stroke-width="0" stroke-linejoin="round"/>
+<rect x="885" y="150" width="625" height="300" fill="#EEF4F7" stroke="#2E6F73" stroke-width="3"/>
+<text x="903" y="180" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">D-101G end-grain rule</text>
+<text x="909" y="218" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Mortise centers: 1.000 and 2.000</text>
+<text x="909" y="252" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Both mortises use the 19 mm tight setting</text>
+<text x="909" y="286" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• 6 mm cutter; 20 mm plunge into D-101G</text>
+<text x="909" y="320" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Nominal side webs: 0.126 / 0.126</text>
+<text x="909" y="354" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Worst groove-to-mortise: 0.106 ≥ 0.100</text>
+<text x="909" y="388" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Worst G inter-mortise: 0.232 ≥ 0.220</text>
+<polygon points="1156.21,783.75 1120.48,804.38 1120.48,726.38 1156.21,705.75" fill="#8C6A40" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="760.00,477.00 1156.21,705.75 1120.48,726.38 724.28,497.62" fill="#E1AB67" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="760.00,555.00 1156.21,783.75 1156.21,705.75 760.00,477.00" fill="#C29359" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="919.13,568.58 997.07,613.58 961.35,634.20 883.41,589.20" fill="#E8F1E8" stroke="#547A58" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="745.39,484.84 904.52,576.71 898.02,580.46 738.89,488.59" fill="#EEF4F7" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="982.46,621.71 1141.59,713.59 1135.10,717.34 975.97,625.46" fill="#EEF4F7" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="920.60,585.91 940.04,597.13 933.90,600.67 914.47,589.45" fill="#35454F" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+<text x="927.2511561058698" y="566.1875" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">T</text>
+<polygon points="943.51,599.13 969.09,613.90 962.95,617.44 937.38,602.68" fill="#35454F" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+<text x="953.2319182194029" y="581.1875" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">M</text>
+<text x="1070" y="500" fill="#547A58" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">SOLID 6-1/8–9-1/8 in FOOTPRINT</text>
+<polyline points="1078.00,515.00 933.42,605.62" fill="none" stroke="#547A58" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="933.42,605.62 939.20,593.98 946.42,605.50" fill="#547A58" stroke="#547A58" stroke-width="0" stroke-linejoin="round"/>
+<rect x="830" y="795" width="700" height="175" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="880" y="838" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">MATING RAIL CENTERS</text>
+<text x="880" y="884" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">7.125 tight  |  8.125 medium  |  groove: 0–6-1/8 and 9-1/8–15-1/4</text>
+<text x="880" y="922" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">RAIL-RECEIVER INTER-MORTISE WEB</text>
+<text x="880" y="950" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">nominal 0.134; worst 0.114 ≥ 0.100</text>
+<circle cx="760" cy="940" r="5" fill="#20272D" stroke="#20272D" stroke-width="0"/>
+<polyline points="760.00,940.00 835.00,982.00" fill="none" stroke="#173A56" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="835.00,982.00 823.01,982.47 829.14,971.53" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polyline points="760.00,940.00 690.00,980.00" fill="none" stroke="#2E6F73" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="690.00,980.00 695.77,969.48 701.99,980.37" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polyline points="760.00,940.00 760.00,858.00" fill="none" stroke="#A33B32" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="760.00,858.00 766.27,868.23 753.73,868.23" fill="#A33B32" stroke="#A33B32" stroke-width="0" stroke-linejoin="round"/>
+<text x="845" y="988" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">X</text>
+<text x="678" y="986" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">Y</text>
+<text x="760" y="844" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">Z</text>
+</svg>

@@ -5,27 +5,53 @@
     "classification": "Historically appropriate reproduction door using modern concealed joinery",
     "year": 2026,
     "edition": "First Edition",
-    "revision": "Rev. A",
+    "revision": "Rev. G",
     "copyright_holder": "Jayson Guglietta"
   },
   "units": {
     "primary": "inch",
     "domino": "millimetre"
   },
+  "opening": {
+    "status": "confirmed installed finished jamb; dimensions reported consistent at every measured location",
+    "clear_width": 24.0,
+    "clear_height": 81.0,
+    "hinge_side_reveal": 0.125,
+    "lock_side_reveal": 0.125,
+    "head_reveal": 0.125,
+    "bottom_gap": 0.375,
+    "installed_gap_tolerance_plus_minus": {
+      "side_reveals": 0.03125,
+      "head_reveal": 0.03125,
+      "bottom_gap": 0.0625
+    },
+    "derivation": "finished slab width = jamb width - hinge-side reveal - lock-side reveal; finished slab height = jamb height - head reveal - bottom gap"
+  },
   "slab": {
-    "finished_width": 24.0,
-    "finished_height": 79.0,
+    "finished_width": 23.75,
+    "finished_height": 80.5,
     "finished_thickness": 1.375,
-    "target_status": "design target; field-confirm completed jamb before final fitting",
-    "fitting_allowance_per_edge": 0.0625,
-    "finished_tolerance_width": 0.03125,
-    "finished_tolerance_height": 0.0625,
+    "target_status": "finished fitted slab target derived from the confirmed installed jamb",
+    "dimensional_states": {
+      "confirmed_jamb_opening": "24 x 81 inches, confirmed consistent throughout the installed finished jamb",
+      "cured_surfaced_prefit_assembly": "23-7/8 x 80-5/8 inches, carrying 1/16 inch removable stock on each perimeter edge",
+      "final_layout_rectangle": "scribe 23-3/4 x 80-1/2 inches inside the prefit assembly from the final-top and hinge-edge datums",
+      "finished_fitted_slab": "23-3/4 x 80-1/2 x 1-3/8 inches; maximum rectangular envelope before any handing-specific latch-edge bevel"
+    },
+    "manufacturing_trim_reserve_per_edge": 0.0625,
+    "finished_size_tolerance": {
+      "width_plus": 0.0,
+      "width_minus": 0.03125,
+      "height_plus": 0.0,
+      "height_minus": 0.0625,
+      "rule": "the fitted slab may not exceed 23-3/4 x 80-1/2; actual hung reveals and bottom gap govern acceptance"
+    },
     "diagonal_difference_max": 0.0625,
     "twist_max": 0.03125
   },
   "frame": {
-    "stile_width": 4.5,
-    "rail_shoulder_length": 15.0,
+    "stile_width": 4.25,
+    "rail_shoulder_length": 15.25,
     "muntin_width": 3.0,
     "rail_widths": {
       "D-101C": 4.0,
@@ -35,12 +61,86 @@
       "D-101F": 12.0
     },
     "vertical_openings": {
-      "P-01 upper": 13.5,
-      "P-02 center": 14.0,
+      "P-01 upper": 14.25,
+      "P-02 center": 14.75,
       "P-03 lower-center": 9.5,
       "P-04 bottom": 11.0
     },
-    "bottom_opening_each": 6.0
+    "bottom_opening_each": 6.125,
+    "construction": {
+      "type": "balanced three-layer, all-long-grain solid-oak lamination",
+      "core_preglue_thickness": 0.875,
+      "show_face_preglue_thickness": 0.3125,
+      "back_face_preglue_thickness": 0.3125,
+      "glue_blank_thickness": 1.5,
+      "symmetric_face_removal_each": 0.0625,
+      "show_face_finished_thickness": 0.25,
+      "back_face_finished_thickness": 0.25,
+      "finished_glue_lines_from_show_face": [
+        0.25,
+        1.125
+      ],
+      "face_glue_line_location_tolerance_plus_minus": 0.01,
+      "grain_rule": "core, face lamellae, and every edge-glued stave run continuously parallel with the member length; no cross-grain layer and no end joint",
+      "no_resaw_rule": "No resaw operation is permitted in Rev. G; every face lamella is prepared from one whole-thickness board or billet by staged planing.",
+      "thickness_slicing_prohibited": true,
+      "face_preparation_rule": "prepare every 5/16-inch face lamella by flattening, staged planing, resting, and carrier-supported finishing from one whole-thickness board or billet; do not divide a board through its thickness",
+      "stile_layer_allocation": {
+        "D-101A": "STOCK-K 7/8-inch core lane + STOCK-B continuous 5/16-inch show face + STOCK-K parallel continuous 5/16-inch back face",
+        "D-101B": "STOCK-I 7/8-inch core lane + STOCK-C continuous 5/16-inch show face + STOCK-I parallel continuous 5/16-inch back face"
+      },
+      "stile_lane_gate": "STOCK-I and STOCK-K must each yield at least 8-7/8 inches of clear jointed width for two 4-3/8-inch full-length lanes plus one 1/8-inch width-rip kerf; the core lane must yield 81 inches clear and the back-face lane 81-1/8 inches clear",
+      "one_piece_core_members": [
+        "D-101A",
+        "D-101B",
+        "D-101C",
+        "D-101M",
+        "D-101E",
+        "D-101G"
+      ],
+      "stave_built_members": {
+        "D-101D": {
+          "core_seams_from_finished_top": [
+            2.25
+          ],
+          "show_face_seams_from_finished_top": [
+            4.375
+          ],
+          "back_face_seams_from_finished_top": [
+            4.875
+          ]
+        },
+        "D-101F": {
+          "core_seams_from_finished_top": [
+            5.75
+          ],
+          "show_face_seams_from_finished_top": [
+            3.0,
+            6.5,
+            9.5
+          ],
+          "back_face_seams_from_finished_top": [
+            2.5,
+            5.0,
+            9.0
+          ]
+        }
+      },
+      "seam_position_tolerance_plus_minus": 0.03125,
+      "core_to_face_seam_offset_min": 0.5,
+      "face_seam_to_end_mortise_planform_min": 0.25,
+      "df_cutter_to_face_glue_line_core_clearance_min": 0.2,
+      "lock_body_to_face_glue_line_clearance_min": 0.0625,
+      "seam_to_mortise_validation": {
+        "basis": "nearest face seam to a medium DF 500 mortise planform; 29 mm total slot width gives a 0.5709-inch half-width",
+        "D-101D_min_clearance": 0.3041,
+        "D-101F_min_clearance": 0.4291,
+        "required_minimum": 0.25,
+        "status": "PASS at specified seam stations and retained Domino centers"
+      },
+      "lamination_rule": "prepare core and face sheets separately; plane every face lamella from a whole-thickness board or billet; laminate both faces simultaneously against a flat platen with rigid cauls; cure, rest, then remove 1/16 inch from each outside face in alternating staged passes before grooves, Domino mortises, hinges, or lock machining",
+      "coupon_rule": "make a full-thickness same-layup coupon for every pressing family; section after representative groove and DF operations and reject voids, adhesive-line separation, under-thickness faces, or insufficient core clearance"
+    }
   },
   "components": [
     {
@@ -48,16 +148,16 @@
       "name": "Hinge stile",
       "qty": 1,
       "t": 1.375,
-      "w": 4.5,
-      "l": 79.0
+      "w": 4.25,
+      "l": 80.5
     },
     {
       "id": "D-101B",
       "name": "Lock stile",
       "qty": 1,
       "t": 1.375,
-      "w": 4.5,
-      "l": 79.0
+      "w": 4.25,
+      "l": 80.5
     },
     {
       "id": "D-101C",
@@ -65,7 +165,7 @@
       "qty": 1,
       "t": 1.375,
       "w": 4.0,
-      "l": 15.0
+      "l": 15.25
     },
     {
       "id": "D-101M",
@@ -73,7 +173,7 @@
       "qty": 1,
       "t": 1.375,
       "w": 4.0,
-      "l": 15.0
+      "l": 15.25
     },
     {
       "id": "D-101D",
@@ -81,7 +181,7 @@
       "qty": 1,
       "t": 1.375,
       "w": 7.0,
-      "l": 15.0
+      "l": 15.25
     },
     {
       "id": "D-101E",
@@ -89,7 +189,7 @@
       "qty": 1,
       "t": 1.375,
       "w": 4.0,
-      "l": 15.0
+      "l": 15.25
     },
     {
       "id": "D-101F",
@@ -97,7 +197,7 @@
       "qty": 1,
       "t": 1.375,
       "w": 12.0,
-      "l": 15.0
+      "l": 15.25
     },
     {
       "id": "D-101G",
@@ -112,24 +212,24 @@
       "name": "Upper panel",
       "qty": 1,
       "t": 0.5,
-      "w": 15.75,
-      "l": 14.4375
+      "w": 15.875,
+      "l": 15.0625
     },
     {
       "id": "D-101J",
       "name": "Center panel",
       "qty": 1,
       "t": 0.5,
-      "w": 15.75,
-      "l": 14.9375
+      "w": 15.875,
+      "l": 15.5625
     },
     {
       "id": "D-101N",
       "name": "Lower-center panel",
       "qty": 1,
       "t": 0.5,
-      "w": 15.75,
-      "l": 10.4375
+      "w": 15.875,
+      "l": 10.3125
     },
     {
       "id": "D-101K",
@@ -137,7 +237,7 @@
       "qty": 1,
       "t": 0.5,
       "w": 6.875,
-      "l": 11.9375
+      "l": 11.8125
     },
     {
       "id": "D-101L",
@@ -145,7 +245,7 @@
       "qty": 1,
       "t": 0.5,
       "w": 6.875,
-      "l": 11.9375
+      "l": 11.8125
     }
   ],
   "panels": {
@@ -153,27 +253,149 @@
     "grain": "vertical",
     "field_thickness": 0.5,
     "tongue_thickness": 0.21875,
-    "tongue_depth": 0.5,
+    "tongue_thickness_tolerance_plus_minus": 0.005,
+    "tongue_depth": 0.4375,
+    "tongue_depth_tolerance_plus_minus": 0.005,
+    "tongue_bottom_clearance_nominal": 0.0625,
     "full_width_clearance_across_grain_total": 0.25,
     "small_width_clearance_across_grain_total": 0.125,
     "clearance_parallel_to_grain_total": 0.0625,
-    "anti_rattle": "two small silicone space balls per long edge, compressed without restraining movement"
+    "panel_spacers": {
+      "mandatory_longitudinal_length": 0.75,
+      "dimension_note": "0.750 inch (3/4 inch) is the mandatory longitudinal length along the groove, not the groove width, spacer compression thickness, or panel movement clearance",
+      "target_groove_width": 0.25,
+      "target_groove_depth": 0.5,
+      "material_requirements": "oil- and silicone-free open-cell foam with documented groove range, firmness or force-deflection, recovery, and finish compatibility",
+      "reference_candidate": {
+        "product": "Panel Buddies PB265-750XF-1M",
+        "status": "reference candidate only; not approved until both panel-family sample gates pass",
+        "nominal_cross_section_width": 0.265,
+        "nominal_cross_section_depth": 0.265,
+        "longitudinal_length": 0.75,
+        "manufacturer_groove_range": [
+          0.22,
+          0.25
+        ],
+        "manufacturer_compression_guidance": 0.5,
+        "groove_release_condition": "measure the actual spacer-zone groove; use this candidate only from 0.220 through 0.250 inch unless the manufacturer gives written approval for the measured groove, otherwise qualify another 3/4-inch-long foam spacer"
+      },
+      "compression_analysis": {
+        "basis": "candidate compression compares the 0.265-inch foam dimension with the centered tongue-end gap: nominal tongue-bottom clearance plus one-half of total panel side clearance",
+        "full_width_family": {
+          "panels": [
+            "D-101H",
+            "D-101J",
+            "D-101N"
+          ],
+          "centered_tongue_end_gap_nominal": 0.1875,
+          "candidate_compression_nominal": 0.292453,
+          "candidate_compression_tolerance_range": [
+            0.235849,
+            0.311321
+          ],
+          "release_gate": "dedicated full-size H/J/N-family sample must prevent rattle while preserving residual travel and zero spacer-induced joint stress"
+        },
+        "lower_family": {
+          "panels": [
+            "D-101K",
+            "D-101L"
+          ],
+          "centered_tongue_end_gap_nominal": 0.125,
+          "candidate_compression_nominal": 0.528302,
+          "candidate_compression_tolerance_range": [
+            0.471698,
+            0.54717
+          ],
+          "release_gate": "dedicated full-size K/L-family sample must prevent rattle while preserving residual travel and zero spacer-induced joint stress"
+        }
+      },
+      "placement": "two spacers in each vertical side groove near the upper and lower thirds; no spacers in horizontal grooves or structural glue zones",
+      "installed_quantity": 20,
+      "test_spare_quantity": 10,
+      "acceptance": "approve the selected 3/4-inch-long foam separately for the full-width H/J/N family and lower K/L family; both full-size gates must prove residual horizontal panel travel, no joint stress, recovery without crushing, no finish or glue-surface contamination, and no change to calculated panel clearance; PB265 additionally requires an actual 0.220-0.250-inch spacer-zone groove or written manufacturer approval"
+    },
+    "anti_rattle": "use 3/4-inch-long oil- and silicone-free open-cell foam panel spacers; Panel Buddies PB265-750XF-1M is a reference candidate, not a preapproved product; install two in each vertical side groove only and preserve calculated panel clearances; release the selected product separately on full-size H/J/N and K/L samples"
   },
   "groove": {
     "width": 0.25,
     "depth": 0.5,
     "centerline_from_show_face": 0.6875,
     "stile_type": "stopped at every rail joint; opening-only segments",
-    "rail_type": "through along panel-facing edges; plug exposed end only if necessary"
+    "rail_type": "through along panel-facing edges except the D-101E bottom and D-101F top edges",
+    "segmented_rail_edges": {
+      "D-101E bottom": [
+        [
+          0.0,
+          6.125
+        ],
+        [
+          9.125,
+          15.25
+        ]
+      ],
+      "D-101F top": [
+        [
+          0.0,
+          6.125
+        ],
+        [
+          9.125,
+          15.25
+        ]
+      ]
+    },
+    "muntin_footprint_from_hinge_side_rail_shoulder": [
+      6.125,
+      9.125
+    ],
+    "machining_split": {
+      "dado_stack": "conventionally fed through grooves on supported rail edges only",
+      "plunge_router": "opening-only stile grooves, segmented D-101E/D-101F grooves, and both D-101G side grooves; use an edge guide or captured jig with positive start and stop blocks"
+    },
+    "panel_tongue_corner_relief": "after forming the 7/16-inch-deep tongues, remove the complete 7/16 x 7/16-inch tongue corner square at all four corners without cutting into the 1/2-inch panel field"
   },
   "milling": {
     "frame_rough_thickness": 1.5,
     "frame_rough_width_allowance": 0.25,
-    "frame_rough_length_allowance": 2.0,
-    "rail_rough_length": 16.0,
+    "stile_glue_blank_width_allowance": 0.125,
+    "stile_core_length": 81.0,
+    "stile_face_length": 81.125,
+    "prefit_assembly_width": 23.875,
+    "prefit_assembly_height": 80.625,
+    "stile_rough_length_allowance_total": 0.5,
+    "rail_rough_length_allowance_total": 1.0,
+    "muntin_rough_length_allowance_total": 1.0,
+    "rail_rough_length": 16.25,
     "panel_rough_thickness": 0.625,
     "panel_rough_width_allowance": 0.5,
     "panel_rough_length_allowance": 0.5,
+    "panel_rough_dimensions": {
+      "D-101H": {
+        "t": 0.625,
+        "w": 16.375,
+        "l": 15.5625
+      },
+      "D-101J": {
+        "t": 0.625,
+        "w": 16.375,
+        "l": 16.0625
+      },
+      "D-101N": {
+        "t": 0.625,
+        "w": 16.375,
+        "l": 10.8125
+      },
+      "D-101K": {
+        "t": 0.625,
+        "w": 7.375,
+        "l": 12.3125
+      },
+      "D-101L": {
+        "t": 0.625,
+        "w": 7.375,
+        "l": 12.3125
+      }
+    },
     "moisture_content_percent": {
       "min": 6,
       "max": 9
@@ -204,7 +426,115 @@
     },
     "frame_tenon": "10 x 50 mm factory beech",
     "muntin_tenon": "6 x 40 mm factory beech",
+    "frame_mortise_width_strategy": "first tight; remaining mortises medium on both members",
+    "muntin_mortise_width_strategy": {
+      "D-101G": [
+        "tight",
+        "tight"
+      ],
+      "D-101E and D-101F": [
+        "tight",
+        "medium"
+      ]
+    },
+    "muntin_centers_in": {
+      "D-101G from left reference edge": [
+        1.0,
+        2.0
+      ],
+      "D-101E and D-101F from hinge-side shoulder": [
+        7.125,
+        8.125
+      ]
+    },
+    "frame_centers_from_rail_top_in": {
+      "D-101C": [
+        1.25,
+        2.75
+      ],
+      "D-101M": [
+        1.25,
+        2.75
+      ],
+      "D-101D": [
+        1.25,
+        3.5,
+        5.75
+      ],
+      "D-101E": [
+        1.25,
+        2.75
+      ],
+      "D-101F": [
+        1.25,
+        4.0,
+        7.5,
+        10.75
+      ]
+    },
+    "stile_centers_from_slab_top_in": {
+      "D-101C": [
+        1.25,
+        2.75
+      ],
+      "D-101M": [
+        19.5,
+        21.0
+      ],
+      "D-101D": [
+        38.25,
+        40.5,
+        42.75
+      ],
+      "D-101E": [
+        54.75,
+        56.25
+      ],
+      "D-101F": [
+        69.75,
+        72.5,
+        76.0,
+        79.25
+      ]
+    },
+    "mortise_centerline_tolerance_plus_minus": 0.01,
     "glue": "fresh Type II PVA; complete mortise walls and tenon faces without hydraulic overfill"
+  },
+  "adhesive": {
+    "type": "fresh Type II PVA",
+    "timing_basis": "manufacturer's current published open time at the measured shop temperature",
+    "eligible_timing_label": "open time only",
+    "rehearsal_final_gate_fraction_max": 0.75,
+    "live_final_geometry_fraction_max": 0.75,
+    "timer_start": "first adhesive contact",
+    "timer_end": "final geometry and panel-movement acceptance",
+    "clamp_complete_status": "checkpoint only; timer continues",
+    "contingency_fraction_min": 0.25
+  },
+  "fabrication_tolerances": {
+    "frame_thickness": {
+      "target": 1.375,
+      "plus_minus": 0.01
+    },
+    "paired_member_thickness_difference_max": 0.005,
+    "reference_edge_square_max_per_inch": 0.003,
+    "groove_width": {
+      "target": 0.25,
+      "plus": 0.005,
+      "minus": 0.0
+    },
+    "groove_depth": {
+      "target": 0.5,
+      "plus": 0.01,
+      "minus": 0.0
+    },
+    "opposed_groove_centerline_mismatch_max": 0.01,
+    "joint_shoulder_gap_max": 0.005,
+    "joint_face_flush_max": 0.01,
+    "frame_medium_mortise_web_to_panel_groove_min": 0.15,
+    "muntin_tight_mortise_web_to_side_groove_min": 0.1,
+    "muntin_tight_inter_mortise_web_min": 0.22,
+    "muntin_rail_inter_mortise_web_min": 0.1
   },
   "hardware": {
     "hinges": {
@@ -212,8 +542,10 @@
       "nominal_size": "3-1/2 inch brass butt hinge",
       "locations": "field verify leaf thickness, screw sizes, and existing-jamb gains"
     },
-    "lock": "traditional brass mortise lock; obtain and measure before machining",
+    "lock": "traditional brass mortise lock; obtain and measure before any J-06 production mortise or lock machining",
     "nominal_lock_center_above_slab_bottom": 40.0,
+    "lock_to_joinery_clear_wood_min": 0.25,
+    "lock_envelope_gate": "Map the physical lock body, faceplate, spindle, key/privacy bore, machining allowance, and screw paths. Preserve the required 1/4-inch clear-wood buffer between that machining envelope and J-06 or any other structural joinery; evaluate intentional face and edge openings separately for hardware and escutcheon compatibility. Re-engineer J-06 if the structural envelopes conflict.",
     "required_measurements": [
       "manufacturer",
       "model",
@@ -232,6 +564,7 @@
   },
   "trim": {
     "material": "quarter-sawn white oak",
+    "trimmed_face_count": 2,
     "side_casing_finished": {
       "t": 0.75,
       "w": 4.5,
@@ -248,6 +581,11 @@
       "projection": 0.25,
       "l": "field verify"
     },
+    "head_backband": {
+      "part_id": "M-202C",
+      "status": "mandatory on every trimmed face",
+      "cap_relationship": "complete and fit M-202C before fitting optional M-204; M-204 sits atop the completed head backband"
+    },
     "stop_finished": {
       "t": 0.375,
       "w": 1.25,
@@ -257,9 +595,87 @@
     "optional_head_cap": {
       "t": 0.875,
       "depth": 1.5,
-      "side_overhang": 0.75
+      "side_overhang": 0.75,
+      "support": "completed M-202C head backband",
+      "finished_length": "actual fitted head-backband outside width + 2P",
+      "rough_length": "actual fitted head-backband outside width + 2P + 2 inches total allowance"
     },
-    "plinth": "use only when adjacent original trim supports it; field verify all dimensions"
+    "plinth": {
+      "use": "only when adjacent original trim supports it",
+      "nominal_thickness": 0.875,
+      "status": "provisional shop default only; field evidence controls thickness, width, height, and profile"
+    },
+    "base_schedule_scope": "two trimmed faces plus one three-piece door-stop set",
+    "two_face_rule": "four side casings, two head casings, four side backbands, two head backbands, and one three-piece stop set; double cap and plinth only where used",
+    "procurement": {
+      "basis": "one-trip order for two faces, no plinths; covers square-butt or mitered heads",
+      "casing_and_stop": {
+        "quantity_boards": 7,
+        "description": "S4S quarter-sawn white oak, 4/4 x nominal 6 inches x 8 feet",
+        "actual_minimum": "3/4 inch thick at thinnest point after final preparation, 5-1/2 inches wide, 96 inches long; 13/16-inch thickness preferred",
+        "allocation": "four side-casing boards, one board for both head casings, one full-length casing spare/match board, and one stop mother blank"
+      },
+      "backband_and_optional_caps": {
+        "quantity_boards": 2,
+        "description": "S4S quarter-sawn white oak, 6/4 x nominal 6 inches x 8 feet",
+        "actual_minimum": "1-1/4 inches thick, 5-1/2 inches wide, 96 inches long",
+        "allocation": "one board per face yields two side backbands and one head backband; also yields one optional cap per face when the square-head treatment is evidence-supported"
+      },
+      "dealer_volume_board_feet": 40.0,
+      "minimum_geometric_order_board_feet": 36.0,
+      "plinths": "excluded; measure and order separately only when adjacent original work supports them"
+    },
+    "head_joint_schemes": [
+      "mitered surround",
+      "square-butt head"
+    ],
+    "head_joint_selection": "match adjacent original openings; do not mix schemes on one face",
+    "dado_blade_required": false,
+    "default_machining": "standard ripping and crosscutting blades; plunge router or hand tools only for localized back relief",
+    "rough_length_allowance_total": 2.0,
+    "stock_order_waste_percent_min": 20,
+    "length_formulas": {
+      "mitered_head_inside_short": "W + 2R",
+      "mitered_head_outside_long": "W + 2R + 2C",
+      "mitered_left_leg_outside_long": "H-L + R + C",
+      "mitered_right_leg_outside_long": "H-R + R + C",
+      "square_left_leg": "H-L + R",
+      "square_right_leg": "H-R + R",
+      "square_head": "W + 2R + 2C",
+      "head_backband_outside_target": "actual fitted head-casing outside width + 2B",
+      "mitered_side_backband_outer_long": "actual fitted mitered side-casing outside long point + B",
+      "square_side_backband": "actual fitted square side-casing length + C",
+      "optional_head_cap": "actual fitted head-backband outside width + 2P"
+    },
+    "fastener_embedment_minimums": {
+      "inner_casing_into_sound_jamb": 0.75,
+      "door_stop_into_sound_jamb": 0.75,
+      "outer_casing_into_verified_framing": 1.0,
+      "backband_into_casing": 0.5
+    },
+    "fastener_length_release": "Calculate each fastener length from the actual installed layer stack, prove the selected standard length on a matching offcut assembly, and hold installation if no standard length meets embedment without exit, split, or utility risk.",
+    "permanent_installation_sequence": [
+      "after full finish cure, install evidence-supported plinths first as the casing bottom datum without glue to floor or wall",
+      "install casing",
+      "install backband and glue approved self-returns",
+      "install optional cap atop the completed head backband",
+      "install door stop last after tack, cycle, label-reference, and functional checks"
+    ],
+    "post_cure_glue_boundaries": {
+      "plinth": "masked approved plinth-to-trim joints only; no glue to floor or wall",
+      "casing": "masked casing-to-casing joints only",
+      "backband": "masked backband-to-casing lands, corner joints, and self-returns only",
+      "cap": "masked approved cap-to-head-backband joint only"
+    },
+    "installation_qc": {
+      "reveal_variation_max": 0.03125,
+      "joint_gap_max": 0.01,
+      "adjacent_face_flush_max": 0.01,
+      "head_level_max_overall": 0.0625,
+      "leg_plumb_max_overall": 0.0625,
+      "backband_projection_variation_max": 0.03125,
+      "wall_scribe_gap_max": 0.03125
+    }
   },
   "finish": {
     "product": "Rubio Monocoat Oil Plus 2C",
@@ -269,9 +685,10 @@
     "cure": "follow the current product technical data sheet; ventilation and oily-cloth controls required"
   },
   "field_verify": [
-    "completed jamb width and height at three locations",
-    "jamb plumb, square, twist, and projection",
-    "finished-floor elevation and required undercut",
+    "record and recheck the owner-confirmed 24 x 81-inch completed jamb at top/middle/bottom and left/center/right before fitting",
+    "both jamb legs plumb in the opening plane and wall-normal plane, head level, both opening diagonals/square, and jamb-face twist checked with winding sticks",
+    "finished-floor elevation and full swing path preserve the 3/8-inch bottom gap",
+    "hung slab proves 1/8-inch hinge-side, lock-side, and head reveals plus the 3/8-inch bottom gap within the specified installed-gap tolerances",
     "door handing, swing, stop, strike, and any reusable hinge gains",
     "wall thickness and flatness",
     "adjacent casing, backband, baseboard, head treatment, and plinth evidence",

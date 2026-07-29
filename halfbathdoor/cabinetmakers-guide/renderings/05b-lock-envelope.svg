@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">5B</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">J-06 joinery and physical lock-envelope gate</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">The measured lock machining envelope must remain 0.250 inch clear of J-06 structural joinery.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">FIELD VERIFY</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<rect x="560" y="165" width="391.0" height="740.5999999999999" fill="#A46F36" stroke="#20272D" stroke-width="4"/>
+<text x="755.5" y="135" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101B EDGE ELEVATION / HARDWARE OVERLAY</text>
+<text x="595" y="930" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">INNER / RAIL EDGE</text>
+<text x="916.0" y="930" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="end" dominant-baseline="middle">OUTER / LOCK EDGE</text>
+<rect x="560" y="512.7346456692914" width="145" height="8.330708661417322" fill="#35454F" stroke="#FFFFFF" stroke-width="1"/>
+<polyline points="490.00,516.90 1021.00,516.90" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round" stroke-dasharray="10 8"/>
+<text x="542" y="516.9" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="middle">38.250</text>
+<text x="632.5" y="516.9" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">J06-1</text>
+<rect x="560" y="532.348031496063" width="145" height="10.503937007874015" fill="#35454F" stroke="#FFFFFF" stroke-width="1"/>
+<polyline points="490.00,537.60 1021.00,537.60" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round" stroke-dasharray="10 8"/>
+<text x="542" y="537.5999999999999" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="middle">40.500</text>
+<text x="632.5" y="537.5999999999999" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">J06-2</text>
+<rect x="560" y="553.048031496063" width="145" height="10.503937007874015" fill="#35454F" stroke="#FFFFFF" stroke-width="1"/>
+<polyline points="490.00,558.30 1021.00,558.30" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round" stroke-dasharray="10 8"/>
+<text x="542" y="558.3" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="middle">42.750</text>
+<text x="632.5" y="558.3" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">J06-3</text>
+<polyline points="490.00,537.60 1021.00,537.60" fill="none" stroke="#A33B32" stroke-width="3" stroke-linejoin="round" stroke-dasharray="14 8"/>
+<rect x="816.0" y="412.5999999999999" width="135" height="250" fill="#F8E7E2" stroke="#A33B32" stroke-width="4"/>
+<text x="883.0" y="461.5999999999999" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">FIELD</text>
+<text x="883.0" y="492.5999999999999" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">MEASURED</text>
+<text x="883.0" y="523.5999999999999" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">BODY + CUT</text>
+<text x="883.0" y="559.5999999999999" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">ENVELOPE</text>
+<polyline points="705.00,455.60 816.00,455.60" fill="none" stroke="#547A58" stroke-width="6" stroke-linejoin="round"/>
+<polyline points="705.00,445.60 705.00,465.60" fill="none" stroke="#547A58" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="816.00,445.60 816.00,465.60" fill="none" stroke="#547A58" stroke-width="4" stroke-linejoin="round"/>
+<text x="760.5" y="431.5999999999999" fill="#547A58" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">REQUIRED ≥ 0.250</text>
+<text x="755.5" y="710" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">NOMINAL CL: 40.5 FROM TOP / 40 ABOVE BOTTOM</text>
+<text x="755.5" y="746" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">PHYSICAL HARDWARE CONTROLS</text>
+<rect x="45" y="165" width="430" height="700" fill="#FFFFFF" stroke="#2E6F73" stroke-width="3"/>
+<rect x="45" y="165" width="430" height="58" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="67" y="195" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">HARDWARE MEASUREMENTS</text>
+<text x="80" y="265" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">MANUFACTURER / MODEL</text>
+<polyline points="80.00,289.00 430.00,289.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<text x="80" y="343" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">BACKSET</text>
+<polyline points="80.00,367.00 430.00,367.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<text x="80" y="421" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">BODY HEIGHT</text>
+<polyline points="80.00,445.00 430.00,445.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<text x="80" y="499" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">BODY DEPTH</text>
+<polyline points="80.00,523.00 430.00,523.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<text x="80" y="577" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">BODY THICKNESS</text>
+<polyline points="80.00,601.00 430.00,601.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<text x="80" y="655" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">FACEPLATE H × W</text>
+<polyline points="80.00,679.00 430.00,679.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<text x="80" y="733" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">SPINDLE / KEY LOC.</text>
+<polyline points="80.00,757.00 430.00,757.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<text x="260" y="835" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">LEAVE BLANK UNTIL MEASURED</text>
+<rect x="1085" y="165" width="470" height="700" fill="#FFFFFF" stroke="#173A56" stroke-width="3"/>
+<rect x="1085" y="165" width="470" height="58" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<text x="1107" y="195" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">RELEASE LOGIC</text>
+<text x="1120" y="255" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">1  Map actual lock + allowance.</text>
+<text x="1120" y="325" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">2  Overlay J-06 mortise volume.</text>
+<text x="1120" y="395" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">3  Check ≥1/16 to face glue lines.</text>
+<text x="1120" y="465" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">4  Add 0.250 buffer toward J-06.</text>
+<text x="1120" y="535" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="start" dominant-baseline="middle">5  PASS: envelopes remain separate.</text>
+<text x="1120" y="605" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="start" dominant-baseline="middle">6  FAIL: re-engineer J-06.</text>
+<text x="1120" y="675" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="start" dominant-baseline="middle">7  Never shift the lock by assumption.</text>
+<rect x="1120" y="765" width="400" height="70" fill="#FAEFEC" stroke="#A33B32" stroke-width="3"/>
+<text x="1320" y="800" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">NO HARDWARE = J-06 HOLD</text>
+</svg>

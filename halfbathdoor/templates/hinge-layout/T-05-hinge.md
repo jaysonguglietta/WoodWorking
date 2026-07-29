@@ -1,6 +1,6 @@
 # Hinge layout
 
-Project DC-1916-001 | Rev. A | Print at 100% / Actual Size
+Project DC-1916-001 | Rev. G | Print at 100% / Actual Size
 
 Transfer actual leaf; no universal gain dimensions are implied.
 

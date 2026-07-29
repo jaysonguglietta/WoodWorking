@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">3</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Finished profile register</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Mill one labeled sample of every selected profile before production stock.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">PROFILES</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="75" y="170" width="575" height="260" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="105" y="205" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="start" dominant-baseline="middle">M-201 CASING</text>
+<rect x="160" y="290" width="360" height="60" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<polyline points="160,350 160,393" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="520,350 520,393" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="160,385 520,385" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="160,385 173,378 173,392" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="520,385 507,378 507,392" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="295.0" y="354" width="90" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="340.0" y="367" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">4-1/2 in</text>
+<polyline points="520,290 557,290" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="520,350 557,350" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="565,290 565,350" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="565,290 558,303 572,303" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="565,350 558,337 572,337" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="575" y="306.0" width="172" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="583" y="320.0" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">3/4 in</text>
+<text x="105" y="405" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Visible arrises: ease about 1/32 in</text>
+<rect x="700" y="170" width="725" height="260" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="730" y="205" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="start" dominant-baseline="middle">M-202 BACKBAND / CASING</text>
+<rect x="800" y="300" width="330" height="50" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="1130" y="283" width="105" height="67" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<polyline points="1130,350 1130,398" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1235,350 1235,398" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1130,390 1235,390" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1130,390 1143,383 1143,397" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="1235,390 1222,383 1222,397" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="1137.5" y="359" width="90" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="1182.5" y="372" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">1-1/8 in</text>
+<polyline points="1235,283 1262,283" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1235,350 1262,350" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1270,283 1270,350" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1270,283 1263,296 1277,296" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="1270,350 1263,337 1277,337" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="1280" y="302.5" width="172" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="1288" y="316.5" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">1 in</text>
+<text x="850" y="262" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">CASING 3/4</text>
+<text x="1182" y="255" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">1/4 PROUD</text>
+<rect x="75" y="480" width="390" height="390" fill="#F4F0E8" stroke="#A46F36" stroke-width="3"/>
+<text x="105" y="515" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="start" dominant-baseline="middle">M-203 STOP</text>
+<rect x="155" y="660" width="220" height="64" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<polyline points="155,724 155,773" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="375,724 375,773" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="155,765 375,765" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="155,765 168,758 168,772" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="375,765 362,758 362,772" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="220.0" y="734" width="90" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="265.0" y="747" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">1-1/4 in</text>
+<polyline points="375,660 397,660" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="375,724 397,724" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="405,660 405,724" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="405,660 398,673 412,673" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="405,724 398,711 412,711" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="415" y="678.0" width="172" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="423" y="692.0" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">3/8 in</text>
+<text x="115" y="820" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">Door-side arris: ease about 1/16 in</text>
+<rect x="505" y="480" width="440" height="390" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="535" y="515" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="start" dominant-baseline="middle">M-204 OPTIONAL CAP</text>
+<rect x="610" y="635" width="240" height="88" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<polygon points="610,635 634,635 610,659" fill="#EEF4F7" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="850,635 826,635 850,659" fill="#EEF4F7" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="610,723 610,773" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="850,723 850,773" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="610,765 850,765" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="610,765 623,758 623,772" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="850,765 837,758 837,772" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="659.5" y="734" width="141" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="730.0" y="747" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">1-1/2 in deep</text>
+<polyline points="850,635 867,635" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="850,723 867,723" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="875,635 875,723" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="875,635 868,648 882,648" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="875,723 868,710 882,710" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="885" y="665.0" width="172" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="893" y="679.0" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">7/8 in</text>
+<text x="555" y="820" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">1/8-in chamfer only after sample approval</text>
+<rect x="985" y="480" width="440" height="390" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="1015" y="515" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="start" dominant-baseline="middle">M-205 OPTIONAL PLINTH</text>
+<rect x="1095" y="610" width="220" height="165" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<polyline points="1315,610 1332,610" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1315,775 1332,775" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1340,610 1340,775" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1340,610 1333,623 1347,623" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="1340,775 1333,762 1347,762" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="1350" y="678.5" width="172" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="1358" y="692.5" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">HEIGHT: FIELD</text>
+<polyline points="1095,775 1095,823" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1315,775 1315,823" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1095,815 1315,815" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1095,815 1108,808 1108,822" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="1315,815 1302,808 1302,822" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="1128.0" y="784" width="154" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="1205.0" y="797" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">WIDTH: FIELD</text>
+<text x="1080" y="850" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">7/8 thick; adjacent evidence controls</text>
+</svg>

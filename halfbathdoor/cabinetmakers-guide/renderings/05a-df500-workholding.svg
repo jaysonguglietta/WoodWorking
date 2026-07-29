@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">5A</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">DF 500 workholding and reference orientation</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">Clamp and fully support the test piece exactly as the matching production member will be machined.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">WORKHOLDING</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<rect x="45" y="145" width="730" height="780" fill="#FFFFFF" stroke="#173A56" stroke-width="3"/>
+<rect x="45" y="145" width="730" height="58" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<text x="67" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">A  RAIL-END SETUP</text>
+<rect x="825" y="145" width="730" height="780" fill="#FFFFFF" stroke="#2E6F73" stroke-width="3"/>
+<rect x="825" y="145" width="730" height="58" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="847" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">B  STILE-EDGE SETUP</text>
+<rect x="110" y="690" width="600" height="75" fill="#D8DEE1" stroke="#20272D" stroke-width="4"/>
+<rect x="160" y="500" width="350" height="130" fill="#C29359" stroke="#20272D" stroke-width="4"/>
+<rect x="115" y="480" width="45" height="170" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="138" y="450" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">STOP</text>
+<rect x="560" y="430" width="160" height="150" fill="#42525C" stroke="#20272D" stroke-width="4"/>
+<polygon points="560.00,470.00 510.00,515.00 560.00,560.00" fill="#42525C" stroke="#20272D" stroke-width="3" stroke-linejoin="round"/>
+<text x="640" y="505" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">DF 500</text>
+<polyline points="550.00,515.00 512.00,515.00" fill="none" stroke="#2E6F73" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="512.00,515.00 529.05,504.55 529.05,525.45" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="225" y="465" width="42" height="165" fill="#A33B32" stroke="#A33B32" stroke-width="0"/>
+<text x="246" y="435" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">CLAMP</text>
+<rect x="410" y="465" width="42" height="165" fill="#A33B32" stroke="#A33B32" stroke-width="0"/>
+<text x="431" y="435" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">CLAMP</text>
+<polyline points="160.00,480.00 560.00,480.00" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<text x="360" y="390" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">SHOW FACE UP • FENCE ON SF</text>
+<polygon points="440.00,310.00 464.00,276.00 488.00,310.00" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polyline points="445.00,348.00 555.00,348.00" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="555.00,348.00 542.21,355.84 542.21,340.16" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<text x="572" y="348" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">REF EDGE</text>
+<text x="410" y="815" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">END SQUARE • FULL-LENGTH SUPPORT</text>
+<text x="410" y="860" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">PLUNGE NORMAL TO RAIL END</text>
+<rect x="890" y="690" width="600" height="75" fill="#D8DEE1" stroke="#20272D" stroke-width="4"/>
+<rect x="930" y="540" width="520" height="90" fill="#A46F36" stroke="#20272D" stroke-width="4"/>
+<rect x="1090" y="350" width="185" height="150" fill="#42525C" stroke="#20272D" stroke-width="4"/>
+<polygon points="1125.00,500.00 1182.00,540.00 1238.00,500.00" fill="#42525C" stroke="#20272D" stroke-width="3" stroke-linejoin="round"/>
+<text x="1182" y="420" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">DF 500</text>
+<polyline points="1182.00,500.00 1182.00,535.00" fill="none" stroke="#2E6F73" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="1182.00,535.00 1170.50,516.24 1193.50,516.24" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="970" y="485" width="45" height="145" fill="#A33B32" stroke="#A33B32" stroke-width="0"/>
+<text x="992" y="455" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">CLAMP</text>
+<rect x="1390" y="485" width="45" height="145" fill="#A33B32" stroke="#A33B32" stroke-width="0"/>
+<text x="1412" y="455" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">CLAMP</text>
+<polyline points="930.00,520.00 1450.00,520.00" fill="none" stroke="#173A56" stroke-width="6" stroke-linejoin="round"/>
+<text x="1190" y="300" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">FENCE 17.5 mm / 90°</text>
+<polygon points="860.00,310.00 884.00,276.00 908.00,310.00" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polyline points="865.00,348.00 975.00,348.00" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="975.00,348.00 962.21,355.84 962.21,340.16" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<text x="992" y="348" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">REF EDGE</text>
+<text x="1190" y="815" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">SHOW FACE UP • DF 500 FENCE ON SF</text>
+<text x="1190" y="860" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">DATUM VISIBLE • HOSE CLEAR OF PLUNGE</text>
+<rect x="455" y="915" width="690" height="52" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="800" y="941" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">TEST SCRAP FIRST  |  HANDS OUTSIDE RED CLAMP / CUT ZONES</text>
+</svg>

@@ -9,6 +9,8 @@ output = ROOT / "build/reports/contact-sheets"
 output.mkdir(parents=True, exist_ok=True)
 
 for folder in sorted(p for p in source.iterdir() if p.is_dir()):
+    for prior in output.glob(f"{folder.name}-*.jpg"):
+        prior.unlink()
     pages = sorted(folder.glob("*.png"))
     for batch, start in enumerate(range(0, len(pages), 12), 1):
         selected = pages[start:start+12]

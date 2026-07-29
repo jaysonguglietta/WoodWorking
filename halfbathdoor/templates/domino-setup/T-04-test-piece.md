@@ -1,6 +1,6 @@
 # Domino test-piece worksheet
 
-Project DC-1916-001 | Rev. A | Print at 100% / Actual Size
+Project DC-1916-001 | Rev. G | Print at 100% / Actual Size
 
 Record joint ID, cutter, plunge, width, face, edge, and dry-fit result.
 

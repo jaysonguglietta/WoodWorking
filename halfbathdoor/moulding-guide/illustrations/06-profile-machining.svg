@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Profile machining card</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Keep reference faces consistent and approve a labeled sample before repeating a setup.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">SETUPS</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="70" y="150" width="640" height="320" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="100" y="188" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">M-201 CASING</text>
+<rect x="140" y="275" width="285" height="70" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="465" y="285" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="start" dominant-baseline="middle">3/4 x 4-1/2</text>
+<text x="465" y="330" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">1/32 ease</text>
+<text x="105" y="410" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">SHOW FACE</text>
+<polyline points="235,410 235,355" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="235,355 241.2722467471679,365.2302942647141 228.7277532528321,365.2302942647141" fill="#173A56"/>
+<text x="425" y="410" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">REFERENCE EDGE</text>
+<polyline points="600,410 415,325" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="415,325 426.91469559822735,323.5717042317567 421.6773674123254,334.9705949893081" fill="#2E6F73"/>
+<rect x="790" y="150" width="640" height="320" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="820" y="188" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">M-202 BACKBAND</text>
+<rect x="860" y="275" width="285" height="95" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<text x="1185" y="285" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="start" dominant-baseline="middle">1 x 1-1/8</text>
+<text x="1185" y="330" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">1/32 ease</text>
+<text x="825" y="410" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">SHOW FACE</text>
+<polyline points="955,410 955,355" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="955,355 961.2722467471679,365.2302942647141 948.7277532528321,365.2302942647141" fill="#173A56"/>
+<text x="1145" y="410" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">REFERENCE EDGE</text>
+<polyline points="1320,410 1135,325" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1135,325 1146.9146955982274,323.5717042317567 1141.6773674123253,334.9705949893081" fill="#2E6F73"/>
+<rect x="70" y="520" width="640" height="320" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="100" y="558" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">M-203 STOP</text>
+<rect x="140" y="645" width="285" height="58" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<text x="465" y="655" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="start" dominant-baseline="middle">3/8 x 1-1/4</text>
+<text x="465" y="700" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">1/16 door-side ease</text>
+<text x="105" y="780" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">SHOW FACE</text>
+<polyline points="235,780 235,725" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="235,725 241.2722467471679,735.2302942647141 228.7277532528321,735.2302942647141" fill="#173A56"/>
+<text x="425" y="780" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">REFERENCE EDGE</text>
+<polyline points="600,780 415,695" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="415,695 426.91469559822735,693.5717042317567 421.6773674123254,704.9705949893081" fill="#2E6F73"/>
+<rect x="790" y="520" width="640" height="320" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="820" y="558" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">M-204 CAP</text>
+<rect x="860" y="645" width="285" height="58" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<text x="1185" y="655" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="start" dominant-baseline="middle">7/8 x 1-1/2</text>
+<text x="1185" y="700" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">1/8 chamfer if approved</text>
+<text x="825" y="780" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">SHOW FACE</text>
+<polyline points="955,780 955,725" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="955,725 961.2722467471679,735.2302942647141 948.7277532528321,735.2302942647141" fill="#173A56"/>
+<text x="1145" y="780" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="start" dominant-baseline="middle">REFERENCE EDGE</text>
+<polyline points="1320,780 1135,695" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1135,695 1146.9146955982274,693.5717042317567 1141.6773674123253,704.9705949893081" fill="#2E6F73"/>
+<text x="110" y="900" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" dominant-baseline="middle">Router use: clamp the work, use a plunge base plus edge guide, and keep narrow pieces in the mother blank.</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">8</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Choose one head-joint language</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Match adjacent original openings; do not combine schemes on one face.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">DECISION</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="55" y="140" width="680" height="720" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="90" y="180" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="start" dominant-baseline="middle">A  MITERED CASING + BACKBAND</text>
+<rect x="193" y="238" width="404" height="22" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="193" y="260" width="22" height="475" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="575" y="260" width="22" height="475" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="215" y="260" width="360" height="55" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="215" y="315" width="55" height="420" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="520" y="315" width="55" height="420" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<polyline points="215,315 270,260" fill="none" stroke="#A33B32" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="520,260 575,315" fill="none" stroke="#A33B32" stroke-width="5" stroke-linejoin="round"/>
+<rect x="260" y="205" width="270" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="395" y="219" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">45-DEGREE VISIBLE JOINTS</text>
+<text x="105" y="805" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">Tune on a shooting board; both faces close by hand.</text>
+<rect x="765" y="140" width="680" height="720" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="800" y="180" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="start" dominant-baseline="middle">B  SQUARE-BUTT HEAD + OPTIONAL CAP</text>
+<rect x="930" y="315" width="55" height="420" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="1235" y="315" width="55" height="420" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="930" y="260" width="360" height="55" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="908" y="238" width="404" height="22" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="878" y="196" width="464" height="24" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<polyline points="930,315 1290,315" fill="none" stroke="#A33B32" stroke-width="4" stroke-linejoin="round"/>
+<rect x="1000" y="246" width="220" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="1110" y="260" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">SQUARE SHOULDERS</text>
+<rect x="940" y="202" width="340" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="1110" y="215" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">CAP BEARS ON COMPLETED M-202C</text>
+<text x="1105" y="786" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">Head spans the legs. M-202C is mandatory.</text>
+<text x="1105" y="818" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">Install a cap only when supported by house evidence.</text>
+<text x="95" y="910" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" dominant-baseline="middle">PASS: joint gap &lt;0.010 in, faces flush &lt;=0.010 in, no clamp pressure required to hide error.</text>
+</svg>

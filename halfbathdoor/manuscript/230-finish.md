@@ -1,6 +1,6 @@
 # Rubio Monocoat Finish
 
-**Purpose.** Apply a thin, uniform Rubio Oil Plus 2C Pure finish with combustion-safe waste handling.
+**Purpose.** Finish the fitted frame and trim while protecting fully cured prefinished floating panels.
 
 **Estimated active time.** 45-120 minutes, depending on the operation and test pieces.
 
@@ -26,17 +26,22 @@ Machine guards remain installed wherever their use is intended. Support long and
 
 ## Procedure
 
-1. Final-sand frame and panels uniformly to P120 and remove dust without raising grain selectively.
-2. Mask lock and hinge mortises and verify all panel edges were prefixed before assembly.
-3. Mix only the quantity that can be spread and buffed within the current product working time.
-4. Spread an exceptionally thin film, allow the specified reaction time, then buff until no wet residue transfers to a clean cloth.
-5. Lay oily cloths flat outdoors to cure or submerge them in water in a sealed metal container for compliant disposal.
+1. Before assembly, sand the complete floating panels through P120, prefinish their faces, edges, and tongues with the approved Rubio Oil Plus 2C Pure schedule, and allow full cure while keeping all frame glue surfaces bare.
+2. After the frame glue-up reaches full cure, protect every prefinished panel and scrape and sand the frame only through P100; do not abrade the cured panel surfaces.
+3. Complete the jamb fit and dry-fit hinges, lock, strike, stops, casing, backband, and any evidence-supported trim using steel setup screws.
+4. Remove the hardware and final-sand only the frame and fitted removable trim to P120; vacuum thoroughly and mask the cured panels, hinge gains, lock mortise, and bores.
+5. Mix only the quantity that can be spread and buffed within the current product working time.
+6. Spread an exceptionally thin film on the frame and trim, allow the specified reaction time, then buff until no wet residue transfers to a clean cloth.
+7. Allow the finish to reach full cure under the current technical data sheet before installing final brass hardware.
+8. Lay oily cloths flat outdoors to cure or submerge them in water in a sealed metal container for compliant disposal.
 
 ## Quality-control checklist
 
+- prefinished panels remain unmarred
 - no glossy pools
-- uniform color in raking light
-- all oily waste controlled before leaving shop
+- uniform frame and trim color in raking light
+- final brass installed only after full cure
+- finish-release item: all oily waste controlled before leaving shop
 
 ## Common problems
 

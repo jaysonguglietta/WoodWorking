@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Lower rail-and-muntin module</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">D-101E, D-101G, and D-101F form the only cured subassembly before the full frame glue-up.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">STAGE A</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<polygon points="621.30,727.88 613.94,732.12 613.94,531.31 621.30,527.06" fill="#A89B7F" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.09,468.62 621.30,527.06 613.94,531.31 512.73,472.88" fill="#FFF9CD" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="520.09,669.44 621.30,727.88 621.30,527.06 520.09,468.62" fill="#EAD7B1" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="570.70,598.25 512.69,631.74" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="512.69,631.74 520.32,617.68 528.68,632.16" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="755.65,805.44 748.29,809.69 748.29,608.88 755.65,604.62" fill="#A89B7F" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="654.43,546.19 755.65,604.62 748.29,608.88 647.07,550.44" fill="#FFF9CD" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="654.43,747.00 755.65,805.44 755.65,604.62 654.43,546.19" fill="#EAD7B1" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="705.04,675.81 647.03,709.30" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="647.03,709.30 654.66,695.24 663.03,709.72" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="699.52,638.62 679.27,650.31 679.27,582.31 699.52,570.62" fill="#8C6A40" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="475.00,441.00 699.52,570.62 679.27,582.31 454.76,452.69" fill="#E1AB67" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="475.00,509.00 699.52,638.62 699.52,570.62 475.00,441.00" fill="#C29359" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="699.52,1029.62 679.27,1041.31 679.27,837.31 699.52,825.62" fill="#8C6A40" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="475.00,696.00 699.52,825.62 679.27,837.31 454.76,707.69" fill="#E1AB67" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="475.00,900.00 699.52,1029.62 699.52,825.62 475.00,696.00" fill="#C29359" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="646.15,752.31 625.90,764.00 625.90,577.00 646.15,565.31" fill="#765027" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="601.98,539.81 646.15,565.31 625.90,577.00 581.74,551.50" fill="#BE813F" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="601.98,726.81 646.15,752.31 646.15,565.31 601.98,539.81" fill="#A46F36" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="605.66,756.14 579.90,771.01 579.90,764.55 605.66,749.68" fill="#A3895E" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="598.30,745.43 605.66,749.68 579.90,764.55 572.54,760.30" fill="#FFDC97" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="598.30,751.89 605.66,756.14 605.66,749.68 598.30,745.43" fill="#E2BE82" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="605.66,564.04 579.90,578.91 579.90,572.45 605.66,557.58" fill="#A3895E" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="598.30,553.33 605.66,557.58 579.90,572.45 572.54,568.20" fill="#FFDC97" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="598.30,559.79 605.66,564.04 605.66,557.58 598.30,553.33" fill="#E2BE82" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="620.38,764.64 594.62,779.51 594.62,773.05 620.38,758.18" fill="#A3895E" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="613.02,753.93 620.38,758.18 594.62,773.05 587.26,768.80" fill="#FFDC97" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="613.02,760.39 620.38,764.64 620.38,758.18 613.02,753.93" fill="#E2BE82" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="620.38,572.54 594.62,587.41 594.62,580.95 620.38,566.08" fill="#A3895E" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="613.02,561.83 620.38,566.08 594.62,580.95 587.26,576.70" fill="#FFDC97" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="613.02,568.29 620.38,572.54 620.38,566.08 613.02,561.83" fill="#E2BE82" stroke="#20272D" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="624.06,646.06 587.26,667.31" fill="none" stroke="#2E6F73" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="587.26,667.31 596.80,649.73 607.25,667.84" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<text x="45" y="180" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">D-101E  15-1/4 × 4</text>
+<polyline points="53.00,194.00 101.00,194.00 587.26,539.81" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<text x="45" y="285" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">D-101F  15-1/4 × 12</text>
+<polyline points="53.00,299.00 101.00,299.00 587.26,862.81" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<text x="45" y="390" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">D-101G  3 × 11</text>
+<polyline points="53.00,404.00 101.00,404.00 624.06,646.06" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<text x="45" y="495" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">D-101K  6-7/8 × 11-13/16</text>
+<polyline points="53.00,509.00 101.00,509.00 570.70,598.25" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<text x="45" y="600" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">D-101L  6-7/8 × 11-13/16</text>
+<polyline points="53.00,614.00 101.00,614.00 705.04,675.81" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<rect x="965" y="155" width="555" height="330" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="983" y="185" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="start" dominant-baseline="middle">Stage A / controlled sequence</text>
+<text x="989" y="223" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Four 6 × 40 mm factory tenons</text>
+<text x="989" y="266" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Glue E/G/F mortises and tenons only</text>
+<text x="989" y="309" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Preload 4 foam spacers - 3/4 in long; K/L dry</text>
+<text x="989" y="352" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Clamp two clear 6-1/8 × 11 openings</text>
+<text x="989" y="395" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Cure fully; recheck panel travel</text>
+<rect x="965" y="555" width="555" height="265" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="995" y="592" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="start" dominant-baseline="middle">VERTICAL STACK</text>
+<text x="995" y="646" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">BOTTOM RAIL  12.000</text>
+<text x="995" y="690" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">CLEAR OPENING  11.000</text>
+<text x="995" y="734" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">LOWER RAIL  4.000</text>
+<text x="995" y="782" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="start" dominant-baseline="middle">TOTAL  27.000</text>
+</svg>

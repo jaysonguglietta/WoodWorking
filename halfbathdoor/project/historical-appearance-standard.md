@@ -10,7 +10,7 @@ Period evidence supports the five-panel interior door as a normal early-twentiet
 
 ## Visible decisions
 
-- Five recessed flat panels: three full-width panels over a paired lower row. The substantial 12-inch bottom rail, 7-inch lock rail, 4-inch intermediate rails, 4-1/2-inch stiles, and 3-inch muntin avoid modern equal-strip Shaker proportions.
+- Five recessed flat panels: three full-width panels over a paired lower row. The substantial 12-inch bottom rail, 7-inch lock rail, 4-inch intermediate rails, 4-1/4-inch stiles, and 3-inch muntin avoid modern equal-strip Shaker proportions.
 - FAS quarter-sawn white oak provides the ray figure and restrained warm color appropriate to oak millwork. All panel grain is vertical. Lower panels are selected as a visual pair.
 - Panel fields are 1/2 inch thick and centered in the 1-3/8-inch frame, producing a quiet 7/16-inch recess. Tongues and movement allowance remain concealed.
 - Edges receive only a small hand-softened arris. There are no farmhouse braces, applied false joinery, or contemporary flush hardware.

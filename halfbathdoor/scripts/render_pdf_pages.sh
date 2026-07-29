@@ -3,6 +3,7 @@ set -eu
 ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
 OUT="$ROOT/build/reports/page-images"
 mkdir -p "$OUT"
+find "$OUT" -type f -name 'page-*.png' -delete
 if [ -n "${POPPLER_BIN:-}" ] && [ -x "$POPPLER_BIN/pdftoppm" ]; then
   PDFTOPPM="$POPPLER_BIN/pdftoppm"
 elif command -v pdftoppm >/dev/null 2>&1; then
@@ -17,4 +18,3 @@ for pdf in "$ROOT"/release/*.pdf; do
   "$PDFTOPPM" -png -r 90 "$pdf" "$OUT/$base/page" >/dev/null 2>&1
 done
 echo "PASS: rendered PDF pages to $OUT"
-

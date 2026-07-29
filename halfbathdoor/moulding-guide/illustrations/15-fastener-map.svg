@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">15</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Fastener and glue map</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Calculate the actual layer stack; prove the selected standard length on a matching offcut.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">FASTEN</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="375" y="105" width="650" height="760" fill="#E9E5DE" stroke="#E9E5DE" stroke-width="0"/>
+<rect x="412" y="117" width="576" height="25" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="412" y="142" width="25" height="678" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="963" y="142" width="25" height="678" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="437" y="142" width="526" height="75" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="437" y="217" width="75" height="603" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="888" y="217" width="75" height="603" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<circle cx="510" cy="290" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="890" cy="290" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="510" cy="395" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="890" cy="395" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="510" cy="500" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="890" cy="500" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="510" cy="605" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="890" cy="605" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="510" cy="710" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="890" cy="710" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="458" cy="305" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="942" cy="305" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="458" cy="440" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="942" cy="440" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="458" cy="575" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="942" cy="575" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="458" cy="710" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="942" cy="710" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="426" cy="280" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="974" cy="280" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="426" cy="370" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="974" cy="370" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="426" cy="460" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="974" cy="460" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="426" cy="550" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="974" cy="550" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="426" cy="640" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="974" cy="640" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="426" cy="730" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="974" cy="730" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="555" cy="215" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="555" cy="163" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="555" cy="131" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="640" cy="215" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="640" cy="163" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="640" cy="131" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="725" cy="215" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="725" cy="163" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="725" cy="131" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<circle cx="810" cy="215" r="8" fill="#173A56" stroke="white" stroke-width="2"/>
+<circle cx="810" cy="163" r="9" fill="#A33B32" stroke="white" stroke-width="2"/>
+<circle cx="810" cy="131" r="7" fill="#547A58" stroke="white" stroke-width="2"/>
+<polyline points="445,150 955,150" fill="none" stroke="#547A58" stroke-width="6" stroke-linejoin="round"/>
+<polyline points="445,150 445,820" fill="none" stroke="#547A58" stroke-width="6" stroke-linejoin="round"/>
+<polyline points="955,150 955,820" fill="none" stroke="#547A58" stroke-width="6" stroke-linejoin="round"/>
+<rect x="55" y="180" width="380" height="340" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="73" y="209" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">Legend</text>
+<text x="79" y="247" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• BLUE: inner &gt;= 3/4 sound jamb</text>
+<text x="79" y="281" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• RED: outer &gt;= 1 verified framing</text>
+<text x="79" y="315" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• GREEN: band &gt;= 1/2 sound casing</text>
+<text x="79" y="349" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• STOP: &gt;= 3/4 sound jamb</text>
+<text x="79" y="383" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Offset rows; avoid corners</text>
+<rect x="1015" y="180" width="405" height="340" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="1033" y="209" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">Typical spacing</text>
+<text x="1039" y="247" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Inner casing: 12-16 in OC</text>
+<text x="1039" y="281" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Outer casing: about 16 in OC</text>
+<text x="1039" y="315" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Backband: 8-12 in OC</text>
+<text x="1039" y="349" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• No band point exit or split</text>
+<text x="1039" y="383" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Cycle door before stop pattern</text>
+<rect x="55" y="600" width="380" height="220" fill="#FAEFEC" stroke="#A33B32" stroke-width="3"/>
+<text x="85" y="635" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">NAILER SAFETY</text>
+<text x="85" y="690" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Sequential-fire mode</text>
+<text x="85" y="730" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Hands outside fastener path</text>
+<text x="85" y="770" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Disconnect before adjustment</text>
+<rect x="1015" y="600" width="405" height="220" fill="#F4F0E8" stroke="#A46F36" stroke-width="3"/>
+<text x="1045" y="635" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">GLUE BOUNDARY</text>
+<text x="1045" y="685" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Masked wood joints only</text>
+<text x="1045" y="725" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">Returns glue only after finish cure</text>
+<text x="1045" y="765" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">No glue to jamb, wall, or floor</text>
+<text x="750" y="905" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">HOLD if no standard length passes the offcut proof without exit, split, or utility risk.</text>
+</svg>

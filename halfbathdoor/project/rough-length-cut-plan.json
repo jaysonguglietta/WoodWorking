@@ -1,0 +1,254 @@
+{
+  "document": {
+    "project": "DC-1916-001",
+    "revision": "Rev. G",
+    "stock_plan": "LS-05",
+    "rough_length_plan": "RL-02",
+    "supersedes": "RL-01",
+    "date": "2026-07-28",
+    "status": "CHK-RS-01 REQUIRED; G NOW S4S 15/16 X 4-1/2 X 75; G THICKNESS/WIDTH/LENGTH FIT D-101J; OTHER LS-05 GATES UNCHANGED"
+  },
+  "rules": {
+    "saw_kerf": 0.125,
+    "total_board_end_reserve": 2.0,
+    "panel_shop_billet_rule": "For M, D, G, and H only, the first-crosscut shop billet is the finished panel length plus 1 inch. This is 1/2 inch longer than the LS-05 controlled panel rough blank.",
+    "frame_shop_billet_rule": "The LS-05 rail blanks are 16-1/4 inches, equal to the 15-1/4-inch finished shoulder length plus 1 inch. The muntin blank is 12 inches, equal to its 11-inch finished length plus 1 inch. Do not add another inch.",
+    "layout_rule": "Complete CHK-RS-01 at full length. Mark checks, knots, pith, metal, and unstable grain on both faces and both edges. Establish clear envelopes from the defect map; do not blindly measure a repeating pattern from a rough end.",
+    "end_check_rule": "Mark the visible end of every check, move at least 1 inch farther into sound wood, crosscut, and inspect the new end. Repeat if the check remains. Each listed billet length is a minimum clear length after all rejected end-check material.",
+    "end_reserve_rule": "The 2-inch value is one shared planning reserve for both ends of an entire noncritical board, not 2 inches per billet. Actual rejected material controls.",
+    "kerf_rule": "Place the full saw kerf on the waste or remainder side of every billet line. The diagrams count 1/8 inch per billet-severing cut and exclude additional defect-isolation cuts.",
+    "label_rule": "Before separating a billet, mark its STOCK letter, billet identifier, purpose, show-face candidate, reference-edge candidate, and grain direction on both faces. Re-mark immediately after every milling operation.",
+    "scope_rule": "Every A-O billet, tail, offcut, coupon, and reserve remains door-only stock. None is released to the moulding package.",
+    "no_resaw_rule": "No resaw operation is permitted. Do not divide any board or billet through its thickness. Prepare each 5/16-inch face from one whole-thickness piece by staged flattening, ordinary face planing, resting, and verified carrier use below normal planer capacity.",
+    "stile_rule": "Keep B, C, I, and K full length. B and C each supply one 4-3/8 x 81-1/8 face. I and K must each prove 8-7/8 inches of clear jointed width before one full-length width rip creates two 4-3/8-inch lanes plus the 1/8-inch kerf.",
+    "short_core_rule": "Do not crosscut J or L until the revised CM-05 is signed. L is now 6 inches wide after edge cleanup. J carries three 16-1/4-inch core billets for C, M, and the 6-1/2-inch F stave plus one 12-inch G billet. L carries four 16-1/4-inch billets for E, the 5-inch and 2-1/4-inch D staves, and the 5-3/4-inch F stave. J must prove one clear 6-1/2-inch jointed width envelope.",
+    "face_pool_rule": "Do not cut short-frame faces until FP-05 assigns up to two M tail billets after D-101H, D/H tails, eligible C/J/L width offcuts, and the required clear 16-1/4-inch mother billets from knot-mapped E/F to every SF/BF strip and required seam. Keep A intact unless a signed substitution is necessary."
+    ,"zero_spare_release_rule": "STOCK-M adds a useful panel and face-stock reserve and STOCK-N/O add uncut short-core reserve, but none relax structural gates. Survey all A-O first; then prove full-length B/C face yield and I/K two-lane yield before releasing any M/D/G/H panel crosscut or any E/F/J/L short-member cut."
+    ,"staged_milling_rule": "Never mill all stock to final size in one pass. Flatten one face, rest and recheck, plane the opposite face parallel, joint one edge, record actual dressed thickness/width/clear length, and stop at the controlled rough size until the next gate passes."
+    ,"machine_minimum_rule": "Never surface a billet shorter or thinner than the machine manufacturer's safe minimum. Keep a longer mother piece or use a verified carrier/sled and guarded procedure when required."
+    ,"stock_a_damage_rule": "STOCK-A's original 78-3/4-inch length is obsolete for cutting. Use 72-3/4 inches after the required 6-inch damage removal. Inspect the new end, exclude any continuation of the defect, and keep A full length as reserve while STOCK-M carries D-101H."
+    ,"stock_m_rule": "STOCK-M is reported finished white oak at 3/4 x 8-1/4 x 99 inches. Verify the actual envelope, moisture, straightness, grain, and clear zones. Cut three 16-1/16-inch D-101H shop billets only after the long-stock gates pass; protect the 48-7/16-inch planning tail. After D-101H passes, FP-05 may release up to two 16-1/4-inch face-pool billets."
+    ,"stock_n_o_rule": "STOCK-N and STOCK-O are confirmed finished white oak at 1-3/4 x 11 x 74 inches each. Keep both full length. Record moisture, grain, flatness, defects, and clear yield under CHK-RS-01. Their 74-inch length cannot yield an 81-inch stile layer; prefer them only as signed short-member core reserve."
+    ,"stock_g_s4s_rule": "STOCK-G is confirmed S4S at 15/16 x 4-1/2 x 75 inches. Its thickness exceeds the 5/8-inch rough-panel minimum by 5/16 inch. Four 16-9/16-inch shop billets plus four 1/8-inch kerfs leave 8-1/4 inches before the one shared 2-inch end reserve and 6-1/4 inches after it. The four current widths total 18 inches, which exceeds the 16-3/8-inch rough panel width by 1-5/8 inches. Thickness, width, and length pass; sign CHK-P-01 before crosscutting."
+  },
+  "boards": [
+    {
+      "label": "A",
+      "raw_dimensions": "1 x 5-11/16 x 72-3/4 current after 6-inch damage removal",
+      "action": "NO CUT - KEEP FULL 72-3/4 INCHES AS RESERVE",
+      "cut_now": [],
+      "cuts_now": 0,
+      "tail_before_end_reserve": null,
+      "planning_tail_after_end_reserve": null,
+      "later_pattern": "Inspect and map the shortened board, then keep it intact as a D-101H substitution, short-face, coupon, setup, or repair reserve. Cut only under a signed remap if STOCK-M or another assigned source fails.",
+      "full_pattern_paper_remainder": 72.75,
+      "hold_reason": "Six inches are already charged to damage removal. STOCK-M now carries D-101H, so do not consume A preemptively."
+    },
+    {
+      "label": "B",
+      "raw_dimensions": "1 x 4-15/16 x 85",
+      "action": "NO CROSSCUT - KEEP FULL 85 INCHES",
+      "cut_now": [],
+      "cuts_now": 0,
+      "tail_before_end_reserve": null,
+      "planning_tail_after_end_reserve": null,
+      "later_pattern": "After CHK-ST-01, flatten and joint one continuous 4-3/8-inch lane, rest it, then plane the whole-thickness board in staged carrier-supported passes. Trim only after it proves the 5/16 x 4-3/8 x 81-1/8 D-101A show-face envelope.",
+      "full_pattern_paper_remainder": 3.75,
+      "hold_reason": "The hinge-stile show face must remain continuous. Full-length clear yield and thin-stock carrier control must be proved before trimming."
+    },
+    {
+      "label": "C",
+      "raw_dimensions": "1 x 5-3/4 x 83-1/8",
+      "action": "NO CROSSCUT - KEEP FULL 83-1/8 INCHES",
+      "cut_now": [],
+      "cuts_now": 0,
+      "tail_before_end_reserve": null,
+      "planning_tail_after_end_reserve": null,
+      "later_pattern": "After CHK-ST-01, establish one continuous 4-3/8-inch D-101B show-face lane and preserve its longitudinal width offcut for FP-05. Plane eligible pieces from whole thickness in staged carrier-supported passes; trim the stile face only after it proves 5/16 x 4-3/8 x 81-1/8.",
+      "full_pattern_paper_remainder": 1.875,
+      "hold_reason": "Only 2 inches of raw length exceed the face target. One 1/8-inch end cut leaves 1-7/8 inches for both squared ends, so actual clear length controls."
+    },
+    {
+      "label": "D",
+      "raw_dimensions": "1 x 5 x 73-3/4",
+      "action": "CUT ONLY AFTER CHK-RS-01 + CHK-ST-01 + CHK-ST-02 PASS",
+      "cut_now": [
+        {
+          "quantity": 4,
+          "shop_length": 12.8125,
+          "controlled_rough_length": 12.3125,
+          "finished_reference_length": 11.8125,
+          "purpose": "D-101K and D-101L lower-panel staves; pair two per 7-3/8-inch rough-width panel",
+          "billet_ids": "D-K1, D-K2, D-L1, D-L2"
+        }
+      ],
+      "cuts_now": 4,
+      "tail_before_end_reserve": 22.0,
+      "planning_tail_after_end_reserve": 20.0,
+      "later_pattern": "Keep the tail intact. Only after both lower panels pass and FP-05 is signed, cut one clear 16-1/4-inch D-FACE mother billet and plane it from whole thickness to 5/16.",
+      "full_pattern_paper_remainder": 3.625,
+      "hold_reason": "This is the tightest first-cut board; preserve the tail until both lower panels pass."
+    },
+    {
+      "label": "E",
+      "raw_dimensions": "1 x 5-3/4 x 75-1/2; some knots",
+      "action": "NO CUT - KEEP FULL 75-1/2 INCHES",
+      "cut_now": [],
+      "cuts_now": 0,
+      "tail_before_end_reserve": null,
+      "planning_tail_after_end_reserve": null,
+      "later_pattern": "Photograph and map every knot, check, and clear zone. FP-05 provisionally assigns three clear 16-1/4-inch face mother billets here, but may shift billets between E and F while preserving at least five accepted billets combined.",
+      "full_pattern_paper_remainder": 24.375,
+      "hold_reason": "Knot locations are unknown. No cut is released until five combined E/F clear envelopes and all face-strip destinations are signed."
+    },
+    {
+      "label": "F",
+      "raw_dimensions": "1 x 5-5/8 x 70-3/4; some knots",
+      "action": "NO CUT - KEEP FULL 70-3/4 INCHES",
+      "cut_now": [],
+      "cuts_now": 0,
+      "tail_before_end_reserve": null,
+      "planning_tail_after_end_reserve": null,
+      "later_pattern": "Photograph and map every knot, check, and clear zone. FP-05 provisionally assigns two clear 16-1/4-inch face mother billets here, but may shift billets between F and E while preserving at least five accepted billets combined.",
+      "full_pattern_paper_remainder": 36.0,
+      "hold_reason": "Knot locations are unknown. No cut is released until five combined E/F clear envelopes and all face-strip destinations are signed."
+    },
+    {
+      "label": "G",
+      "raw_dimensions": "S4S 15/16 x 4-1/2 x 75 current; original rough entry 1 x 4-7/8 x 78-1/4",
+      "action": "THICKNESS/WIDTH/LENGTH PASS - CUT ONLY AFTER CHK-P-01 + CHK-ST-01 + CHK-ST-02 PASS",
+      "cut_now": [
+        {
+          "quantity": 4,
+          "shop_length": 16.5625,
+          "controlled_rough_length": 16.0625,
+          "finished_reference_length": 15.5625,
+          "purpose": "D-101J center-panel staves for a 16-3/8-inch rough-width glue-up",
+          "billet_ids": "G-J1, G-J2, G-J3, G-J4"
+        }
+      ],
+      "cuts_now": 4,
+      "tail_before_end_reserve": 8.25,
+      "planning_tail_after_end_reserve": 6.25,
+      "later_pattern": "Retain the complete remainder for panel substitutions, same-stock coupons, setup pieces, or repair stock.",
+      "full_pattern_paper_remainder": 6.25,
+      "hold_reason": "The confirmed 15/16-inch S4S thickness exceeds the 5/8-inch minimum by 5/16 inch, and width/length pass. CHK-P-01 must still prove flatness, moisture, grain, defects, and four clear billet zones. Do not rip width; remove only enough from the S4S edges to make sound glue joints."
+    },
+    {
+      "label": "H",
+      "raw_dimensions": "7/8 x 5-3/4 x 79",
+      "action": "CUT ONLY AFTER CHK-RS-01 + CHK-ST-01 + CHK-ST-02 PASS AND H THICKNESS / WARP SURVEY",
+      "cut_now": [
+        {
+          "quantity": 3,
+          "shop_length": 11.3125,
+          "controlled_rough_length": 10.8125,
+          "finished_reference_length": 10.3125,
+          "purpose": "D-101N lower-center-panel staves for a 16-3/8-inch rough-width glue-up",
+          "billet_ids": "H-N1, H-N2, H-N3"
+        }
+      ],
+      "cuts_now": 3,
+      "tail_before_end_reserve": 44.6875,
+      "planning_tail_after_end_reserve": 42.6875,
+      "later_pattern": "Keep the tail intact until all three panel billets dress to at least 5/8 inch. After D-101N passes and FP-05 is signed, cut up to two clear 16-1/4-inch H-FACE mother billets and plane them from whole thickness to 5/16.",
+      "full_pattern_paper_remainder": 9.9375,
+      "hold_reason": "Raw thickness is only 7/8 inch. The panel has first claim; face-pool billets are conditional on the remaining clear tail."
+    },
+    {
+      "label": "I",
+      "raw_dimensions": "1-1/2 x 9-1/4 x 84-3/4",
+      "action": "NO CROSSCUT - KEEP FULL 84-3/4 INCHES",
+      "cut_now": [],
+      "cuts_now": 0,
+      "tail_before_end_reserve": null,
+      "planning_tail_after_end_reserve": null,
+      "later_pattern": "Pass CHK-ST-02 at full length and prove at least 8-7/8 inches of clear jointed width. Make one ordinary full-length width rip for two 4-3/8-inch lanes plus the 1/8-inch kerf. Plane one lane to the D-101B 7/8-inch core and the parallel lane to the D-101B 5/16-inch back face; face clear length is 81-1/8 and governs.",
+      "full_pattern_paper_remainder": 3.5,
+      "parallel_lane_paper_remainder": 3.5,
+      "hold_reason": "Both continuous lock-stile layers depend on the same board and on the 8-7/8-inch jointed-width gate. Crosscutting first destroys the approved two-lane strategy."
+    },
+    {
+      "label": "J",
+      "raw_dimensions": "1-5/16 x 7 x 79-1/4",
+      "action": "NO CUT UNTIL CHK-SM-01 AND SIGNED CM-05 CORE/OFFCUT MAP",
+      "cut_now": [],
+      "cuts_now": 0,
+      "tail_before_end_reserve": null,
+      "planning_tail_after_end_reserve": null,
+      "later_pattern": "After revised CM-05 proves one clear 6-1/2-inch jointed width envelope, cut three 16-1/4-inch mother billets for D-101C-CORE, D-101M-CORE, and the 6-1/2-inch D-101F-CORE wide stave, plus one 12-inch D-101G-CORE billet. Plane cores to 7/8 and retain every usable longitudinal width offcut for FP-05.",
+      "full_pattern_paper_remainder": 16.0,
+      "hold_reason": "J is now the only no-purchase source for the 6-1/2-inch F core stave displaced from L. The named core pattern, the clear 6-1/2-inch width envelope, and every credited offcut must be drawn, dimensioned, and signed before crosscutting."
+    },
+    {
+      "label": "K",
+      "raw_dimensions": "1-3/8 x 9-1/2 x 82-1/2",
+      "action": "NO CROSSCUT - KEEP FULL 82-1/2 INCHES",
+      "cut_now": [],
+      "cuts_now": 0,
+      "tail_before_end_reserve": null,
+      "planning_tail_after_end_reserve": null,
+      "later_pattern": "Pass CHK-ST-02 at full length and prove at least 8-7/8 inches of clear jointed width. Make one ordinary full-length width rip for two 4-3/8-inch lanes plus the 1/8-inch kerf. Plane one lane to the D-101A 7/8-inch core and the parallel lane to the D-101A 5/16-inch back face; face clear length is 81-1/8 and governs.",
+      "full_pattern_paper_remainder": 1.25,
+      "parallel_lane_paper_remainder": 1.25,
+      "hold_reason": "This is the most length-critical board and still must pass the 8-7/8-inch jointed-width gate: the face target and one 1/8-inch end cut leave only 1-1/4 inches total for both squared ends."
+    },
+    {
+      "label": "L",
+      "raw_dimensions": "1-5/16 x 6 x 80 current after edge cleanup",
+      "action": "NO CUT UNTIL CHK-SM-01 AND SIGNED CM-05 CORE/OFFCUT MAP",
+      "cut_now": [],
+      "cuts_now": 0,
+      "tail_before_end_reserve": null,
+      "planning_tail_after_end_reserve": null,
+      "later_pattern": "After revised CM-05 is signed, cut four 16-1/4-inch mother billets for D-101E-CORE, the 5-inch and 2-1/4-inch D-101D-CORE staves, and the 5-3/4-inch D-101F-CORE top stave. Plane cores to 7/8 and retain every usable longitudinal width offcut for FP-05. L is not authorized for any 6-1/2-inch billet.",
+      "full_pattern_paper_remainder": 12.5,
+      "hold_reason": "The original 7-inch width is obsolete. The current 6-inch width forces the revised J/L swap; the named core pattern, D/F seam directions, and every credited width offcut must be drawn, dimensioned, and signed before crosscutting."
+    },
+    {
+      "label": "M",
+      "raw_dimensions": "3/4 x 8-1/4 x 99 finished white oak",
+      "action": "CUT ONLY AFTER CHK-RS-01 + CHK-ST-01 + CHK-ST-02 PASS AND M FINISHED-STOCK SURVEY",
+      "cut_now": [
+        {
+          "quantity": 3,
+          "shop_length": 16.0625,
+          "controlled_rough_length": 15.5625,
+          "finished_reference_length": 15.0625,
+          "purpose": "D-101H upper-panel staves for a 16-3/8-inch rough-width glue-up",
+          "billet_ids": "M-H1, M-H2, M-H3"
+        }
+      ],
+      "cuts_now": 3,
+      "tail_before_end_reserve": 50.4375,
+      "planning_tail_after_end_reserve": 48.4375,
+      "later_pattern": "Keep the tail intact. Only after D-101H passes and FP-05 proves clear envelopes may up to two 16-1/4-inch M-FACE mother billets be cut and planed from whole thickness to 5/16.",
+      "full_pattern_paper_remainder": 15.6875,
+      "hold_reason": "Reported finished dimensions do not replace a shop survey. Verify at least 5/8-inch recoverable thickness, three clear panel envelopes, and sufficient aggregate jointed width before cutting."
+    },
+    {
+      "label": "N",
+      "raw_dimensions": "1-3/4 x 11 x 74 finished white oak",
+      "action": "NO CUT - KEEP FULL 74 INCHES AS SHORT-MEMBER RESERVE",
+      "cut_now": [],
+      "cuts_now": 0,
+      "tail_before_end_reserve": null,
+      "planning_tail_after_end_reserve": null,
+      "later_pattern": "After CHK-RS-01 confirms clear physical yield and a signed CM-05 fallback is required, N may supply short-member 7/8-inch core billets. Do not use it for a continuous stile layer, and do not plane it to 5/16-inch face or 5/8-inch panel stock without a documented waste review.",
+      "full_pattern_paper_remainder": 74.0,
+      "hold_reason": "The finished-white-oak board is only 74 inches long and cannot replace an 81-inch stile layer; preserve its wide, thick envelope for a short-core failure."
+    },
+    {
+      "label": "O",
+      "raw_dimensions": "1-3/4 x 11 x 74 finished white oak",
+      "action": "NO CUT - KEEP FULL 74 INCHES AS SHORT-MEMBER RESERVE",
+      "cut_now": [],
+      "cuts_now": 0,
+      "tail_before_end_reserve": null,
+      "planning_tail_after_end_reserve": null,
+      "later_pattern": "After CHK-RS-01 confirms clear physical yield and a signed CM-05 fallback is required, O may supply short-member 7/8-inch core billets, coupons, or repair stock. Do not use it for a continuous stile layer, and do not plane it to 5/16-inch face or 5/8-inch panel stock without a documented waste review.",
+      "full_pattern_paper_remainder": 74.0,
+      "hold_reason": "The finished-white-oak board is only 74 inches long and cannot replace an 81-inch stile layer; preserve its wide, thick envelope for a short-core failure."
+    }
+  ]
+}

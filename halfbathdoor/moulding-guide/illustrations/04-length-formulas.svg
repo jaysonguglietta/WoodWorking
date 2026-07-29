@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">4</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Transfer formulas</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Arithmetic sets rough stock; the fitted opening controls every final cut.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">FORMULAS</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="55" y="135" width="675" height="720" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="90" y="175" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">A  MITERED SURROUND</text>
+<rect x="270" y="335" width="245" height="410" fill="white" stroke="#20272D" stroke-width="3"/>
+<polygon points="222,335 270,335 318,287 222,287" fill="#C29359" stroke="#20272D" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="515,335 563,335 563,287 467,287" fill="#C29359" stroke="#20272D" stroke-width="3" stroke-linejoin="round"/>
+<rect x="222" y="335" width="48" height="410" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="515" y="335" width="48" height="410" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="270" y="287" width="245" height="48" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<polyline points="270,287 270,278" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="515,287 515,278" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="270,270 515,270" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="270,270 283,263 283,277" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="515,270 502,263 502,277" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="274.0" y="239" width="237" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="392.5" y="252" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">HEAD SHORT = W + 2R</text>
+<polyline points="222,287 222,243" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="563,287 563,243" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="222,235 563,235" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="222,235 235,228 235,242" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="563,235 550,228 550,242" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="257.0" y="204" width="271" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="392.5" y="217" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">HEAD LONG = W + 2R + 2C</text>
+<polyline points="222,335 192,335" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="222,745 192,745" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="200,335 200,745" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="200,335 193,348 207,348" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="200,745 193,732 207,732" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="210" y="526.0" width="172" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="218" y="540.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">LEG SHORT = H + R</text>
+<polyline points="222,335 270,287" fill="none" stroke="#A33B32" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="515,287 563,335" fill="none" stroke="#A33B32" stroke-width="4" stroke-linejoin="round"/>
+<text x="100" y="780" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">Leg long point = H + R + C</text>
+<text x="100" y="810" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">Side band finished = fitted leg long + B</text>
+<text x="100" y="840" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">Add 2 in total rough allowance</text>
+<rect x="770" y="135" width="675" height="720" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="805" y="165" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">B  SQUARE-BUTT HEAD</text>
+<rect x="985" y="405" width="245" height="340" fill="white" stroke="#20272D" stroke-width="3"/>
+<rect x="937" y="405" width="48" height="340" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="1230" y="405" width="48" height="340" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="937" y="357" width="341" height="48" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<polyline points="937,405 907,405" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="937,745 907,745" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="915,405 915,745" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="915,405 908,418 922,418" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="915,745 908,732 922,732" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="925" y="561.0" width="172" height="28" fill="white" stroke="white" stroke-width="0"/>
+<text x="933" y="575.0" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">LEGS = H + R</text>
+<rect x="917" y="337" width="381" height="20" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="892" y="315" width="431" height="22" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<polyline points="937,357 937,303" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1278,357 1278,303" fill="none" stroke="#173A56" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="937,295 1278,295" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="937,295 950,288 950,302" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="1278,295 1265,288 1265,302" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="1002.5" y="264" width="210" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="1107.5" y="277" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">HEAD = W + 2R + 2C</text>
+<polyline points="917,337 917,263" fill="none" stroke="#A46F36" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1298,337 1298,263" fill="none" stroke="#A46F36" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="917,255 1298,255" fill="none" stroke="#A46F36" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="917,255 930,248 930,262" fill="#A46F36" stroke="#A46F36" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="1298,255 1285,248 1285,262" fill="#A46F36" stroke="#A46F36" stroke-width="0" stroke-linejoin="round"/>
+<rect x="963.5" y="224" width="288" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="1107.5" y="237" fill="#A46F36" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">M-202C = FITTED HEAD + 2B</text>
+<polyline points="892,315 892,223" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1323,315 1323,223" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="892,215 1323,215" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="892,215 905,208 905,222" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="1323,215 1310,208 1310,222" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="971.0" y="184" width="273" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="1107.5" y="197" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">CAP = FITTED M-202C + 2P</text>
+<text x="815" y="775" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">Side band finished = fitted leg + C</text>
+<text x="815" y="805" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">Measure H-L and H-R independently</text>
+<text x="815" y="835" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">Choose one scheme from house evidence</text>
+<text x="150" y="910" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" dominant-baseline="middle">R = 3/16 reveal  |  C = 4-1/2 casing  |  B = 1-1/8 backband  |  P = 3/4 cap overhang</text>
+</svg>

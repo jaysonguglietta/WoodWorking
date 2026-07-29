@@ -1,6 +1,6 @@
 # Lock verification
 
-Project DC-1916-001 | Rev. A | Print at 100% / Actual Size
+Project DC-1916-001 | Rev. G | Print at 100% / Actual Size
 
 Record physical hardware before machining.
 

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">3A</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Machine calibration and matched-scrap release</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">Calibrate thickness, reference geometry, groove, and DF 500 settings before a production member.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">SETUP GATE</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<rect x="45" y="145" width="355" height="760" fill="#FFFFFF" stroke="#173A56" stroke-width="3"/>
+<rect x="45" y="145" width="355" height="58" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<text x="67" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">1  STOCK FAMILY</text>
+<rect x="430" y="145" width="355" height="760" fill="#FFFFFF" stroke="#2E6F73" stroke-width="3"/>
+<rect x="430" y="145" width="355" height="58" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="452" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">2  GROOVE SAMPLE</text>
+<rect x="815" y="145" width="355" height="760" fill="#FFFFFF" stroke="#173A56" stroke-width="3"/>
+<rect x="815" y="145" width="355" height="58" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<text x="837" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">3  DF 500 SAMPLE</text>
+<rect x="1200" y="145" width="355" height="760" fill="#FFFFFF" stroke="#2E6F73" stroke-width="3"/>
+<rect x="1200" y="145" width="355" height="58" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1222" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">4  SIGN RELEASE</text>
+<rect x="105" y="265" width="235" height="60.0" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="105" y="325.0" width="235" height="210.0" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="105" y="535.0" width="235" height="60.0" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<text x="222" y="294" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">1/4 FACE</text>
+<text x="222" y="475" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">7/8 CORE</text>
+<text x="222" y="566" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">1/4 FACE</text>
+<polygon points="115.00,640.00 139.00,606.00 163.00,640.00" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polyline points="120.00,678.00 230.00,678.00" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="230.00,678.00 217.21,685.84 217.21,670.16" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<text x="247" y="678" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">REF EDGE</text>
+<polyline points="85.00,265.00 85.00,595.00" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="85.00,265.00 91.79,276.08 78.21,276.08" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="85.00,595.00 78.21,583.92 91.79,583.92" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<text x="120.0" y="430.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">1.375 ±0.010</text>
+<text x="222" y="735" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">PAIRED DIFFERENCE</text>
+<text x="222" y="780" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">≤0.005</text>
+<text x="222" y="835" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">MOISTURE 6–9%</text>
+<rect x="510" y="300" width="42.5" height="250" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="552.5" y="300" width="148.75" height="250" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="701.25" y="300" width="42.5" height="250" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="605.625" y="300" width="42.5" height="85.0" fill="#FFFFFF" stroke="#173A56" stroke-width="4"/>
+<polyline points="605.62,268.00 648.12,268.00" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="605.62,268.00 616.71,261.21 616.71,274.79" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="648.12,268.00 637.04,274.79 637.04,261.21" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<text x="626.875" y="250.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.250</text>
+<polyline points="680.62,300.00 680.62,385.00" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="680.62,300.00 687.42,311.08 673.83,311.08" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="680.62,385.00 673.83,373.92 687.42,373.92" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<text x="748.625" y="342.5" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.500</text>
+<text x="607" y="660" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">CENTER 0.6875</text>
+<text x="607" y="710" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">WIDTH +0.005 / −0</text>
+<text x="607" y="755" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">DEPTH +0.010 / −0</text>
+<text x="607" y="820" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">PROVE BOTH FACES</text>
+<rect x="870" y="540" width="245" height="145" fill="#C29359" stroke="#20272D" stroke-width="4"/>
+<polygon points="905.00,540.00 1000.00,350.00 1095.00,540.00" fill="#42525C" stroke="#20272D" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="855.00,540.00 1130.00,540.00" fill="none" stroke="#173A56" stroke-width="6" stroke-linejoin="round"/>
+<polyline points="840.00,350.00 840.00,540.00" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="840.00,350.00 846.79,361.08 833.21,361.08" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="840.00,540.00 833.21,528.92 846.79,528.92" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<text x="910.0" y="445.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">17.5 mm</text>
+<text x="995" y="315" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">FENCE 90°</text>
+<polyline points="995.00,405.00 995.00,505.00" fill="none" stroke="#2E6F73" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="995.00,505.00 984.55,487.95 1005.45,487.95" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<text x="995" y="735" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">10 mm / 25 mm FRAME</text>
+<text x="995" y="780" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">6 mm / 20 mm MUNTIN</text>
+<text x="995" y="825" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">≥0.200 TO FACE GLUE LINES</text>
+<text x="995" y="860" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">TIGHT / MEDIUM VERIFIED</text>
+<text x="1245" y="260" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">OPERATOR</text>
+<text x="1245" y="300" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">INITIALS</text>
+<polyline points="1245.00,324.00 1490.00,324.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<text x="1245" y="385" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">DATE / TIME</text>
+<polyline points="1245.00,409.00 1490.00,409.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<text x="1245" y="470" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">MACHINE ID</text>
+<polyline points="1245.00,494.00 1490.00,494.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<text x="1245" y="555" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">CUTTER ID</text>
+<polyline points="1245.00,579.00 1490.00,579.00" fill="none" stroke="#65717A" stroke-width="3" stroke-linejoin="round"/>
+<rect x="1245" y="660" width="260" height="90" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="1375" y="690" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">SCRAP PASSES</text>
+<text x="1375" y="728" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">ALL LIMITS</text>
+<rect x="1245" y="790" width="260" height="70" fill="#FAEFEC" stroke="#A33B32" stroke-width="3"/>
+<text x="1375" y="825" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">THEN PRODUCTION</text>
+</svg>

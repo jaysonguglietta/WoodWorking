@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">3</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">No-resaw frame lamination and seam control</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">Width-rip I/K into one core and one back-face lane; plane whole B/C show-face billets, rest, press, and surface symmetrically.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">LS-05</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<rect x="40" y="145" width="360" height="620" fill="#FFFFFF" stroke="#173A56" stroke-width="3"/>
+<rect x="40" y="145" width="360" height="58" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<text x="62" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">1  RIP + PLANE LAYERS</text>
+<rect x="425" y="145" width="360" height="620" fill="#FFFFFF" stroke="#2E6F73" stroke-width="3"/>
+<rect x="425" y="145" width="360" height="58" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="447" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">2  PRESS BOTH FACES</text>
+<rect x="810" y="145" width="360" height="620" fill="#FFFFFF" stroke="#173A56" stroke-width="3"/>
+<rect x="810" y="145" width="360" height="58" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<text x="832" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">3  SURFACE EQUALLY</text>
+<rect x="1195" y="145" width="360" height="620" fill="#FFFFFF" stroke="#2E6F73" stroke-width="3"/>
+<rect x="1195" y="145" width="360" height="58" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1217" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">4  RELEASE D / F SEAMS</text>
+<rect x="105" y="255" width="225" height="82" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<text x="217.5" y="296.0" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">SHOW FACE  5/16</text>
+<rect x="105" y="375" width="225" height="210" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<text x="217.5" y="480.0" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">CORE  7/8</text>
+<rect x="105" y="623" width="225" height="82" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<text x="217.5" y="664.0" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">BACK FACE  5/16</text>
+<text x="220" y="228" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">D-101A B/K/K • D-101B C/I/I (S/C/B)</text>
+<text x="220" y="730" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">STAGED PLANE • REST • NO RESAW</text>
+<rect x="500" y="285" width="210" height="72.91666666666667" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="500" y="357.9166666666667" width="210" height="204.16666666666669" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="500" y="562.0833333333334" width="210" height="72.91666666666667" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="465" y="257" width="280" height="22" fill="#42525C" stroke="#20272D" stroke-width="2"/>
+<rect x="465" y="641" width="280" height="22" fill="#42525C" stroke="#20272D" stroke-width="2"/>
+<polyline points="745.00,210.00 745.00,255.00" fill="none" stroke="#A33B32" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="745.00,255.00 735.59,239.65 754.41,239.65" fill="#A33B32" stroke="#A33B32" stroke-width="0" stroke-linejoin="round"/>
+<polyline points="745.00,710.00 745.00,665.00" fill="none" stroke="#A33B32" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="745.00,665.00 754.41,680.35 735.59,680.35" fill="#A33B32" stroke="#A33B32" stroke-width="0" stroke-linejoin="round"/>
+<text x="605" y="230" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">FLAT PLATEN + RIGID CAULS</text>
+<text x="605" y="680" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">1.500 GLUE BLANK</text>
+<text x="605" y="720" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">CURE • REST • AIR BOTH FACES</text>
+<rect x="885" y="295" width="210" height="60.0" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="885" y="355.0" width="210" height="210.0" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="885" y="565.0" width="210" height="60.0" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="885" y="275" width="210" height="14" fill="#F3C6BF" stroke="#A33B32" stroke-width="2"/>
+<rect x="885" y="631" width="210" height="14" fill="#F3C6BF" stroke="#A33B32" stroke-width="2"/>
+<text x="990" y="245" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">REMOVE 1/16 EACH FACE</text>
+<text x="990" y="670" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">FINAL 1.375 ±0.010</text>
+<text x="990" y="710" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">1/4  +  7/8  +  1/4</text>
+<text x="1235" y="235" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="start" dominant-baseline="middle">D-101D  /  7-IN RAIL</text>
+<rect x="1235" y="265.0" width="280" height="30.666666666666668" fill="#A46F36" stroke="#20272D" stroke-width="2"/>
+<text x="1247" y="280.3333333333333" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="start" dominant-baseline="middle">S</text>
+<polyline points="1410.00,265.00 1410.00,295.67" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<rect x="1235" y="295.6666666666667" width="280" height="30.666666666666668" fill="#C29359" stroke="#20272D" stroke-width="2"/>
+<text x="1247" y="311.0" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="start" dominant-baseline="middle">C</text>
+<polyline points="1325.00,295.67 1325.00,326.33" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<rect x="1235" y="326.3333333333333" width="280" height="30.666666666666668" fill="#A46F36" stroke="#20272D" stroke-width="2"/>
+<text x="1247" y="341.66666666666663" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="start" dominant-baseline="middle">B</text>
+<polyline points="1430.00,326.33 1430.00,357.00" fill="none" stroke="#A33B32" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="1285.0" cy="311.0" r="8" fill="#35454F" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1375.0" cy="311.0" r="8" fill="#35454F" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1465.0" cy="311.0" r="8" fill="#35454F" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1375.0" y="382" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">● DF CENTER  |  S / C / B BANDS</text>
+<text x="1235" y="475" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="start" dominant-baseline="middle">D-101F  /  12-IN RAIL</text>
+<rect x="1235" y="505.0" width="280" height="30.666666666666668" fill="#A46F36" stroke="#20272D" stroke-width="2"/>
+<text x="1247" y="520.3333333333334" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="start" dominant-baseline="middle">S</text>
+<polyline points="1305.00,505.00 1305.00,535.67" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="1386.67,505.00 1386.67,535.67" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="1456.67,505.00 1456.67,535.67" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<rect x="1235" y="535.6666666666666" width="280" height="30.666666666666668" fill="#C29359" stroke="#20272D" stroke-width="2"/>
+<text x="1247" y="551.0" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="start" dominant-baseline="middle">C</text>
+<polyline points="1369.17,535.67 1369.17,566.33" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<rect x="1235" y="566.3333333333334" width="280" height="30.666666666666668" fill="#A46F36" stroke="#20272D" stroke-width="2"/>
+<text x="1247" y="581.6666666666667" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" text-anchor="start" dominant-baseline="middle">B</text>
+<polyline points="1293.33,566.33 1293.33,597.00" fill="none" stroke="#A33B32" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="1351.67,566.33 1351.67,597.00" fill="none" stroke="#A33B32" stroke-width="5" stroke-linejoin="round"/>
+<polyline points="1445.00,566.33 1445.00,597.00" fill="none" stroke="#A33B32" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="1264.1666666666667" cy="551.0" r="8" fill="#35454F" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1328.3333333333333" cy="551.0" r="8" fill="#35454F" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1410.0" cy="551.0" r="8" fill="#35454F" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1485.8333333333333" cy="551.0" r="8" fill="#35454F" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1375.0" y="622" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">● DF CENTER  |  S / C / B BANDS</text>
+<text x="1375" y="730" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">DOMINO CENTERS DO NOT MOVE</text>
+<rect x="100" y="800" width="1400" height="160" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="130" y="835" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="start" dominant-baseline="middle">RELEASE CONTROLS</text>
+<text x="130" y="874" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">B/C: whole-billet 5/16 show faces. I/K: 4-3/8 core + back lanes. E/F: prove ≥5 clear 16-1/4 billets.</text>
+<text x="130" y="910" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">Coupon: void-free + wood failure  |  DF-to-glue line ≥0.200  |  seam ±1/32  |  paired thickness ≤0.005.</text>
+</svg>

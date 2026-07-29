@@ -26,7 +26,7 @@ Machine guards remain installed wherever their use is intended. Support long and
 
 ## Procedure
 
-1. Clamp the stile inside edge up and show face toward the operator; support the full 79-inch length.
+1. Clamp the stile inside edge up and show face toward the operator; support the full 80-1/2-inch finished length and hook every coordinate from the scribed final-top line, not the temporary pre-fit end.
 2. Fit the 10 mm cutter, set 25 mm plunge, 17.5 mm fence height, 90-degree fence, and tight width.
 3. Transfer rail shoulders and tenon centerlines from the verified story stick, never from chained measurements.
 4. Cut the first mortise of each joint tight; with the motor running change only the remaining mortises to the medium setting.
@@ -34,7 +34,7 @@ Machine guards remain installed wherever their use is intended. Support long and
 
 ## Quality-control checklist
 
-- no mortise enters a stopped groove
+- no mortise enters a stopped or segmented groove
 - centerline within 0.010 inch
 - test rail shoulders close under hand pressure
 

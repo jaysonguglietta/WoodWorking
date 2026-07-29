@@ -27,15 +27,15 @@ Machine guards remain installed wherever their use is intended. Support long and
 
 1. Clamp the rail with show face against the same fence reference used for the stiles.
 2. Square the rail end to the reference edge and support the machine so it cannot roll during plunge.
-3. Cut the first centerline tight and the remaining centerlines medium exactly as the setup register specifies.
-4. Keep the 4-inch rails at 1.125 and 2.875 inches; use three mortises on the lock rail and four on the bottom rail.
-5. Insert dry-fit tenons shortened and edge-sanded only for testing; reserve untouched tenons for glue-up.
+3. Cut the first centerline tight and the remaining centerlines medium exactly as the setup register specifies; for J-11/J-12 this tight/medium pattern applies only to D-101E and D-101F.
+4. Use the specification centers: 4-inch rails 1.250/2.750; lock rail 1.250/3.500/5.750; bottom rail 1.250/4.000/7.500/10.750 inches.
+5. On each paired production-thickness sample, first prove shoulder closure with untouched full-length factory tenons. Only after that gate passes, minimally ease the ribs and ends of a clearly labeled rehearsal set enough for hand removal; never shorten a tenon.
 
 ## Quality-control checklist
 
 - rail face flush within 0.010 inch
 - shoulder gap under 0.005 inch
-- minimum web to groove maintained
+- actual rail web to an adjacent groove at least 0.150 inch
 
 ## Common problems
 

@@ -26,11 +26,12 @@ Machine guards remain installed wherever their use is intended. Support long and
 
 ## Procedure
 
-1. Assemble on a flat platform with labeled test tenons and all five panels installed.
+1. Assemble the entire door on a flat platform with the lower module still unglued, labeled test tenons, all five panels installed, and two approved 3/4-inch-long foam spacers in each vertical side groove.
 2. Bring shoulders home with moderate clamp pressure; a joint requiring heavy pressure must be corrected, not forced.
 3. Measure both diagonals, overall width and height, and all rail positions from the top reference.
-4. Sight winding sticks and press each panel laterally to confirm independent movement.
-5. Mark clamp locations and disassembly order directly on masking tape.
+4. Sight winding sticks and press each panel laterally to confirm independent movement. If spacer compression bows a member, resists shoulder closure, or eliminates residual travel, stop and reject the spacer/sample combination.
+5. Mark clamp locations and disassembly order directly on masking tape; only then release Stage A glue-up.
+6. After Stage A cures, repeat the complete-door dry fit with the cured module before releasing Stage B.
 
 ## Quality-control checklist
 

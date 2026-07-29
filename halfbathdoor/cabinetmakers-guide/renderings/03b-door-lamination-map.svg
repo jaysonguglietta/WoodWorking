@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Door lamination map</title>
+  <desc id="desc">Board-letter map showing the eight three-layer frame laminations and five edge-glued floating panel blanks.</desc>
+  <defs>
+    <style>
+      .ink{fill:#172331}.muted{fill:#596572}.blue{fill:#dce9f1}.blue2{fill:#c7dce9}.oak{fill:#e8dcc7}.oak2{fill:#d8c39f}.paper{fill:#ffffff}.rule{stroke:#78828b;stroke-width:2;fill:none}.strong{font:700 24px Helvetica,Arial,sans-serif}.body{font:18px Helvetica,Arial,sans-serif}.small{font:15px Helvetica,Arial,sans-serif}.tiny{font:13px Helvetica,Arial,sans-serif}.center{text-anchor:middle}.right{text-anchor:end}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="898" rx="14" class="paper" stroke="#a8afb5" stroke-width="2"/>
+
+  <text x="38" y="48" class="strong ink">A. FRAME MEMBERS - THREE-LAYER FACE LAMINATIONS</text>
+  <text x="38" y="76" class="body muted">Glue the show face and back face to the core at the same time against a flat platen.</text>
+
+  <rect x="40" y="106" width="215" height="104" rx="8" class="blue"/>
+  <rect x="255" y="106" width="430" height="104" class="oak2"/>
+  <rect x="685" y="106" width="215" height="104" rx="8" class="blue"/>
+  <line x1="255" y1="106" x2="255" y2="210" class="rule"/>
+  <line x1="685" y1="106" x2="685" y2="210" class="rule"/>
+  <text x="147" y="145" class="strong ink center">SHOW FACE</text>
+  <text x="147" y="178" class="body ink center">5/16" before glue</text>
+  <text x="470" y="145" class="strong ink center">CORE</text>
+  <text x="470" y="178" class="body ink center">7/8"</text>
+  <text x="792" y="145" class="strong ink center">BACK FACE</text>
+  <text x="792" y="178" class="body ink center">5/16" before glue</text>
+  <path d="M925 110h42v100h-42" class="rule"/>
+  <text x="990" y="148" class="body ink">Preglue: 1-1/2"</text>
+  <text x="990" y="177" class="body ink">Finished: 1-3/8"</text>
+  <text x="990" y="203" class="small muted">Remove 1/16" per outer face</text>
+
+  <rect x="40" y="240" width="540" height="234" rx="10" fill="#f4f7f9" stroke="#a8afb5" stroke-width="2"/>
+  <text x="62" y="272" class="strong ink">Board-letter stacks</text>
+  <text x="62" y="307" class="body ink">D-101A Hinge stile</text><text x="555" y="307" class="body ink right">B + K + K</text>
+  <text x="62" y="338" class="body ink">D-101B Lock stile</text><text x="555" y="338" class="body ink right">C + I + I</text>
+  <text x="62" y="369" class="body ink">D-101C Top rail</text><text x="555" y="369" class="body ink right">FP-05 + J + FP-05</text>
+  <text x="62" y="400" class="body ink">D-101M Upper intermediate rail</text><text x="555" y="400" class="body ink right">FP-05 + J + FP-05</text>
+  <text x="62" y="431" class="body ink">D-101D Lock rail</text><text x="555" y="431" class="body ink right">FP-05 + L + FP-05</text>
+  <text x="62" y="462" class="body ink">D-101E Lower intermediate rail</text><text x="555" y="462" class="body ink right">FP-05 + L + FP-05</text>
+
+  <rect x="600" y="240" width="560" height="234" rx="10" fill="#f4f7f9" stroke="#a8afb5" stroke-width="2"/>
+  <text x="622" y="272" class="strong ink">Wide and narrow members</text>
+  <text x="622" y="307" class="body ink">D-101F Bottom rail</text><text x="1135" y="307" class="body ink right">FP-05 + (L + J) + FP-05</text>
+  <text x="622" y="338" class="body ink">D-101G Center muntin</text><text x="1135" y="338" class="body ink right">FP-05 + J + FP-05</text>
+  <text x="622" y="382" class="small muted">FP-05 is the signed short-face pool. Clear E/F stock is the</text>
+  <text x="622" y="405" class="small muted">primary source. Eligible M/D/H/C/J/L offcuts may enter only</text>
+  <text x="622" y="428" class="small muted">after their panel or core assignments pass.</text>
+  <text x="622" y="458" class="small ink">All layers run continuously with the member - no end splices.</text>
+
+  <line x1="40" y1="508" x2="1160" y2="508" class="rule"/>
+  <text x="38" y="548" class="strong ink">B. PANELS - EDGE-GLUED STAVES, NOT THREE-LAYER SANDWICHES</text>
+  <text x="38" y="576" class="body muted">Prepare 5/8" rough-thickness blanks; after cure, machine a 1/2" field and 7/32" tongue.</text>
+
+  <g transform="translate(40,606)">
+    <rect width="200" height="138" rx="8" class="oak" stroke="#78828b" stroke-width="2"/>
+    <line x1="67" y1="0" x2="67" y2="138" class="rule"/>
+    <line x1="133" y1="0" x2="133" y2="138" class="rule"/>
+    <text x="100" y="35" class="strong ink center">D-101H</text>
+    <text x="100" y="66" class="body ink center">Upper panel</text>
+    <text x="100" y="108" class="body ink center">M x 3 staves</text>
+  </g>
+  <g transform="translate(270,606)">
+    <rect width="200" height="138" rx="8" class="oak" stroke="#78828b" stroke-width="2"/>
+    <line x1="50" y1="0" x2="50" y2="138" class="rule"/>
+    <line x1="100" y1="0" x2="100" y2="138" class="rule"/>
+    <line x1="150" y1="0" x2="150" y2="138" class="rule"/>
+    <text x="100" y="35" class="strong ink center">D-101J</text>
+    <text x="100" y="66" class="body ink center">Center panel</text>
+    <text x="100" y="108" class="body ink center">G x 4 staves</text>
+  </g>
+  <g transform="translate(500,606)">
+    <rect width="200" height="138" rx="8" class="oak" stroke="#78828b" stroke-width="2"/>
+    <line x1="67" y1="0" x2="67" y2="138" class="rule"/>
+    <line x1="133" y1="0" x2="133" y2="138" class="rule"/>
+    <text x="100" y="35" class="strong ink center">D-101N</text>
+    <text x="100" y="66" class="body ink center">Lower center</text>
+    <text x="100" y="108" class="body ink center">H x 3 staves</text>
+  </g>
+  <g transform="translate(730,606)">
+    <rect width="200" height="138" rx="8" class="oak" stroke="#78828b" stroke-width="2"/>
+    <line x1="100" y1="0" x2="100" y2="138" class="rule"/>
+    <text x="100" y="35" class="strong ink center">D-101K</text>
+    <text x="100" y="66" class="body ink center">Lower left</text>
+    <text x="100" y="108" class="body ink center">D x 2 staves</text>
+  </g>
+  <g transform="translate(960,606)">
+    <rect width="200" height="138" rx="8" class="oak" stroke="#78828b" stroke-width="2"/>
+    <line x1="100" y1="0" x2="100" y2="138" class="rule"/>
+    <text x="100" y="35" class="strong ink center">D-101L</text>
+    <text x="100" y="66" class="body ink center">Lower right</text>
+    <text x="100" y="108" class="body ink center">D x 2 staves</text>
+  </g>
+
+  <rect x="40" y="776" width="1120" height="82" rx="8" fill="#faefec" stroke="#a33b32" stroke-width="2"/>
+  <text x="62" y="810" class="strong ink">DO NOT GLUE THE PANELS INTO THE FRAME GROOVES.</text>
+  <text x="62" y="840" class="body ink">The five panels float with approved 3/4"-long foam spacers. Boards A, N, and O remain reserve stock.</text>
+</svg>

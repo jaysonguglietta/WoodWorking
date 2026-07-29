@@ -1,6 +1,6 @@
 # Wide-rail multiple-tenon layout
 
-Project DC-1916-001 | Rev. A | Print at 100% / Actual Size
+Project DC-1916-001 | Rev. G | Print at 100% / Actual Size
 
 Use registered centerlines; first tight, followers medium.
 

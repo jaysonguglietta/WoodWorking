@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle" dominant-baseline="middle">12B</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Integrated door and moulding finish sequence</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">Protect every fitted boundary, re-release operation after P120, then finish, fully cure, and install in controlled order.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">FINISH</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<circle cx="95" cy="300" r="36" fill="#173A56" stroke="#FFFFFF" stroke-width="4"/>
+<text x="95" y="300" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">1</text>
+<polyline points="137.00,300.00 254.00,300.00" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="254.00,300.00 240.36,308.36 240.36,291.64" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="15" y="390" width="160" height="250" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="95" y="430" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">PANEL P120</text>
+<text x="95" y="470" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">+ PREFINISH</text>
+<text x="95" y="545" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">Tongues fully</text>
+<text x="95" y="585" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">cured first</text>
+<circle cx="296" cy="300" r="36" fill="#2E6F73" stroke="#FFFFFF" stroke-width="4"/>
+<text x="296" y="300" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+<polyline points="338.00,300.00 455.00,300.00" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="455.00,300.00 441.36,308.36 441.36,291.64" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="216" y="390" width="160" height="250" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="296" y="430" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">GLUE +</text>
+<text x="296" y="470" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">FULL CURE</text>
+<text x="296" y="545" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">Frame stops</text>
+<text x="296" y="585" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">at P100</text>
+<circle cx="497" cy="300" r="36" fill="#173A56" stroke="#FFFFFF" stroke-width="4"/>
+<text x="497" y="300" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">3</text>
+<polyline points="539.00,300.00 656.00,300.00" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="656.00,300.00 642.36,308.36 642.36,291.64" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="417" y="390" width="160" height="250" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="497" y="430" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">FIT JAMB</text>
+<text x="497" y="470" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">+ HARDWARE</text>
+<text x="497" y="545" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">Steel</text>
+<text x="497" y="585" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">setup release</text>
+<circle cx="698" cy="300" r="36" fill="#2E6F73" stroke="#FFFFFF" stroke-width="4"/>
+<text x="698" y="300" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">4</text>
+<polyline points="740.00,300.00 857.00,300.00" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="857.00,300.00 843.36,308.36 843.36,291.64" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="618" y="390" width="160" height="250" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="698" y="430" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">DRY-FIT TRIM</text>
+<text x="698" y="470" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">+ RETURNS</text>
+<text x="698" y="545" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">Label</text>
+<text x="698" y="585" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">mask remove</text>
+<circle cx="899" cy="300" r="36" fill="#173A56" stroke="#FFFFFF" stroke-width="4"/>
+<text x="899" y="300" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">5</text>
+<polyline points="941.00,300.00 1058.00,300.00" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1058.00,300.00 1044.36,308.36 1044.36,291.64" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="819" y="390" width="160" height="250" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="899" y="430" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">FINAL P120</text>
+<text x="899" y="470" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">/ NO-SAND</text>
+<text x="899" y="545" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">Protect every</text>
+<text x="899" y="585" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">fitted edge</text>
+<circle cx="1100" cy="300" r="36" fill="#2E6F73" stroke="#FFFFFF" stroke-width="4"/>
+<text x="1100" y="300" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+<polyline points="1142.00,300.00 1259.00,300.00" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1259.00,300.00 1245.36,308.36 1245.36,291.64" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="1020" y="390" width="160" height="250" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="1100" y="430" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">REHANG</text>
+<text x="1100" y="470" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">+ RE-RELEASE</text>
+<text x="1100" y="545" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">Setup hardware</text>
+<text x="1100" y="585" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">after P120</text>
+<circle cx="1301" cy="300" r="36" fill="#173A56" stroke="#FFFFFF" stroke-width="4"/>
+<text x="1301" y="300" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">7</text>
+<polyline points="1343.00,300.00 1460.00,300.00" fill="none" stroke="#173A56" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="1460.00,300.00 1446.36,308.36 1446.36,291.64" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<rect x="1221" y="390" width="160" height="250" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="1301" y="430" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">RUBIO +</text>
+<text x="1301" y="470" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">FULL CURE</text>
+<text x="1301" y="545" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">No return</text>
+<text x="1301" y="585" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">glue yet</text>
+<circle cx="1502" cy="300" r="36" fill="#A33B32" stroke="#FFFFFF" stroke-width="4"/>
+<text x="1502" y="300" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="middle" dominant-baseline="middle">8</text>
+<rect x="1422" y="390" width="160" height="250" fill="#EDF5F4" stroke="#A33B32" stroke-width="3"/>
+<text x="1502" y="430" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">PERMANENT</text>
+<text x="1502" y="470" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">INSTALL ORDER</text>
+<text x="1502" y="545" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">Plinth casing band</text>
+<text x="1502" y="585" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="400" text-anchor="middle" dominant-baseline="middle">returns cap stop-last</text>
+<text x="800" y="682" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle" dominant-baseline="middle">Rubio Monocoat Oil Plus 2C / Pure  •  CURRENT CONTAINER + TDS CONTROL</text>
+<rect x="100" y="720" width="650" height="205" fill="#FFFFFF" stroke="#173A56" stroke-width="3"/>
+<rect x="100" y="720" width="650" height="58" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<text x="122" y="750" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">NO-SAND / MASK BOUNDARY</text>
+<text x="140" y="790" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">HINGE EDGE • LOCK BEVEL • HEAD / BOTTOM</text>
+<text x="140" y="835" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">GAINS • FACEPLATE / STRIKE SEATS • GLUE LANDS</text>
+<text x="140" y="878" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="start" dominant-baseline="middle">REHANG + REPEAT OPERATING RELEASE BEFORE FINISH</text>
+<rect x="850" y="720" width="650" height="205" fill="#FFFFFF" stroke="#2E6F73" stroke-width="3"/>
+<rect x="850" y="720" width="650" height="58" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="872" y="750" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">FULL CURE / PERMANENT ORDER</text>
+<text x="890" y="790" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">A:B = 3:1 • THIN COAT • WIPE EXCESS • FULL CURE</text>
+<text x="890" y="835" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">PLINTH → CASING → BAND / RETURNS → CAP</text>
+<text x="890" y="878" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">DOOR STOP LAST • THEN FINAL OPERATING CYCLE</text>
+</svg>

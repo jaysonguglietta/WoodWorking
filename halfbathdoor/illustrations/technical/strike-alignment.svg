@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="520" viewBox="0 0 600 520">
 <defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#20272D"/></marker></defs>
-<rect width="600" height="520" fill="white"/><text x="30" y="32" font-family="Helvetica" font-size="13" fill="#2E6F73">DC-1916-001 | FIG. 32 | REV. A | NTS</text>
+<rect width="600" height="520" fill="white"/><text x="30" y="32" font-family="Helvetica" font-size="13" fill="#2E6F73">DC-1916-001 | FIG. 32 | REV. G | NTS</text>
 <text x="300" y="65" font-family="Helvetica" font-size="22" font-weight="bold" text-anchor="middle" fill="#173A56">Strike Alignment</text>
 <g font-family="Helvetica" font-size="14" fill="#20272D"><rect x="130" y="120" width="90" height="330" fill="#B98A52" stroke="#20272D"/><rect x="220" y="150" width="75" height="270" fill="#F4F0E8" stroke="#20272D"/><rect x="295" y="160" width="38" height="250" fill="#B98A52" stroke="#20272D"/><rect x="333" y="160" width="140" height="250" fill="#D7B47B" stroke="#20272D"/><path d="M90 110 H240" stroke="#2E6F73" stroke-width="3"/><text x="300" y="90" text-anchor="middle">Field verify completed jamb and actual hardware</text><text x="300" y="485" text-anchor="middle">3/16 in casing reveal default; house evidence controls</text></g></svg>

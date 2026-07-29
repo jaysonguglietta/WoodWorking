@@ -1,15 +1,21 @@
 # Visual QC
 
-Date: 2026-07-24
+Date: 2026-07-25
 
-Rendered and inspected 133 pages: 52 print-manual pages, 52 screen-manual pages, 14 template pages, 12 moulding-drawing pages, and 3 worksheet pages.
+Status: **PENDING — rendered-page inspection required.**
 
-- Clipped or overlapping text: none observed.
-- Broken tables, blank production pages, or failed figures: none observed.
-- Cover: exactly five panels in the controlled 3-plus-2 arrangement; period brass hardware and restrained oak trim.
-- Technical figures: dimensioned SVG rasterizations are legible and retain project number, figure number, revision, title, and reference notes.
-- Page headers, footers, page numbers, margins, and chapter transitions: consistent.
-- Templates: 1-inch calibration square and Actual Size instruction present on every sheet.
-- Moulding drawings and field worksheets: legible; all house-dependent dimensions carry field-verification language.
+Generated-output metadata lists 290 pages: 56 print-manual pages, 57 screen-manual pages, 14 template pages, 12 moulding-drawing pages, 4 worksheet pages, 17 quick-guide pages, 23 image-led visual-assembly-guide pages, 13 widescreen project-plans pages, 19 custom-moulding-manual pages, 64 cabinetmaker-guide pages, 2 door-shopping-list pages, 5 labeled-stock-cut-sheet pages, and 4 rough-length-cut-list pages. These counts are not visual acceptance.
 
-Critical defects: 0. Major defects: 0. Release decision: PASS.
+- Clipped or overlapping text: requires rendered-page inspection.
+- Broken tables, blank production pages, or failed figures: requires rendered-page inspection.
+- Cover composition and five-panel arrangement: requires rendered-page inspection.
+- Technical-figure legibility, labels, revision marks, and references: requires rendered-page inspection.
+- Headers, footers, page numbers, margins, and chapter transitions: requires rendered-page inspection.
+- Template calibration squares and Actual Size instructions: requires rendered-page inspection.
+- Moulding drawings and field-verification language: requires rendered-page inspection.
+
+Critical defects: not assessed. Major defects: not assessed. Release decision: **PENDING RENDERED QA**.
+## Integrated cabinetmaker guide
+
+- Guide: 64 pages; render program: 27 matched SVG/PNG scenes.
+- Every PDF page and every rendering must be inspected after the final build; written dimensions control.

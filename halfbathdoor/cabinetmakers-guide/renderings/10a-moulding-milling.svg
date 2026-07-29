@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle" dominant-baseline="middle">10A</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Custom moulding stock and milling sequence</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">Mill each profile family to its controlled rectangular section; final lengths remain field transfers.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">PROFILE MILLING</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<rect x="65" y="145" width="330" height="590" fill="#FFFFFF" stroke="#173A56" stroke-width="3"/>
+<rect x="65" y="145" width="330" height="58" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<text x="87" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">M-201 CASING</text>
+<rect x="125.0" y="412.5" width="210.0" height="35.0" fill="#C29359" stroke="#20272D" stroke-width="4"/>
+<text x="230" y="300" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.750 × 4.500</text>
+<text x="230" y="580" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">RECTILINEAR PROFILE</text>
+<text x="230" y="640" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">FINAL LENGTH: FIELD FIT</text>
+<rect x="450" y="145" width="330" height="590" fill="#FFFFFF" stroke="#2E6F73" stroke-width="3"/>
+<rect x="450" y="145" width="330" height="58" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="472" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">M-202 BACKBAND</text>
+<rect x="510.0" y="336.6666666666667" width="210.0" height="186.66666666666666" fill="#A46F36" stroke="#20272D" stroke-width="4"/>
+<text x="615" y="300" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">1.000 × 1.125</text>
+<text x="615" y="580" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">FACE PROJECTION 0.250</text>
+<text x="615" y="640" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">FINAL LENGTH: FIELD FIT</text>
+<rect x="835" y="145" width="330" height="590" fill="#FFFFFF" stroke="#173A56" stroke-width="3"/>
+<rect x="835" y="145" width="330" height="58" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<text x="857" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">M-203 STOP</text>
+<rect x="895.0" y="398.5" width="210.0" height="63.0" fill="#CDA36A" stroke="#20272D" stroke-width="4"/>
+<text x="1000" y="300" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.375 × 1.250</text>
+<text x="1000" y="580" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">RECTILINEAR PROFILE</text>
+<text x="1000" y="640" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">FINAL LENGTH: FIELD FIT</text>
+<rect x="1220" y="145" width="330" height="590" fill="#FFFFFF" stroke="#2E6F73" stroke-width="3"/>
+<rect x="1220" y="145" width="330" height="58" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1242" y="175" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">M-204 CAP / OPTIONAL</text>
+<rect x="1280.0" y="368.75" width="210.0" height="122.5" fill="#D5AE72" stroke="#20272D" stroke-width="4"/>
+<text x="1385" y="300" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.875 × 1.500</text>
+<text x="1385" y="580" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">FIELD EVIDENCE ONLY</text>
+<text x="1385" y="640" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">FINAL LENGTH: FIELD FIT</text>
+<rect x="100" y="785" width="1400" height="150" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="130" y="825" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="start" dominant-baseline="middle">SAFE MACHINING SPLIT</text>
+<text x="130" y="872" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">Rip / crosscut with standard blades; plane broad mother blanks before ripping narrow stop strips.</text>
+<text x="130" y="912" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="start" dominant-baseline="middle">No dado blade is required for default moulding profiles. Local back relief uses router or hand tools.</text>
+</svg>

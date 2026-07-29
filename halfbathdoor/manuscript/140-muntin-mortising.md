@@ -25,16 +25,19 @@ Machine guards remain installed wherever their use is intended. Support long and
 
 ## Procedure
 
-1. Confirm the muntin is exactly 3 inches wide and its two grooves are centered.
-2. Set 20 mm plunge and cut two 6 mm mortises at 0.9375 and 2.0625 inches from the left reference edge.
-3. Cut the first mortise tight and the second medium; repeat the pattern in the mating rails from the same show face.
-4. Dry-fit with 6 x 40 mm factory beech tenons and confirm both bottom-panel openings remain 6 inches.
-5. Remake the muntin if either mortise breaks into a groove or face; do not patch a structural mortise.
+1. Confirm the muntin is exactly 3 inches wide and mark its future groove limits before either operation.
+2. Before routing its side grooves, set 20 mm plunge and cut two 6 mm mortises at 1.000 and 2.000 inches from the left reference edge.
+3. Cut both D-101G mortises tight. A medium follower would enter the right side groove and is prohibited.
+4. In D-101E and D-101F, cut at 7.125 and 8.125 inches from the hinge-side shoulder; use first tight and second medium inside the 6-1/8-to-9-1/8-inch groove-free footprint.
+5. Dry-fit with 6 x 40 mm factory beech tenons and confirm both bottom-panel openings remain 6-1/8 inches.
+6. Section the full-thickness TP-11/TP-12 samples after both operations; remake any part with a subminimum web, breakout, or merged mortise.
 
 ## Quality-control checklist
 
-- two 6-inch openings within 1/64 inch
-- minimum groove web 0.040 inch
+- two 6-1/8-inch openings within 1/64 inch
+- D-101G groove-to-mortise web at least 0.100 inch
+- D-101G inter-mortise web at least 0.220 inch
+- mating-rail inter-mortise web at least 0.100 inch
 - muntin square within 0.010 inch
 
 ## Common problems

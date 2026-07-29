@@ -2,6 +2,7 @@
 """Build the bench-ready cut-and-assembly shop manual."""
 from pathlib import Path
 import html
+import json
 import re
 import xml.etree.ElementTree as ET
 
@@ -38,6 +39,10 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "quick-guide/DC-1916-001_Quick_Cut_and_Assembly_Guide.md"
 RELEASE = ROOT / "release"
 OUT = RELEASE / "DC-1916-001_Quick_Cut_and_Assembly_Guide.pdf"
+SPEC = json.loads(
+    (ROOT / "project/specification.yaml").read_text(encoding="utf-8")
+)
+REVISION = SPEC["project"]["revision"]
 
 BLUE = colors.HexColor("#173A56")
 TEAL = colors.HexColor("#2E6F73")
@@ -61,7 +66,11 @@ def page_decor(canvas, doc):
     canvas.line(0.65 * inch, 0.52 * inch, 7.85 * inch, 0.52 * inch)
     canvas.setFont("Helvetica-Bold", 7.1)
     canvas.setFillColor(BLUE)
-    canvas.drawString(0.65 * inch, 0.36 * inch, "DC-1916-001  |  SHOP MANUAL  |  REV. A")
+    canvas.drawString(
+        0.65 * inch,
+        0.36 * inch,
+        f"DC-1916-001  |  SHOP MANUAL  |  {REVISION.upper()}",
+    )
     canvas.setFont("Helvetica", 7.1)
     canvas.setFillColor(GRAY)
     canvas.drawRightString(7.85 * inch, 0.36 * inch, f"PAGE {canvas.getPageNumber():02d}")
@@ -159,6 +168,15 @@ def styles():
             firstLineIndent=-7,
             bulletIndent=0,
             spaceAfter=3,
+        )
+    )
+    s.add(
+        ParagraphStyle(
+            name="QBulletCompact",
+            parent=s["QBullet"],
+            fontSize=7.7,
+            leading=9.2,
+            spaceAfter=2,
         )
     )
     s.add(
@@ -403,7 +421,7 @@ def markdown_table(rows, s, widths=None):
     return table
 
 
-def parse_section(lines, s, include_heading=False):
+def parse_section(lines, s, include_heading=False, bullet_style="QBullet"):
     out, rows = [], []
 
     def flush():
@@ -422,7 +440,7 @@ def parse_section(lines, s, include_heading=False):
             if include_heading:
                 out.append(Paragraph(inline(line[3:]), s["QH1"]))
         elif line.startswith("- "):
-            out.append(Paragraph("&#8226; " + inline(line[2:]), s["QBullet"]))
+            out.append(Paragraph("&#8226; " + inline(line[2:]), s[bullet_style]))
         elif re.match(r"^\d+\. ", line):
             number, body = line.split(". ", 1)
             out.append(Paragraph(f"<b>{number}.</b> {inline(body)}", s["QNumber"]))
@@ -474,8 +492,8 @@ def note_cards(cards, s, widths=None):
 def workflow_strip(s):
     labels = [
         ("01", "FIELD VERIFY"),
-        ("02", "MILL + REST"),
-        ("03", "LABEL"),
+        ("02", "MAP + PLANE"),
+        ("03", "LAMINATE"),
         ("04", "GROOVE"),
         ("05", "MORTISE"),
         ("06", "DRY FIT"),
@@ -598,7 +616,10 @@ def build():
     cover = ROOT / "illustrations/renders/cover-finished-door.png"
     story.extend(
         [
-            Paragraph("DC-1916-001  /  BENCH EDITION  /  REV. A", s["QKicker"]),
+            Paragraph(
+                f"DC-1916-001  /  BENCH EDITION  /  {REVISION.upper()}",
+                s["QKicker"],
+            ),
             Table(
                 [
                     [
@@ -612,11 +633,11 @@ def build():
                                 s["QCoverDeck"],
                             ),
                             Paragraph(
-                                "<b>TARGET SLAB</b><br/>24 x 79 x 1-3/8 inches",
+                                "<b>FITTED SLAB</b><br/>23-3/4 x 80-1/2 x 1-3/8 inches",
                                 s["QCoverDeck"],
                             ),
                             Paragraph(
-                                "<font color='#8D312B'><b>FIELD HOLD:</b> Verify the completed jamb, floor, handing, and hardware before final sizing.</font>",
+                                "<font color='#8D312B'><b>FIT CONTROL:</b> Confirm the recorded 24 x 81 jamb and floor before scribing; preserve 1/8 at both sides and head and 3/8 at bottom.</font>",
                                 s["QCoverDeck"],
                             ),
                         ],
@@ -663,7 +684,7 @@ def build():
                 [
                     (
                         "Release to milling",
-                        "Completed jamb measured; undercut recorded; stock at 6-9% moisture; defects placed away from joints.",
+                        "Confirmed 24 x 81 jamb recorded; stock at 6-9% moisture; LS-05 supersedes LS-04 and RL-02 supersedes RL-01; no door-lumber purchase is released until the stock, stile, short-member, panel, laminate-coupon, and seam gates pass.",
                         BLUE,
                         PALE_BLUE,
                     ),
@@ -675,7 +696,7 @@ def build():
                     ),
                     (
                         "Stop work",
-                        "If verified width is not exactly 24 inches, recalculate rails, openings, and panels before any rail is crosscut.",
+                        "Stop if geometry changes, a continuous stile layer fails, a same-layup coupon fails, a released D/F seam cannot be held, or a panel candidate fails milling.",
                         OAK_DARK,
                         PALE,
                     ),
@@ -706,8 +727,8 @@ def build():
         story,
         s,
         "Cut schedule | Frame",
-        "Mill the frame as one matched set.",
-        "Rough sizes include working allowance. Finished sizes control after the stock has rested and been final-planed.",
+        "Build a balanced three-layer frame set.",
+        "Rev. G controls the 23-3/4 x 80-1/2 fitted slab, equal 4-1/4-inch stiles, and 15-1/4-inch rail shoulders. LS-05 / RL-02 reserve A-O for the door and eliminate resawing.",
     )
     story.extend(
         [
@@ -716,20 +737,20 @@ def build():
             note_cards(
                 [
                     (
-                        "Milling rule",
-                        "Joint one face and edge, plane to about 1-7/16 inches, sticker and rest, then final-plane every frame member together.",
+                    "No-resaw milling rule",
+                        "Plane whole mother billets in staged passes to prepare 5/16 show face + 7/8 core + 5/16 back face; do not resaw. Press both faces at once, cure and rest, then remove 1/16 equally per face to finish 1/4 + 7/8 + 1/4.",
                         BLUE,
                         PALE_BLUE,
                     ),
                     (
                         "Length rule",
-                        "Rails finish at 15 inches between 4-1/2-inch stiles. Keep both stiles long until the completed jamb is verified.",
+                        "Rails finish at 15-1/4 inches between equal 4-1/4-inch stiles. Prepare continuous stile cores at 81 inches and faces at 81-1/8; retain the 23-7/8 x 80-5/8 prefit perimeter until final scribing.",
                         TEAL,
                         PALE_TEAL,
                     ),
                     (
                         "Accept",
-                        "Thickness +/-0.010 inch; paired rails within 0.005; reference edges square within 0.003 inch per inch.",
+                        "B/C yield continuous 5/16 show faces; K/I each yield two ordinary-ripped 4-3/8-inch lanes—one 7/8 core and one 5/16 back face; short-member gates and coupons pass; D/F seams match LS-05; final thickness is +/-0.010.",
                         OAK_DARK,
                         PALE,
                     ),
@@ -746,7 +767,7 @@ def build():
         s,
         "Cut schedule | Panels",
         "Size floating panels for movement—not a press fit.",
-        "Panel grain runs vertically. Mill the complete panel set together and verify each tongue in a sample groove.",
+        "LS-05 / RL-02 assign STOCK-M/G/H/D as primary panel sources and keep STOCK-A intact as the upper-panel fallback. Release CHK-RS-01 and CHK-P-01 only after preparation proves measured yield; then match the glue-ups.",
     )
     panel_content = parse_section(sections["Panel cut list"], s)
     groove_figure = ROOT / "illustrations/technical/panel-groove-section.svg"
@@ -762,11 +783,12 @@ def build():
                             Paragraph("PANEL FIT STANDARD", s["QH2"]),
                             Paragraph(
                                 "<b>Field:</b> 1/2 inch thick.<br/>"
-                                "<b>Tongue:</b> 7/32 inch thick x 1/2 inch deep.<br/>"
-                                "<b>Groove:</b> 1/4 inch wide x 1/2 inch deep.<br/>"
+                                "<b>Tongue:</b> 7/32 inch thick +/-0.005 x 7/16 inch projection +/-0.005.<br/>"
+                                "<b>Groove:</b> 1/4 inch wide +0.005/-0.000 x 1/2 inch deep +0.010/-0.000.<br/>"
                                 "<b>Full-width panels:</b> 1/4 inch total side clearance.<br/>"
                                 "<b>Lower pair:</b> 1/8 inch total side clearance.<br/>"
-                                "<b>Before assembly:</b> Prefinish edges and tongues; add two silicone space balls per long edge.",
+                                "<b>Spacer:</b> 3/4 inch is longitudinal length. PB265 is a candidate only; measure the groove and release separate H/J/N and K/L samples.<br/>"
+                                "<b>After both gates:</b> Add two released foam spacers in each vertical side groove.",
                                 s["QBody"],
                             ),
                             Paragraph(
@@ -804,14 +826,54 @@ def build():
     story.extend(
         [
             svg_figure(illustration_dir / "00-rail-stack.svg", 7.0 * inch),
-            Spacer(1, 5),
-            Paragraph("Controlled cutting sequence", s["QH2"]),
-            *parse_section(sections["Cutting sequence"], s),
             PageBreak(),
         ]
     )
 
-    # 06 — Groove and mortise coordination
+    # 06 — LS-05 / RL-02 stock release and balanced-frame sequence
+    page_heading(
+        story,
+        s,
+        "Material preparation | LS-05 / RL-02",
+        "Release, laminate, and final-machine the frame.",
+        "All A-O stock stays with the door. Keep every board full length until the applicable yield gate is signed; do not cut A while M carries the upper panel, and keep 74-inch N/O full as short-member reserve.",
+    )
+    cutting_steps = parse_section(sections["Cutting sequence"], s)
+    story.extend(
+        [
+            Table(
+                [
+                    [
+                        [
+                            Paragraph("RELEASE + PREPARE", s["QKicker"]),
+                            *cutting_steps[:5],
+                        ],
+                        [
+                            Paragraph("PRESS + MACHINE", s["QKicker"]),
+                            *cutting_steps[5:],
+                        ],
+                    ]
+                ],
+                colWidths=[3.40 * inch, 3.40 * inch],
+                style=TableStyle(
+                    [
+                        ("BACKGROUND", (0, 0), (0, 0), PALE_BLUE),
+                        ("BACKGROUND", (1, 0), (1, 0), PALE_TEAL),
+                        ("BOX", (0, 0), (-1, -1), 0.55, RULE),
+                        ("INNERGRID", (0, 0), (-1, -1), 0.35, RULE),
+                        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+                        ("LEFTPADDING", (0, 0), (-1, -1), 9),
+                        ("RIGHTPADDING", (0, 0), (-1, -1), 9),
+                        ("TOPPADDING", (0, 0), (-1, -1), 7),
+                        ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
+                    ]
+                ),
+            ),
+            PageBreak(),
+        ]
+    )
+
+    # 07 — Groove and mortise coordination
     page_heading(
         story,
         s,
@@ -827,19 +889,19 @@ def build():
                 [
                     (
                         "Panel grooves",
-                        "1/4 wide x 1/2 deep; centerline 11/16 from show face. Use stopped stile grooves only inside the openings.",
+                        "Dado only for supported through-rail grooves. Router + positive stops for stile, segmented E/F, and G grooves. Width .250–.255; depth .500–.510.",
                         BLUE,
                         PALE_BLUE,
                     ),
                     (
                         "Frame DF 500",
-                        "10 mm cutter; 10 x 50 tenons; 25 mm each side; 17.5 mm fence; 90 degrees. First tight, followers medium.",
+                        "10 mm cutter; 10 x 50 tenons; 25 mm each side; 17.5 mm fence; 90 degrees. Centers unchanged. Sectioned core-to-glue-line clearance >=0.200.",
                         TEAL,
                         PALE_TEAL,
                     ),
                     (
                         "Muntin DF 500",
-                        "6 mm cutter; 6 x 40 tenons; 20 mm each side. G: 15/16 + 2-1/16. E/F: 6-15/16 + 8-1/16 from hinge-side shoulder.",
+                        "6 mm cutter; 6 x 40 tenons; 20 mm each side. G: 1 + 2 inches, both tight. E/F: 7-1/8 + 8-1/8 inches, tight then medium, inside the 6-1/8–9-1/8 groove-free footprint.",
                         OAK_DARK,
                         PALE,
                     ),
@@ -858,8 +920,8 @@ def build():
             "Establish a complete, readable set before a mortise receives a tenon.",
             "01-parts-map.png",
             "Flat bench, cut schedules, pencil, and all parts show-face up.",
-            "Lay out 2 stiles, 5 rails, 1 muntin, and 5 panels. Match every ID to the schedule.",
-            "13 pieces present; K/L visually paired. Stop if any face, edge, top, or ID mark is missing.",
+            "Lay out 2 stiles, 5 rails, 1 muntin, and 5 panels. Match every ID and D/F seam witness mark to the schedule.",
+            "13 finished pieces present; K/L visually paired; laminate coupons and seam map signed. Stop if any datum or layer record is missing.",
             "Carry the reference marks onto blue tape if a machining operation will remove the pencil line.",
         ),
         (
@@ -868,8 +930,8 @@ def build():
             "Transfer the rail stack from the story stick before introducing panels.",
             "02-exploded-frame.png",
             "Master story stick hooked at top; dry-fit tenons only; stiles parallel.",
-            "Place C, M, D, E, and F at the controlled top coordinates; center G between E/F. Keep A left and B right.",
-            "Stack totals 79 inches; openings are 13-1/2, 14, 9-1/2, and 11 inches; bottom bays are 6 inches.",
+            "Place C, M, D, E, and F at the controlled top coordinates; center G between E/F. Keep A left and B right. Frame joints use first-tight/followers-medium; D-101G is the exception with both mortises tight.",
+            "Final stack totals 80-1/2 inches; openings are 14-1/4, 14-3/4, 9-1/2, and 11 inches; bottom bays are 6-1/8 inches.",
             "Mark mating joint IDs across each shoulder. A joint should only be able to return to one location.",
         ),
         (
@@ -877,9 +939,9 @@ def build():
             "Build the lower rail-and-muntin module.",
             "The lower module establishes two equal openings and captures panels K and L.",
             "03-bottom-module.png",
-            "Proven 6 mm mortises; E, G, F, K, and L staged; panel tongues dry.",
-            "Seat K and L in their grooves, then join G between E and F with four 6 x 40 tenons.",
-            "Two 6 x 11 openings; shoulders close by hand; panels slide. Stop if the muntin bows either rail.",
+            "Proven 6 mm mortises; E, G, F, K, and L staged; four released 3/4-in-long G-side foam spacers ready; panel tongues dry.",
+            "Place two released 3/4-in-long foam spacers in each D-101G side groove before K/L tongues enter; capture K/L dry, then join G between E and F with four 6 x 40 tenons.",
+            "Two 6-1/8 x 11 openings; shoulders close by hand; panels slide. Stop if the muntin bows either rail.",
             "Dry-fit this module as a unit before the full door. It is the only subassembly with a center member.",
         ),
         (
@@ -887,8 +949,8 @@ def build():
             "Load rails and panels from the hinge stile.",
             "Use D-101A as the registration spine while the door remains flat and show-face up.",
             "04-load-panels.png",
-            "D-101A supported flat; rails, panels, and lower module staged in order.",
-            "Seat rails in A. Slide H, J, N, then the complete lower module leftward from the open lock-stile end.",
+            "D-101A supported flat; C/M/D, H/J/N, and one completed lower module staged; eight released 3/4-in-long A-side foam spacers ready.",
+            "Place A-side foam spacers before tongues enter. Seat C/M/D in A; slide H/J; seat the one E/G/F/K/L lower module; then slide N through D/E. Do not install loose duplicate E/F rails.",
             "Every tongue captured; grooves aligned; no panel forced. Stop if a panel cannot move laterally.",
             "Support long rails so their weight does not lever against partially engaged Domino tenons.",
         ),
@@ -897,8 +959,8 @@ def build():
             "Close the lock stile over all rail ends.",
             "Start every exposed tenon before applying clamp pressure.",
             "05-close-lock-stile.png",
-            "D-101B parallel to A; all exposed tenons started; padded caul ready.",
-            "Bring B inward evenly. Tap only through the caul, alternating top and bottom.",
+            "D-101B parallel to A; eight released 3/4-in-long B-side foam spacers placed before panel tongues enter; all exposed tenons started; padded caul ready.",
+            "Bring B inward evenly over all rail tenons and H/J/N/L tongues. Tap only through the caul, alternating top and bottom.",
             "All shoulders nearly close by hand. Stop at the first hung joint—do not drive one rail ahead of the others.",
             "A stile that will not close evenly usually signals a missed tongue, reversed part, or misregistered mortise.",
         ),
@@ -910,7 +972,7 @@ def build():
             "Alternating-face clamps at rail locations; padded cauls; two tapes; winding sticks.",
             "Snug shoulders, compare diagonals, remove twist, then apply only the pressure needed to hold closure.",
             "Diagonal difference <= 1/16; twist <= 1/32; gaps <= 0.005; all five panels move.",
-            "Recheck geometry after five minutes. Clamp pressure can creep the frame after the first reading.",
+            "During glue-up, time-stamp this final gate within 75% of current published OPEN time. Continue monitoring clamp creep afterward; a later reading cannot rescue a failed live gate.",
         ),
     ]
     for index, spec in enumerate(assembly_specs):
@@ -935,7 +997,7 @@ def build():
         s,
         "Assembly | Rehearsal",
         "Prove the fit, sequence, and clock.",
-        "Use relieved test tenons for rehearsal. Keep all 30 clean factory tenons untouched until adhesive is opened.",
+        "First prove full-length factory tenons on paired samples; then rehearse with minimally relieved, never-shortened test tenons.",
     )
     story.extend(
         [
@@ -951,19 +1013,19 @@ def build():
                 [
                     (
                         "Test tenons",
-                        "Shorten slightly and edge-sand only the labeled rehearsal set. Never substitute them for the 30 clean glue-up tenons.",
+                        "First close paired production-thickness samples with untouched full-length factory tenons. Then minimally ease rehearsal-tenon ribs/ends for hand removal; never shorten.",
                         BLUE,
                         PALE_BLUE,
                     ),
                     (
                         "Geometry gate",
-                        "24 x 79 target; diagonals within 1/16; twist within 1/32; shoulders <=0.005; five panels move.",
+                        "Prefit perimeter 23-7/8 x 80-5/8; final scribe rectangle 23-3/4 x 80-1/2; diagonals within 1/16; twist within 1/32; shoulders <=0.005; five panels move.",
                         TEAL,
                         PALE_TEAL,
                     ),
                     (
                         "Time gate",
-                        "Rehearsal time + 25% margin must fit the adhesive's published open/assembly time at measured shop temperature.",
+                        "Use only current published open time. Time through final geometry and panel movement; <=75%. Clamp complete is only a checkpoint.",
                         OAK_DARK,
                         PALE,
                     ),
@@ -977,12 +1039,12 @@ def build():
                     [
                         Paragraph("<b>SHOP TEMP.</b><br/><br/>________", s["QMicro"]),
                         Paragraph("<b>ADHESIVE / LOT</b><br/><br/>____________________", s["QMicro"]),
-                        Paragraph("<b>PUBLISHED LIMIT</b><br/><br/>________ min", s["QMicro"]),
+                        Paragraph("<b>CURRENT PUBLISHED OPEN</b><br/><br/>________ min", s["QMicro"]),
                     ],
                     [
                         Paragraph("<b>STAGE A DRY TIME</b><br/><br/>________ min", s["QMicro"]),
                         Paragraph("<b>STAGE B DRY TIME</b><br/><br/>________ min", s["QMicro"]),
-                        Paragraph("<b>TIME + 25% / PASS</b><br/><br/>________ / ________", s["QMicro"]),
+                        Paragraph("<b>75% LIMIT / PASS</b><br/><br/>________ / ________", s["QMicro"]),
                     ],
                 ],
                 colWidths=[1.60 * inch, 2.80 * inch, 2.40 * inch],
@@ -1001,7 +1063,7 @@ def build():
             ),
             Spacer(1, 9),
             Table(
-                [[Paragraph("<b>STOP:</b> If either timed stage plus margin exceeds the selected adhesive limit, revise the sequence, add help, or select a suitable longer-open-time Type II PVA before proceeding.", s["QStop"])]],
+                [[Paragraph("<b>STOP:</b> If either final rehearsal gate exceeds 75% of the selected adhesive's current published OPEN time at measured shop temperature, revise the sequence, add help, or select a suitable longer-open-time Type II PVA before proceeding. No differently labeled timing window qualifies.", s["QStop"])]],
                 colWidths=[6.81 * inch],
                 style=TableStyle(
                     [
@@ -1061,7 +1123,18 @@ def build():
                     ]
                 ),
             ),
-            Spacer(1, 8),
+            PageBreak(),
+        ]
+    )
+    page_heading(
+        story,
+        s,
+        "Adhesive | Live-stage record",
+        "Do not stop the clock at clamp contact.",
+        "The same final geometry and panel-movement gate controls both the rehearsal and the live run.",
+    )
+    story.extend(
+        [
             note_cards(
                 [
                     (
@@ -1078,14 +1151,55 @@ def build():
                     ),
                     (
                         "Time gate",
-                        "Timed rehearsal + 25% margin must fit the adhesive's published open/assembly time at measured shop temperature.",
+                        "Stage A/B live timers run through final geometry and panel movement. Final gate <=75% of current published open time; clamp complete is only a checkpoint.",
                         OAK_DARK,
                         PALE,
                     ),
                 ],
                 s,
             ),
-            Spacer(1, 8),
+            Spacer(1, 10),
+            Paragraph("Live-stage timing record", s["QH2"]),
+            Table(
+                [
+                    [
+                        Paragraph("<b>STAGE</b>", s["QMicro"]),
+                        Paragraph("<b>FIRST ADHESIVE / START</b>", s["QMicro"]),
+                        Paragraph("<b>CLAMP CHECKPOINT</b>", s["QMicro"]),
+                        Paragraph("<b>FINAL GEOMETRY + PANEL MOVEMENT</b>", s["QMicro"]),
+                        Paragraph("<b>75% LIMIT / PASS</b>", s["QMicro"]),
+                    ],
+                    [
+                        Paragraph("<b>A</b>", s["QMicro"]),
+                        Paragraph("____ : ____", s["QMicro"]),
+                        Paragraph("________ min", s["QMicro"]),
+                        Paragraph("________ min", s["QMicro"]),
+                        Paragraph("________ / ________", s["QMicro"]),
+                    ],
+                    [
+                        Paragraph("<b>B</b>", s["QMicro"]),
+                        Paragraph("____ : ____", s["QMicro"]),
+                        Paragraph("________ min", s["QMicro"]),
+                        Paragraph("________ min", s["QMicro"]),
+                        Paragraph("________ / ________", s["QMicro"]),
+                    ],
+                ],
+                colWidths=[0.48 * inch, 1.25 * inch, 1.30 * inch, 2.35 * inch, 1.40 * inch],
+                style=TableStyle(
+                    [
+                        ("BACKGROUND", (0, 0), (-1, 0), BLUE),
+                        ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
+                        ("BACKGROUND", (0, 1), (-1, -1), colors.white),
+                        ("BOX", (0, 0), (-1, -1), 0.55, RULE),
+                        ("INNERGRID", (0, 0), (-1, -1), 0.35, RULE),
+                        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+                        ("ALIGN", (0, 0), (-1, -1), "CENTER"),
+                        ("TOPPADDING", (0, 0), (-1, -1), 7),
+                        ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
+                    ]
+                ),
+            ),
+            Spacer(1, 10),
             Table(
                 [[Paragraph("<b>ADHESIVE BOUNDARY:</b> Type II PVA belongs on mortise walls and tenon faces only. Keep every panel tongue and groove dry.", s["QStop"])]],
                 colWidths=[6.81 * inch],
@@ -1100,20 +1214,83 @@ def build():
                     ]
                 ),
             ),
+            Spacer(1, 9),
+            Table(
+                [[Paragraph("<b>STOP:</b> A skinned glue film, expired published open time, contaminated tenon, misloaded panel, failed final geometry, or panel that will not move requires the safe stop/disassembly response in the full builder's guide.", s["QStop"])]],
+                colWidths=[6.81 * inch],
+                style=TableStyle(
+                    [
+                        ("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#FAEFEC")),
+                        ("BOX", (0, 0), (-1, -1), 0.75, colors.HexColor("#A33B32")),
+                        ("LEFTPADDING", (0, 0), (-1, -1), 8),
+                        ("RIGHTPADDING", (0, 0), (-1, -1), 8),
+                        ("TOPPADDING", (0, 0), (-1, -1), 7),
+                        ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
+                    ]
+                ),
+            ),
+            Spacer(1, 12),
+            Paragraph("Run conditions and sign-off", s["QH2"]),
+            Table(
+                [
+                    [
+                        Paragraph("<b>ADHESIVE / LOT</b>", s["QMicro"]),
+                        Paragraph("<b>SHOP TEMP. / RH</b>", s["QMicro"]),
+                        Paragraph("<b>PUBLISHED OPEN</b>", s["QMicro"]),
+                        Paragraph("<b>75% LIMIT</b>", s["QMicro"]),
+                    ],
+                    [
+                        Paragraph("________________", s["QMicro"]),
+                        Paragraph("______ / ______", s["QMicro"]),
+                        Paragraph("________ min", s["QMicro"]),
+                        Paragraph("________ min", s["QMicro"]),
+                    ],
+                    [
+                        Paragraph("<b>STAGE A CHECKER / DATE</b>", s["QMicro"]),
+                        Paragraph("<b>STAGE B CHECKER / DATE</b>", s["QMicro"]),
+                        Paragraph("<b>HELPERS</b>", s["QMicro"]),
+                        Paragraph("<b>RELEASE RECORD</b>", s["QMicro"]),
+                    ],
+                    [
+                        Paragraph("________________", s["QMicro"]),
+                        Paragraph("________________", s["QMicro"]),
+                        Paragraph("________________", s["QMicro"]),
+                        Paragraph("PASS / HOLD", s["QMicro"]),
+                    ],
+                ],
+                colWidths=[1.70 * inch] * 4,
+                style=TableStyle(
+                    [
+                        ("BACKGROUND", (0, 0), (-1, 0), PALE_BLUE),
+                        ("BACKGROUND", (0, 2), (-1, 2), PALE_TEAL),
+                        ("BOX", (0, 0), (-1, -1), 0.55, RULE),
+                        ("INNERGRID", (0, 0), (-1, -1), 0.35, RULE),
+                        ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
+                        ("LEFTPADDING", (0, 0), (-1, -1), 7),
+                        ("RIGHTPADDING", (0, 0), (-1, -1), 7),
+                        ("TOPPADDING", (0, 0), (-1, -1), 7),
+                        ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
+                    ]
+                ),
+            ),
             PageBreak(),
         ]
     )
 
-    # 15 — Final QC, field gates, and safety
+    # 16 — Final QC, field gates, and safety
     page_heading(
         story,
         s,
         "Quality control | Release",
-        "Do not release the slab on appearance alone.",
+        "Release only after every gate passes.",
         "Record the geometry, verify free panel movement, and keep perimeter and hardware machining on field hold.",
     )
-    final_checks = parse_section(sections["Final assembly checks"], s)
-    production_tolerances = parse_section(sections["Production tolerances"], s)
+    final_checks = parse_section(
+        sections["Final assembly checks"], s, bullet_style="QBulletCompact"
+    )
+    production_tolerances = parse_section(
+        sections["Production tolerances"], s, bullet_style="QBulletCompact"
+    )
     safety = parse_section(sections["Essential safety"], s)
     story.extend(
         [
@@ -1139,19 +1316,19 @@ def build():
                 [
                     (
                         "Opening",
-                        "Completed jamb measured at top, middle, and bottom; head checked for level; floor and finished undercut recorded.",
+                        "Confirmed clear jamb is 24 x 81 throughout; recheck the record, head, and finished floor immediately before the final scribe.",
                         BLUE,
                         PALE_BLUE,
                     ),
                     (
                         "Hardware",
-                        "Handing confirmed in the room; actual hinge leaves, lock case, backset, strike, and fasteners in hand.",
+                        "Actual hardware and manufacturer patterns control intentional face/edge openings; the 1/4-inch lock buffer applies only against J-06 and other structural joinery.",
                         TEAL,
                         PALE_TEAL,
                     ),
                     (
                         "Perimeter",
-                        "Final width, height, bevel, clearances, hinge mortises, and lock machining remain on hold until field data is signed off.",
+                        "Fit to a maximum 23-3/4 x 80-1/2 rectangle for 1/8 side/head reveals and a 3/8 bottom gap; bevel, hinge mortises, and lock machining require their signed physical-hardware gates.",
                         OAK_DARK,
                         PALE,
                     ),
@@ -1202,9 +1379,23 @@ def build():
     doc.build(story)
     reader = PdfReader(str(OUT))
     extracted = "\n".join(page.extract_text() or "" for page in reader.pages)
-    assert len(reader.pages) == 15, f"Expected 15 pages, got {len(reader.pages)}"
+    assert len(reader.pages) == 17, f"Expected 17 pages, got {len(reader.pages)}"
     extracted_lower = extracted.lower()
-    for required in ["D-101A", "DF 500", "Glue-up", "Field release gates", "ASSEMBLY"]:
+    for required in [
+        "D-101A",
+        "DF 500",
+        "Glue-up",
+        "Field release gates",
+        "ASSEMBLY",
+        "LS-05",
+        "RL-02",
+        "23-7/8 x 80-5/8",
+        "23-3/4 x 80-1/2",
+        "3/8 bottom gap",
+        "5/16 + 7/8 + 5/16",
+        "1/4 + 7/8 + 1/4",
+        "0.200",
+    ]:
         assert required.lower() in extracted_lower, f"Missing required term: {required}"
     assert not re.search(r"\b(TODO|TBD|placeholder)\b", extracted, re.I)
     (RELEASE / SOURCE.name).write_text(text)

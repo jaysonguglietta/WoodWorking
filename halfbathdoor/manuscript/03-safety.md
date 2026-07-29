@@ -3,7 +3,7 @@
 - Read and follow every machine manufacturer's current instructions.
 - Keep the jointer guard installed; never joint stock shorter than the machine maker permits.
 - Use push blocks and appropriate non-through-cut guarding for the dado stack. Confirm the cartridge/blade compatibility required by the SawStop manual.
-- Stand clear of planer kickback; support stock without pulling it through.
+- Stand clear of planer kickback; support stock without pulling it through. Respect the planer's minimum work thickness and use a flat carrier sled with a positive trailing stop when required; never feed a loose thin strip on an unsecured carrier.
 - Unplug the DF 500 before cutter changes. Change mortise width only with the motor running and never during a plunge.
 - Clamp router and Domino work. Narrow work must be held by a jig, never by fingers.
 - White-oak dust is a respiratory irritant: use extraction and a suitable respirator.

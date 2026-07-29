@@ -1,0 +1,736 @@
+{
+  "document": {
+    "project": "DC-1916-001",
+    "revision": "Rev. G",
+    "stock_plan": "LS-05",
+    "supersedes": "LS-04",
+    "date": "2026-07-28",
+    "status": "G NOW S4S 15/16 X 4-1/2 X 75; THICKNESS/WIDTH/LENGTH FIT D-101J; CHK-P-01 AND OTHER LS-05 GATES UNCHANGED"
+  },
+  "assumptions": {
+    "dimensions_are_actual": true,
+    "dimensions_are_dressed_not_nominal": false,
+    "dimensions_are_rough_sawn": false,
+    "reported_dimensions_are_raw": false,
+    "surface_condition": "Surface condition is mixed. STOCK-A remains rough-sawn but its current usable length is 72-3/4 inches after a damaged 6-inch section was removed. B-F and H-K remain reported as rough-sawn, unjointed, and unplaned. STOCK-G is confirmed S4S at 15/16 x 4-1/2 x 75 inches; its thickness, width, and length fit the D-101J four-stave plan, while flatness, moisture, grain, defects, glue-edge cleanup, and CHK-P-01 still control release. STOCK-L has cleaned/jointed edges and a measured 6-inch current width; its faces, thickness, length, flatness, and final dressed yield remain unverified. STOCK-M is reported as a finished white-oak board at 3/4 x 8-1/4 x 99 inches. STOCK-N and STOCK-O are confirmed finished white oak at 1-3/4 x 11 x 74 inches each; moisture, grain, flatness, defects, and usable clear yield still require normal shop inspection.",
+    "stock_a_length_update": "Owner reported that damage requires 6 inches to be removed from STOCK-A. Its original 78-3/4-inch entry is retained for history, but every current calculation uses 72-3/4 inches. STOCK-M now carries D-101H, so keep A intact as a door-only reserve unless a signed remap is required.",
+    "stock_l_width_update": "Owner measured STOCK-L at 6 inches wide after cleaning the edges on 2026-07-27. This current width supersedes the original 7-inch raw-width entry. Keep L full length and do not rip or crosscut until the revised J/L core map passes.",
+    "stock_g_s4s_update": "Owner confirmed STOCK-G is S4S at 15/16 x 4-1/2 x 75 inches. The 15/16-inch finished thickness exceeds the 5/8-inch D-101J rough-panel minimum by 5/16 inch. The four 16-9/16-inch first-stage billets plus four 1/8-inch kerfs use 66-3/4 inches, leaving 8-1/4 inches before the shared 2-inch end reserve and 6-1/4 inches after it. Four 4-1/2-inch current widths provide 18 inches aggregate, leaving 1-5/8 inches total width allowance above the 16-3/8-inch rough panel target. Thickness, width, and length pass; CHK-P-01 must still confirm flatness, moisture, grain, defects, glue-edge cleanup, and the four-billet clear-yield map before crosscutting.",
+    "stock_m_addition": "Owner added STOCK-M, reported finished white oak at 3/4 x 8-1/4 x 99 inches. M is the primary D-101H upper-panel source because its 3/4-inch thickness can be staged-planed to the required 5/8-inch panel thickness without resawing. Three 16-1/16-inch first-stage billets leave a 48-7/16-inch planning tail after three kerfs and one shared 2-inch reserve. After D-101H passes, up to two 16-1/4-inch face-pool billets remain conditional, leaving 15-11/16 inches on the full rough-length pattern.",
+    "stock_n_o_addition": "Owner added two pieces labeled STOCK-N and STOCK-O, each confirmed as finished white oak at 1-3/4 x 11 x 74 inches. Keep both full length as high-value door reserve while CHK-RS-01 records moisture, grain, flatness, defects, and clear yield. At 74 inches they cannot replace a continuous 81-inch stile layer. Their best fallback use is short-member core stock; planing 1-3/4-inch material to a 5/16-inch face or 5/8-inch panel billet would create excessive waste and is not released.",
+    "species_assumed": "quarter-sawn white oak; verify every board and do not mix species within a laminated member",
+    "moisture_gate": "6-9% after acclimation; layers within one percentage point inside each laminated member",
+    "saw_kerf": 0.125,
+    "default_end_trim_reserve": 2.0,
+    "end_trim_reserve_rule": "The operation-specific end reserve is a planning value. Preserve every long board until defects and clear squared ends are mapped; the actual loss controls.",
+    "frame_core_preglue_thickness": 0.875,
+    "frame_face_preglue_thickness": 0.3125,
+    "frame_glue_blank_thickness": 1.5,
+    "frame_face_finished_thickness": 0.25,
+    "frame_finished_thickness": 1.375,
+    "symmetric_face_removal_each": 0.0625,
+    "stile_core_blank": "7/8 x 4-3/8 x 81",
+    "stile_face_blank": "5/16 x 4-3/8 x 81-1/8",
+    "stile_lane_width_gate": "STOCK-I and STOCK-K must each dress to at least 8-7/8 inches of clear jointed width: two 4-3/8-inch continuous lanes plus one 1/8-inch width-rip kerf",
+    "grain_rule": "Every core, face lamella, and stave runs continuously parallel with the completed member; no cross-grain layer, butt joint, scarf joint, or hidden short block is permitted in a structural door member.",
+    "no_resaw_rule": "No resaw operation is permitted; each face lamella remains a single whole-thickness piece while it is flattened and planed to 5/16 inch.",
+    "milling_rule": "No reported face or edge is a datum. Rough dimensions do not prove dressed yield; cup, bow, twist, edge cleanup, width-rip kerf, and rest movement consume stock. Every 5/16-inch face is made by staged planing from one whole-thickness board or billet; no board is divided through its thickness.",
+    "face_planing_rule": "Flatten one reference face, rest, correct only as required, then plane the opposite face in shallow staged passes. Below stable machine thickness use a verified flat carrier with stops that cannot enter the cutter path. Rest again before final 5/16-inch calibration.",
+    "lamination_rule": "Prepare 7/8-inch cores and 5/16-inch face sheets separately, laminate both faces simultaneously against a flat platen with rigid cauls, cure and rest, then remove 1/16 inch from each outside face in alternating staged passes to reach 1/4 + 7/8 + 1/4 before any groove, Domino, hinge, or lock machining.",
+    "label_rule": "STOCK-A through STOCK-O are lumber inventory labels; D-101A through D-101N are finished door part identifiers; -CORE, -SF, and -BF identify laminated subparts.",
+    "scope_rule": "STOCK-A through STOCK-O are reserved exclusively for the door, its same-layup coupons, setup pieces, and future repair stock. No A-O material is credited to casing, backband, stop, cap, or plinth.",
+    "zero_spare_release_rule": "STOCK-M provides a dedicated panel and face-stock reserve, while finished-white-oak STOCK-N/O add uncut short-member reserve, but none relax the structural gates. Complete CHK-RS-01 on all A-O, verify STOCK-A's current 72-3/4-inch usable length, STOCK-M's reported finished 3/4 x 8-1/4 x 99 envelope, and N/O moisture, grain, flatness, defects, and clear yield, then prove CHK-ST-01 on B/C plus CHK-ST-02 on I/K before releasing M/D/G/H panel crosscuts or E/F/J/L short-member production cuts.",
+    "staged_milling_rule": "Flatten one face, rest and recheck, plane the opposite face parallel, joint one edge, record actual dressed thickness/width/clear length, and stop at the controlled rough size until the next gate passes. Do not process every board to final size and measure only afterward.",
+    "machine_minimum_rule": "Never surface a billet shorter or thinner than the machine manufacturer's safe minimum. Keep a longer mother piece or use a verified carrier/sled and guarded procedure when required."
+  },
+  "inventory": [
+    {
+      "label": "A",
+      "original_entry": "1 X 5 11/16 X 72 3/4 CURRENT; ORIGINAL 78 3/4",
+      "thickness": 1.0,
+      "width": 5.6875,
+      "length": 72.75,
+      "condition": "Rough-sawn; 6-inch damaged section removed from the original length; verify the new end is sound and map any continuation of the defect before cutting",
+      "planned_use": "Keep intact as a door-only reserve for panel substitution, short-face stock, coupons, setup pieces, or repair stock; do not cut while STOCK-M proves D-101H",
+      "disposition": "RESERVE - KEEP FULL AFTER DAMAGE MAP"
+    },
+    {
+      "label": "B",
+      "original_entry": "1 X 4 15/16 X 85",
+      "thickness": 1.0,
+      "width": 4.9375,
+      "length": 85.0,
+      "condition": "Rough-sawn; no defect reported",
+      "planned_use": "One continuous D-101A hinge-stile show-face lamella, planed from the whole-thickness board; preserve full length until the 4-3/8 x 81-1/8 clear envelope passes",
+      "disposition": "CRITICAL - STILE FACE SHEET"
+    },
+    {
+      "label": "C",
+      "original_entry": "1 X 5 3/4 X 83 1/8",
+      "thickness": 1.0,
+      "width": 5.75,
+      "length": 83.125,
+      "condition": "Rough-sawn; no defect reported",
+      "planned_use": "One continuous D-101B lock-stile show-face lamella plus longitudinal width offcut for the signed short-member face pool",
+      "disposition": "CRITICAL - STILE FACE SHEET"
+    },
+    {
+      "label": "D",
+      "original_entry": "1 X 5 X 73 3/4",
+      "thickness": 1.0,
+      "width": 5.0,
+      "length": 73.75,
+      "condition": "Rough-sawn; no defect reported",
+      "planned_use": "Primary four-stave allocation, paired two each, for D-101K and D-101L lower panels",
+      "disposition": "CONDITIONAL - DOOR PANELS"
+    },
+    {
+      "label": "E",
+      "original_entry": "1 X 5 3/4 X 75 1/2",
+      "thickness": 1.0,
+      "width": 5.75,
+      "length": 75.5,
+      "condition": "Rough-sawn; some knots",
+      "planned_use": "Short-member face pool; E and F together must yield at least five clear 5/16 x usable-width x 16-1/4 mother billets after every knot and check is excluded",
+      "disposition": "HOLD - SIGNED KNOT AND FACE-POOL MAP REQUIRED"
+    },
+    {
+      "label": "F",
+      "original_entry": "1 X 5 5/8 X 70 3/4",
+      "thickness": 1.0,
+      "width": 5.625,
+      "length": 70.75,
+      "condition": "Rough-sawn; some knots",
+      "planned_use": "Short-member face pool; E and F together must yield at least five clear 5/16 x usable-width x 16-1/4 mother billets after every knot and check is excluded",
+      "disposition": "HOLD - SIGNED KNOT AND FACE-POOL MAP REQUIRED"
+    },
+    {
+      "label": "G",
+      "original_entry": "CURRENT S4S: 15/16 X 4 1/2 X 75; WAS ROUGH 1 X 4 7/8 X 78 1/4",
+      "thickness": 0.9375,
+      "width": 4.5,
+      "length": 75.0,
+      "condition": "S4S; current 15/16-inch thickness exceeds the 5/8-inch panel minimum; verify flatness, moisture, grain, defects, and glue-edge cleanup",
+      "planned_use": "Four-stave D-101J center panel; thickness/width/length pass; release crosscuts only after CHK-P-01",
+      "disposition": "CONDITIONAL - CHK-P-01 PANEL MAP"
+    },
+    {
+      "label": "H",
+      "original_entry": "7/8 X 5 3/4 X 79",
+      "thickness": 0.875,
+      "width": 5.75,
+      "length": 79.0,
+      "condition": "Rough-sawn; no defect reported",
+      "planned_use": "Primary three-stave D-101N lower-center-panel glue-up",
+      "disposition": "CRITICAL THICKNESS - DOOR PANEL"
+    },
+    {
+      "label": "I",
+      "original_entry": "1 1/2 X 9 1/4 X 84 3/4",
+      "thickness": 1.5,
+      "width": 9.25,
+      "length": 84.75,
+      "condition": "Rough-sawn; flatness, straightness, twist, and dressed yield not recorded",
+      "planned_use": "Two parallel full-length 4-3/8-inch lanes: continuous D-101B lock-stile core and continuous D-101B back face",
+      "disposition": "CRITICAL - LOCK-STILE CORE AND BACK FACE"
+    },
+    {
+      "label": "J",
+      "original_entry": "1 5/16 X 7 X 79 1/4",
+      "thickness": 1.3125,
+      "width": 7.0,
+      "length": 79.25,
+      "condition": "Rough-sawn; no defect reported",
+      "planned_use": "Three 16-1/4-inch core mother billets for D-101C, D-101M, and the 6-1/2-inch D-101F wide core stave, plus D-101G at 12 inches; longitudinal width offcuts enter the signed face pool",
+      "disposition": "CRITICAL 6-1/2-INCH WIDTH - SIGNED CORE/OFFCUT MAP"
+    },
+    {
+      "label": "K",
+      "original_entry": "1 6/16 X 9 1/2 X 82 1/2",
+      "thickness": 1.375,
+      "width": 9.5,
+      "length": 82.5,
+      "condition": "Rough-sawn; no defect reported",
+      "planned_use": "Two parallel full-length 4-3/8-inch lanes: continuous D-101A hinge-stile core and continuous D-101A back face",
+      "disposition": "CRITICAL - HINGE-STILE CORE AND BACK FACE"
+    },
+    {
+      "label": "L",
+      "original_entry": "1 5/16 X 6 X 80 CURRENT AFTER EDGE CLEANUP",
+      "thickness": 1.3125,
+      "width": 6.0,
+      "length": 80.0,
+      "condition": "Edges cleaned/jointed to 6 inches after edge cleanup; faces, thickness, length, flatness, and final dressed yield not reverified",
+      "planned_use": "Four 16-1/4-inch core mother billets: D-101E, both D-101D staves at 5 and 2-1/4 inches, and the 5-3/4-inch D-101F top core stave; no 6-1/2-inch billet is assigned to L",
+      "disposition": "HOLD - REVISED SIGNED CORE/OFFCUT MAP"
+    },
+    {
+      "label": "M",
+      "original_entry": "3/4 X 8 1/4 X 99 FINISHED",
+      "thickness": 0.75,
+      "width": 8.25,
+      "length": 99.0,
+      "condition": "Reported finished white oak; verify actual S4S dimensions, straightness, moisture, grain orientation, color, and clear defect-free envelopes before cutting",
+      "planned_use": "Primary three-stave D-101H upper-panel glue-up; after the panel passes, up to two 16-1/4-inch whole-thickness short-face mother billets may enter signed FP-05",
+      "disposition": "PRIMARY - FINISHED PANEL STOCK; VERIFY"
+    },
+    {
+      "label": "N",
+      "original_entry": "1 3/4 X 11 X 74 FINISHED WHITE OAK",
+      "thickness": 1.75,
+      "width": 11.0,
+      "length": 74.0,
+      "condition": "Finished white oak; finished dimensions confirmed; moisture, grain orientation, flatness, defects, and clear yield require normal shop inspection",
+      "planned_use": "Keep full length as door-only reserve. Prefer as a signed fallback for short-member 7/8-inch cores; do not consume it for 5/16-inch faces or 5/8-inch panels unless a documented remap proves that the large planing loss is necessary.",
+      "disposition": "RESERVE - KEEP FULL; SHORT-CORE FALLBACK"
+    },
+    {
+      "label": "O",
+      "original_entry": "1 3/4 X 11 X 74 FINISHED WHITE OAK",
+      "thickness": 1.75,
+      "width": 11.0,
+      "length": 74.0,
+      "condition": "Finished white oak; finished dimensions confirmed; moisture, grain orientation, flatness, defects, and clear yield require normal shop inspection",
+      "planned_use": "Keep full length as door-only reserve. Prefer as a signed fallback for short-member 7/8-inch cores, coupons, or repair stock; do not consume it for 5/16-inch faces or 5/8-inch panels unless a documented remap proves that the large planing loss is necessary.",
+      "disposition": "RESERVE - KEEP FULL; SHORT-CORE FALLBACK"
+    }
+  ],
+  "operations": [
+    {
+      "stock": "M",
+      "sequence": 1,
+      "operation_id": "M-01",
+      "target": "D-101H upper panel",
+      "segment_count": 3,
+      "segment_length": 15.5625,
+      "crosscuts": 3,
+      "end_reserve": 2.0,
+      "rip_plan": "After verifying the reported finished board, crosscut three shop billets, rip each to a staged width above 5.4584 inches, establish glue edges, and preserve aggregate jointed width for the oversize panel blank. Keep the 49-15/16-inch controlled tail intact before M-02",
+      "yield": "Three staves collectively at least 5/8 x 16-3/8 x 15-9/16 after jointing; 5.4584 inches minimum average jointed stave width",
+      "status": "HOLD - VERIFIED MILLING REQUIRED",
+      "notes": "Keep the 49-15/16-inch controlled tail intact before M-02. D-101H has priority; two face billets remain conditional on a clear signed tail."
+    },
+    {
+      "stock": "M",
+      "sequence": 2,
+      "operation_id": "M-02",
+      "target": "Signed short-member face pool",
+      "segment_count": 2,
+      "segment_length": 16.25,
+      "crosscuts": 2,
+      "end_reserve": 0.0,
+      "rip_plan": "After D-101H passes, cut up to two clear mother billets from the retained tail and plane each whole-thickness billet to 5/16 on a verified carrier",
+      "yield": "Two 5/16-inch short-face mother billets at least 16-1/4 inches long; usable jointed widths recorded on FP-05",
+      "status": "HOLD - AFTER PANEL AND SIGNED FACE-POOL MAP",
+      "notes": "M-01 and M-02 share STOCK-M's single 2-inch board-end reserve; the controlled full pattern leaves 17-3/16 inches on paper."
+    },
+    {
+      "stock": "B",
+      "sequence": 1,
+      "operation_id": "B-01",
+      "target": "D-101A-SF continuous hinge-stile show face",
+      "segment_count": 1,
+      "segment_length": 81.125,
+      "crosscuts": 1,
+      "end_reserve": 3.75,
+      "rip_plan": "Preserve full length; flatten and joint a 4-3/8-inch clear lane, then plane the whole board in shallow staged passes to a stable 5/16-inch lamella using a verified carrier below normal planer capacity",
+      "yield": "One continuous glue-ready lamella at least 5/16 x 4-3/8 x 81-1/8",
+      "status": "STOP - CONTINUOUS FACE AND CARRIER-PLANING YIELD",
+      "notes": "No end joint, through knot, check, pith, taper, or unstable grain is permitted."
+    },
+    {
+      "stock": "C",
+      "sequence": 1,
+      "operation_id": "C-01",
+      "target": "D-101B-SF continuous lock-stile show face plus longitudinal short-face strips",
+      "segment_count": 1,
+      "segment_length": 81.125,
+      "crosscuts": 1,
+      "end_reserve": 1.875,
+      "rip_plan": "Preserve full length; establish a 4-3/8-inch face lane and retain the parallel longitudinal width offcut. Plane the whole-thickness face lane and eligible offcut strips in staged carrier-supported passes to 5/16.",
+      "yield": "One continuous glue-ready lamella at least 5/16 x 4-3/8 x 81-1/8 plus traceable 16-1/4-inch strips for FP-05 where jointed width survives",
+      "status": "STOP - LENGTH-CRITICAL FACE YIELD",
+      "notes": "Only 2 inches of raw length exceed the 81-1/8-inch face target before the planned crosscut; the 1/8-inch kerf and 1-7/8-inch squared-end reserve consume that complete excess. Measure the actual clear squared length before cutting."
+    },
+    {
+      "stock": "D",
+      "sequence": 1,
+      "operation_id": "D-01",
+      "target": "D-101K and D-101L lower-panel pair",
+      "segment_count": 4,
+      "segment_length": 12.3125,
+      "crosscuts": 4,
+      "end_reserve": 2.0,
+      "rip_plan": "Crosscut four staves after defect mapping; flatten and joint them, then pair two per panel with mirrored grain and color",
+      "yield": "Four staves at least 5/8 x 3-11/16 x 12-5/16; two glue-ups each at least 5/8 x 7-3/8 x 12-5/16",
+      "status": "HOLD - VERIFIED MILLING REQUIRED",
+      "notes": "The two finished lower panels must read as a deliberate visual pair."
+    },
+    {
+      "stock": "D",
+      "sequence": 2,
+      "operation_id": "D-02",
+      "target": "Signed short-member face pool",
+      "segment_count": 1,
+      "segment_length": 16.25,
+      "crosscuts": 1,
+      "end_reserve": 0.0,
+      "rip_plan": "After both lower panels pass, cut one clear mother billet from the retained tail and plane the whole-thickness billet to 5/16 on a verified carrier",
+      "yield": "One 5/16-inch short-face mother billet at least 16-1/4 inches long; usable jointed width recorded on FP-05",
+      "status": "HOLD - AFTER PANELS AND SIGNED FACE-POOL MAP",
+      "notes": "D-01 and D-02 share STOCK-D's single 2-inch board-end reserve."
+    },
+    {
+      "stock": "E",
+      "sequence": 1,
+      "operation_id": "E-01",
+      "target": "Signed short-member face pool",
+      "segment_count": 3,
+      "segment_length": 16.25,
+      "crosscuts": 3,
+      "end_reserve": 2.0,
+      "rip_plan": "Map every knot and check first. Subject to FP-05, cut three clear mother billets and plane each whole-thickness billet to 5/16 in staged carrier-supported passes.",
+      "yield": "Three clear 5/16-inch short-face mother billets at least 16-1/4 inches long with signed usable widths",
+      "status": "STOP - KNOT MAP AND FACE-POOL RELEASE",
+      "notes": "E-01 and F-01 together must provide at least five accepted 16-1/4-inch mother billets; FP-05 may redistribute the three-plus-two planning split without reducing the combined minimum."
+    },
+    {
+      "stock": "F",
+      "sequence": 1,
+      "operation_id": "F-01",
+      "target": "Signed short-member face pool",
+      "segment_count": 2,
+      "segment_length": 16.25,
+      "crosscuts": 2,
+      "end_reserve": 2.0,
+      "rip_plan": "Map every knot and check first. Subject to FP-05, cut two clear mother billets and plane each whole-thickness billet to 5/16 in staged carrier-supported passes.",
+      "yield": "Two clear 5/16-inch short-face mother billets at least 16-1/4 inches long with signed usable widths",
+      "status": "STOP - KNOT MAP AND FACE-POOL RELEASE",
+      "notes": "E-01 and F-01 together must provide at least five accepted 16-1/4-inch mother billets; no knot, bark inclusion, check, or unstable grain may enter a face or glue zone."
+    },
+    {
+      "stock": "G",
+      "sequence": 1,
+      "operation_id": "G-01",
+      "target": "D-101J center panel",
+      "segment_count": 4,
+      "segment_length": 16.0625,
+      "crosscuts": 4,
+      "end_reserve": 2.0,
+      "rip_plan": "The confirmed 15/16-inch S4S thickness passes the 5/8-inch minimum. After CHK-P-01 maps four clear billets, crosscut and make only the minimum glue-edge cleanup required; assemble in vertical-grain sequence.",
+      "yield": "Four S4S staves collectively at least 5/8 x 16-3/8 x 16-1/16 after glue-edge preparation; each starts 4-1/2 inches wide and 75 inches total length is available",
+      "status": "CONDITIONAL - THICKNESS/WIDTH/LENGTH PASS; VERIFY PANEL MAP",
+      "notes": "The confirmed 15/16-inch S4S thickness exceeds the 5/8-inch panel minimum by 5/16 inch. Width and length also pass: 18 inches aggregate current width and 8-1/4 inches before the shared 2-inch reserve, leaving a 6-1/4-inch planning tail. CHK-P-01 still controls physical yield."
+    },
+    {
+      "stock": "H",
+      "sequence": 1,
+      "operation_id": "H-01",
+      "target": "D-101N lower-center panel",
+      "segment_count": 3,
+      "segment_length": 10.8125,
+      "crosscuts": 3,
+      "end_reserve": 2.0,
+      "rip_plan": "Crosscut three staves only after the board proves 5/8 thickness over every required segment; flatten minimally and joint glue edges",
+      "yield": "Three staves collectively at least 5/8 x 16-3/8 x 10-13/16 after jointing; 5.4584 inches minimum average jointed stave width",
+      "status": "STOP - THICKNESS-CRITICAL PANEL YIELD",
+      "notes": "The 7/8-inch raw thickness has only 1/4 inch total flattening allowance."
+    },
+    {
+      "stock": "H",
+      "sequence": 2,
+      "operation_id": "H-02",
+      "target": "Signed short-member face pool",
+      "segment_count": 2,
+      "segment_length": 16.25,
+      "crosscuts": 2,
+      "end_reserve": 0.0,
+      "rip_plan": "After D-101N passes, cut two clear mother billets from the retained tail and plane each whole-thickness billet to 5/16 on a verified carrier",
+      "yield": "Two 5/16-inch short-face mother billets at least 16-1/4 inches long; usable jointed widths recorded on FP-05",
+      "status": "HOLD - AFTER PANEL AND SIGNED FACE-POOL MAP",
+      "notes": "H-01 and H-02 share STOCK-H's single 2-inch board-end reserve."
+    },
+    {
+      "stock": "I",
+      "sequence": 1,
+      "operation_id": "I-01",
+      "target": "D-101B-CORE and D-101B-BF parallel continuous lanes",
+      "segment_count": 1,
+      "segment_length": 81.125,
+      "crosscuts": 1,
+      "end_reserve": 3.5,
+      "rip_plan": "Preserve full length; flatten and joint to at least 8-7/8 inches clear, then make one ordinary full-length width rip yielding two 4-3/8-inch lanes and one 1/8-inch kerf. Plane one lane to a 7/8-inch core and the other, in staged carrier-supported passes, to a 5/16-inch back face.",
+      "yield": "One continuous 7/8 x 4-3/8 x 81 core and one continuous 5/16 x 4-3/8 x 81-1/8 back face",
+      "status": "STOP - TWO-LANE WIDTH, LENGTH, AND THICKNESS YIELD",
+      "notes": "The 8-7/8-inch gate is exact: 4-3/8 + 1/8 kerf + 4-3/8. Keep the lock, groove, Domino, and glue zones clear; no end splice."
+    },
+    {
+      "stock": "J",
+      "sequence": 1,
+      "operation_id": "J-01",
+      "target": "D-101C/M-CORE + D-101F 6-1/2-inch wide core stave",
+      "segment_count": 3,
+      "segment_length": 16.25,
+      "crosscuts": 3,
+      "end_reserve": 2.0,
+      "rip_plan": "Under revised CM-05, J must prove one clear 6-1/2-inch width. Cut 3 x 16-1/4 mother billets; plane to 7/8; rip C/M at 4-1/4 and the F wide stave at 6-1/2. Save usable offcuts for FP-05.",
+      "yield": "One-piece C/M cores plus the continuous 6-1/2-inch F core stave, all 7/8 x 16-1/4; traceable offcuts",
+      "status": "HOLD - SIGNED CORE/OFFCUT MAP",
+      "notes": "J-01 and J-02 share STOCK-J's single 2-inch board-end reserve."
+    },
+    {
+      "stock": "J",
+      "sequence": 2,
+      "operation_id": "J-02",
+      "target": "D-101G-CORE",
+      "segment_count": 1,
+      "segment_length": 12.0,
+      "crosscuts": 1,
+      "end_reserve": 0.0,
+      "rip_plan": "From the signed fourth clear envelope, plane the mother billet to 7/8 and width-rip the muntin core at 3-1/4 inches; retain the longitudinal width offcut for FP-05.",
+      "yield": "One continuous 7/8 x 3-1/4 x 12 muntin core plus a traceable face-pool width offcut",
+      "status": "HOLD - SIGNED CORE/OFFCUT MAP",
+      "notes": "The complete J pattern uses 60-3/4 inches of billets, four 1/8-inch kerfs, and one shared 2-inch reserve, leaving 16 inches on paper."
+    },
+    {
+      "stock": "K",
+      "sequence": 1,
+      "operation_id": "K-01",
+      "target": "D-101A-CORE and D-101A-BF parallel continuous lanes",
+      "segment_count": 1,
+      "segment_length": 81.125,
+      "crosscuts": 1,
+      "end_reserve": 1.25,
+      "rip_plan": "Preserve full length; flatten and joint to at least 8-7/8 inches clear, then make one ordinary full-length width rip yielding two 4-3/8-inch lanes and one 1/8-inch kerf. Plane one lane to a 7/8-inch core and the other, in staged carrier-supported passes, to a 5/16-inch back face.",
+      "yield": "One continuous 7/8 x 4-3/8 x 81 core and one continuous 5/16 x 4-3/8 x 81-1/8 back face",
+      "status": "STOP - LENGTH-CRITICAL TWO-LANE YIELD",
+      "notes": "The 8-7/8-inch gate is exact. Only 1-3/8 inches of raw length exceed the face target; one 1/8-inch crosscut leaves 1-1/4 inches for both squared ends. No end splice."
+    },
+    {
+      "stock": "L",
+      "sequence": 1,
+      "operation_id": "L-01",
+      "target": "D-101E-CORE + both D-101D core staves + D-101F 5-3/4-inch stave",
+      "segment_count": 4,
+      "segment_length": 16.25,
+      "crosscuts": 4,
+      "end_reserve": 2.0,
+      "rip_plan": "Under revised CM-05, cut 4 x 16-1/4; plane to 7/8; rip E at 4-1/4, D staves at 5 and 2-1/4, and F top at 5-3/4. L = 6 inches; no 6-1/2 billet. Save usable offcuts for FP-05.",
+      "yield": "One-piece E core, both D core staves, the 5-3/4-inch F core stave, and traceable offcuts",
+      "status": "HOLD - SIGNED CORE/OFFCUT MAP",
+      "notes": "The complete L pattern uses 65 inches of billets, four 1/8-inch kerfs, and one shared 2-inch reserve, leaving 12-1/2 inches on paper."
+    }
+  ],
+  "short_face_pool_control": {
+    "map_id": "FP-05",
+    "status": "STOP - SIGN BEFORE ANY SHORT-FACE MOTHER BILLET IS CUT OR ASSIGNED",
+    "required_sources": [
+      "clear tails after M-01, D-01, and H-01; STOCK-A remains an intact reserve",
+      "eligible longitudinal width offcuts from C-01, J-01, J-02, and L-01",
+      "at least five clear 16-1/4-inch mother billets combined from knot-mapped STOCK-E and STOCK-F"
+    ],
+    "required_fields": [
+      "source stock and billet ID",
+      "clear rough envelope after defect removal",
+      "target member and SF or BF plane",
+      "glue-ready thickness, width, and length",
+      "grain direction and show-face orientation",
+      "every edge seam station from the finished top",
+      "nearest Domino mortise planform clearance",
+      "operator, date, and approval signature"
+    ],
+    "release_rule": "The signed map must yield both 5/16-inch faces for D-101C/M/D/E/F/G at their full rough widths and lengths. C/M/E/G faces are one-piece across width; D and F use only the specified seam schedules. No face contains an end joint.",
+    "planing_rule": "Every accepted face strip is produced from one whole-thickness billet by staged plane/rest/carrier work; thickness slicing is prohibited."
+  },
+  "laminated_member_schedule": [
+    {
+      "part": "D-101A",
+      "name": "Hinge stile",
+      "core_stock": "K",
+      "show_face_stock": "B",
+      "back_face_stock": "K parallel lane",
+      "core_blank": "7/8 x 4-3/8 x 81",
+      "face_blanks": "B show face and K parallel-lane back face, each 5/16 x 4-3/8 x 81-1/8",
+      "seams": "one-piece core and continuous faces; no end or edge seam"
+    },
+    {
+      "part": "D-101B",
+      "name": "Lock stile",
+      "core_stock": "I",
+      "show_face_stock": "C",
+      "back_face_stock": "I parallel lane",
+      "core_blank": "7/8 x 4-3/8 x 81",
+      "face_blanks": "C show face and I parallel-lane back face, each 5/16 x 4-3/8 x 81-1/8",
+      "seams": "one-piece core and continuous faces; no end or edge seam"
+    },
+    {
+      "part": "D-101C",
+      "name": "Top rail",
+      "core_stock": "J-C-CORE",
+      "show_face_stock": "signed FP-05",
+      "back_face_stock": "signed FP-05",
+      "core_blank": "7/8 x 4-1/4 x 16-1/4",
+      "face_blanks": "two total, each 5/16 x 4-1/4 x 16-1/4",
+      "seams": "one-piece core and one-piece-width faces"
+    },
+    {
+      "part": "D-101M",
+      "name": "Upper intermediate rail",
+      "core_stock": "J-M-CORE",
+      "show_face_stock": "signed FP-05",
+      "back_face_stock": "signed FP-05",
+      "core_blank": "7/8 x 4-1/4 x 16-1/4",
+      "face_blanks": "two total, each 5/16 x 4-1/4 x 16-1/4",
+      "seams": "one-piece core and one-piece-width faces"
+    },
+    {
+      "part": "D-101D",
+      "name": "Lock rail",
+      "core_stock": "L-DW-CORE + L-DN-CORE",
+      "show_face_stock": "signed FP-05",
+      "back_face_stock": "signed FP-05",
+      "core_blank": "7/8 x 7-1/4 x 16-1/4",
+      "face_blanks": "two total, each 5/16 x 7-1/4 x 16-1/4",
+      "seams": "core 2-1/4 from finished top; show face 4-3/8; back face 4-7/8; all +/-1/32"
+    },
+    {
+      "part": "D-101E",
+      "name": "Lower intermediate rail",
+      "core_stock": "L-E-CORE",
+      "show_face_stock": "signed FP-05",
+      "back_face_stock": "signed FP-05",
+      "core_blank": "7/8 x 4-1/4 x 16-1/4",
+      "face_blanks": "two total, each 5/16 x 4-1/4 x 16-1/4",
+      "seams": "one-piece core and one-piece-width faces"
+    },
+    {
+      "part": "D-101F",
+      "name": "Bottom rail",
+      "core_stock": "L-F1-CORE + J-F2-CORE",
+      "show_face_stock": "signed FP-05",
+      "back_face_stock": "signed FP-05",
+      "core_blank": "7/8 x 12-1/4 x 16-1/4",
+      "face_blanks": "two total, each 5/16 x 12-1/4 x 16-1/4",
+      "seams": "core 5-3/4; show face 3, 6-1/2, and 9-1/2; back face 2-1/2, 5, and 9; all from finished top and all +/-1/32"
+    },
+    {
+      "part": "D-101G",
+      "name": "Center muntin",
+      "core_stock": "J-G-CORE",
+      "show_face_stock": "signed FP-05",
+      "back_face_stock": "signed FP-05",
+      "core_blank": "7/8 x 3-1/4 x 12",
+      "face_blanks": "two total, each 5/16 x 3-1/4 x 12",
+      "seams": "one-piece core and one-piece-width faces"
+    }
+  ],
+  "component_allocations": [
+    {
+      "part": "D-101A",
+      "name": "Hinge stile",
+      "stock": "K+B",
+      "allocation": "K core and parallel back face; B show face; CHK-ST-01/02",
+      "status": "CONDITIONAL - CRITICAL FULL-LENGTH YIELD"
+    },
+    {
+      "part": "D-101B",
+      "name": "Lock stile",
+      "stock": "I+C",
+      "allocation": "I core and parallel back face; C show face; CHK-ST-01/02",
+      "status": "CONDITIONAL - CRITICAL FULL-LENGTH YIELD"
+    },
+    {
+      "part": "D-101C",
+      "name": "Top rail",
+      "stock": "J + signed FP-05",
+      "allocation": "J one-piece core plus paired one-piece-width faces from the signed pool; CHK-SM-01",
+      "status": "CONDITIONAL - LAMINATED MEMBER"
+    },
+    {
+      "part": "D-101M",
+      "name": "Upper intermediate rail",
+      "stock": "J + signed FP-05",
+      "allocation": "J one-piece core plus paired one-piece-width faces from the signed pool; CHK-SM-01",
+      "status": "CONDITIONAL - LAMINATED MEMBER"
+    },
+    {
+      "part": "D-101D",
+      "name": "Lock rail",
+      "stock": "L + signed FP-05",
+      "allocation": "L 5-inch + 2-1/4-inch stave-built core and FP-05 staggered faces; CHK-SM-01/CHK-LAM-01/CHK-SEAM-01",
+      "status": "CONDITIONAL - MAPPED SEAMS"
+    },
+    {
+      "part": "D-101E",
+      "name": "Lower intermediate rail",
+      "stock": "L + signed FP-05",
+      "allocation": "L one-piece core plus paired one-piece-width faces from the signed pool; CHK-SM-01",
+      "status": "CONDITIONAL - LAMINATED MEMBER"
+    },
+    {
+      "part": "D-101F",
+      "name": "Bottom rail",
+      "stock": "J+L + signed FP-05",
+      "allocation": "L 5-3/4-inch + J 6-1/2-inch stave-built core and FP-05 multi-stave faces; CHK-SM-01/CHK-LAM-01/CHK-SEAM-01",
+      "status": "CONDITIONAL - MAPPED SEAMS"
+    },
+    {
+      "part": "D-101G",
+      "name": "Center muntin",
+      "stock": "J + signed FP-05",
+      "allocation": "J one-piece core plus paired one-piece-width faces from the signed pool; CHK-SM-01",
+      "status": "CONDITIONAL - LAMINATED MEMBER"
+    },
+    {
+      "part": "D-101H",
+      "name": "Upper panel",
+      "stock": "M",
+      "allocation": "M-01; CHK-P-01",
+      "status": "CONDITIONAL - MILLING HOLD"
+    },
+    {
+      "part": "D-101J",
+      "name": "Center panel",
+      "stock": "G",
+      "allocation": "G-01; CHK-P-01",
+      "status": "CONDITIONAL - MILLING HOLD"
+    },
+    {
+      "part": "D-101N",
+      "name": "Lower-center panel",
+      "stock": "H",
+      "allocation": "H-01; CHK-P-01",
+      "status": "CONDITIONAL - THICKNESS HOLD"
+    },
+    {
+      "part": "D-101K",
+      "name": "Lower-left panel",
+      "stock": "D",
+      "allocation": "D-01; CHK-P-01",
+      "status": "CONDITIONAL - MILLING HOLD"
+    },
+    {
+      "part": "D-101L",
+      "name": "Lower-right panel",
+      "stock": "D",
+      "allocation": "D-01; CHK-P-01",
+      "status": "CONDITIONAL - MILLING HOLD"
+    }
+  ],
+  "purchase_requirements": [],
+  "purchase_summary": {
+    "planning_quantity_bf": 0,
+    "status": "NO DOOR LUMBER PURCHASE RELEASED",
+    "basis": "All owner-labeled A-O stock is reserved for the door. STOCK-M supplies the upper panel and additional conditional face stock, STOCK-A remains intact as panel reserve, and confirmed finished-white-oak STOCK-N/O remain full-length short-member reserve. Zero purchase still means conditional measured yield, not proof that every board will satisfy its physical-yield gate. Do not release panel or short-member production cuts until B/C/I/K pass.",
+    "conditional_credit": "Door lumber purchase remains zero only if CHK-RS-01, CHK-ST-01, CHK-ST-02, CHK-SM-01, CHK-FP-01, CHK-P-01, CHK-LAM-01, and CHK-SEAM-01 pass. If a gate fails, stop and remap before consuming another board; if the remap cannot close, buy only a failed layer and never splice a failed stile."
+  },
+  "moulding_purchase_requirements": [
+    {
+      "id": "BUY-MOULD-4Q",
+      "quantity": "7 boards",
+      "material": "S4S quarter-sawn white oak, 4/4 x nominal 6 inches x 8 feet",
+      "actual_minimum": "3/4 inch thick at thinnest point after final preparation, 5-1/2 inches wide, 96 inches long; 13/16-inch thickness preferred",
+      "allocation": "four side casings, both head casings, one full-length casing spare/match board, and one three-piece stop mother blank"
+    },
+    {
+      "id": "BUY-MOULD-6Q",
+      "quantity": "2 boards",
+      "material": "S4S quarter-sawn white oak, 6/4 x nominal 6 inches x 8 feet",
+      "actual_minimum": "1-1/4 inches thick, 5-1/2 inches wide, 96 inches long",
+      "allocation": "all side/head backband for two faces; also yields two optional caps only when square-head field evidence supports them"
+    }
+  ],
+  "critical_checks": [
+    {
+      "id": "CHK-RS-01",
+      "severity": "STOP",
+      "check": "Acclimate and map A-O at full usable length. For A, confirm the current 72-3/4-inch length and inspect the new end after the 6-inch damage removal. For M, verify the reported finished 3/4 x 8-1/4 x 99-inch envelope. For N/O, record moisture, grain, flatness, defects, and clear squared-end yield while preserving their confirmed finished-white-oak 1-3/4 x 11 x 74-inch envelopes. For every board record actual dimensions, straightness, moisture, grain, bow, cup, twist, checks, knots, pith, runout, and clear squared-end limits.",
+      "pass": "Every proposed billet has a traceable clear envelope; A has a sound squared end and at least 72-3/4 inches of usable mapped reserve length; M has at least 5/8-inch recoverable thickness throughout three 16-1/16-inch panel billets and sufficient clear width for the signed three-stave map; N/O are positively identified and remain full at 74 inches unless a signed fallback map is released; and every lamination family is the same species at 6-9% moisture with layers within one percentage point.",
+      "fallback": "Reallocate only within A-O under a signed map. If M fails, remap D-101H to clear STOCK-A before purchasing panel stock. Use finished-white-oak N/O only for a documented short-member fallback; do not crosscut a long critical board to solve a short-part shortage."
+    },
+    {
+      "id": "CHK-ST-01",
+      "severity": "STOP",
+      "check": "Prove the whole-thickness staged plane/rest/carrier method on representative coupons, then prove STOCK-B and STOCK-C at full length.",
+      "pass": "B yields the D-101A show face and C yields the D-101B show face, each continuous and glue-ready at 5/16 x 4-3/8 x 81-1/8 with no taper, end joint, defect, or unstable grain.",
+      "fallback": "Stop and obtain replacement continuous face stock. Do not shorten, end-splice, or veneer over a failed stile face."
+    },
+    {
+      "id": "CHK-ST-02",
+      "severity": "STOP",
+      "check": "Prove the two full-length stile lanes in STOCK-I and STOCK-K before making the single width rip.",
+      "pass": "Each board has at least 8-7/8 inches of clear jointed width for two 4-3/8-inch lanes plus the 1/8-inch kerf; each yields one straight 7/8 x 4-3/8 x 81 core and one continuous 5/16 x 4-3/8 x 81-1/8 back face after staged planing and rest. K retains the hinge and screw zones; I retains the lock envelope.",
+      "fallback": "Stop and purchase only a replacement long layer for the failed stile. Reducing the 4-1/4-inch finished stile or joining any long layer end-to-end is not authorized."
+    },
+    {
+      "id": "CHK-SM-01",
+      "severity": "STOP",
+      "check": "Create and sign the revised CM-05 before cutting J or L. Because L is now 6 inches wide, J carries C, M, the 6-1/2-inch F stave, and G; L carries E, both D staves, and the 5-3/4-inch F stave.",
+      "pass": "J yields three 16-1/4-inch core mother billets for C, M, and the 6-1/2-inch F stave plus one 12-inch G billet; J must retain at least one clear 6-1/2-inch jointed width envelope. L yields four 16-1/4-inch billets for E, the 5-inch and 2-1/4-inch D staves, and the 5-3/4-inch F stave from its current 6-inch width. Every core is 7/8 inch, clear, continuous in length, and traceable; usable width offcuts are retained for FP-05, whose source pool also requires at least five clear 16-1/4-inch mother billets combined from E/F.",
+      "fallback": "Rearrange only clear J/L envelopes under a revised signed map. If the core map fails, prefer a clear finished-white-oak STOCK-N or STOCK-O short-core remap; if that also fails, purchase only the failed core stock. Never consume a critical stile layer."
+    },
+    {
+      "id": "CHK-FP-01",
+      "severity": "STOP",
+      "check": "Complete and sign FP-05 using up to two clear 16-1/4-inch STOCK-M tail billets after D-101H passes, plus D/H tails, eligible C/J/L longitudinal offcuts, and the required remaining clear mother billets from knot-mapped E/F. Keep STOCK-A intact unless a signed substitution is required.",
+      "pass": "The map assigns both 5/16-inch faces for C/M/D/E/F/G at full rough width and length, keeps C/M/E/G one piece across width, places D seams at 4-3/8 show and 4-7/8 back, places F show seams at 3, 6-1/2, and 9-1/2 and back seams at 2-1/2, 5, and 9, contains no end joints, and identifies coupons and repair reserve.",
+      "fallback": "Reassign clear pool strips without moving a released seam. Keep N/O out of the face pool unless a signed remap accepts the excessive thickness-planing loss. If the complete A-O pool still fails, purchase only the missing face billet; do not alter a stile layer or core allocation."
+    },
+    {
+      "id": "CHK-P-01",
+      "severity": "STOP",
+      "check": "Only after CHK-RS-01, CHK-ST-01, and CHK-ST-02 pass, verify thickness and warp throughout every mapped M/G/H/D clear envelope. M must show three clear 16-1/16-inch shop billets within its reported finished 99-inch length and at least 5/8-inch recoverable thickness throughout. Then rough-crosscut only the RL-02 finished-length-plus-1-inch panel billets and mill-test each shorter billet.",
+      "pass": "Each RL-02 billet yields its LS-05 controlled rough length after flattening and squaring; every stave remains at least 5/8 thick; M/H three-stave glue-ups and G's four-stave glue-up retain at least 16-3/8 aggregate jointed width, and both D pairs retain 7-3/8; all visible, tongue, and glue zones are clear.",
+      "fallback": "If M fails, remap D-101H to clear STOCK-A. Use clear E/F or uncommitted J/L only after the structural short-member map passes; otherwise purchase replacement panel stock."
+    },
+    {
+      "id": "CHK-LAM-01",
+      "severity": "STOP",
+      "check": "Press and destructively inspect same-layup coupons before every structural member family; coupon face stock must use the same whole-thickness staged plane/rest/carrier preparation as its production family.",
+      "pass": "The 5/16 + 7/8 + 5/16 layup measures 1-1/2 before surfacing, cures without voids or slip, then finishes 1/4 + 7/8 + 1/4 at 1-3/8. Sectioned groove and DF samples retain at least 0.200 actual core wood to each face glue line and fail in wood rather than at the adhesive line.",
+      "fallback": "Correct moisture, surface preparation, adhesive spread, pressure, platen, or cauls and remake the coupon. Production members remain on hold."
+    },
+    {
+      "id": "CHK-SEAM-01",
+      "severity": "STOP",
+      "check": "Transfer and verify the D-101D and D-101F three-plane seam maps after final width but before Domino machining.",
+      "pass": "D core/show/back seams are 2-1/4, 4-3/8, and 4-7/8 from top. F core seam is 5-3/4; show seams are 3, 6-1/2, and 9-1/2; back seams are 2-1/2, 5, and 9. Each is within +/-1/32, every face seam is offset at least 1/2 from the nearest core seam, and calculated clearance to the retained medium-width mortise planforms is at least 0.3041 inch for D and 0.4291 inch for F, exceeding the 1/4-inch requirement.",
+      "fallback": "Rebuild the affected sheet or core. Do not move a Domino center without revising the specification, register, story stick, templates, drawings, and lock gate."
+    }
+  ],
+  "typo_review": [
+    {
+      "entry": "N = 1-3/4 x 11 x 74; O = 1-3/4 x 11 x 74",
+      "assessment": "Each board is confirmed finished white oak at 1-3/4 x 11 x 74 inches and equals 9.90 board feet. At 74 inches neither board can replace an 81-inch continuous stile layer.",
+      "action": "Keep both boards full. Under CHK-RS-01 record moisture, grain, flatness, defects, and clear yield. Prefer them only as signed short-member core reserve."
+    },
+    {
+      "entry": "A = 1 x 5-11/16 x 72-3/4; M = 3/4 x 8-1/4 x 99",
+      "assessment": "A's original 78-3/4-inch length is obsolete; six inches are charged to damage removal. M is newly reported as finished white oak and now carries D-101H plus up to two conditional face-pool billets.",
+      "action": "Keep A intact as reserve. Verify M's actual finished dimensions, straightness, moisture, grain, and clear envelope; cut three 16-1/16-inch M panel billets only after CHK-RS-01/CHK-ST-01/CHK-ST-02 pass."
+    },
+    {
+      "entry": "L = 1-5/16 x 6 x 80 current",
+      "assessment": "The original 7-inch width is obsolete. The current 6-inch edge-cleaned width cannot yield the planned 6-1/2-inch F core stave.",
+      "action": "Keep L full length. Under revised CM-05, move the 6-1/2-inch F stave to J and move J's 5-inch D stave to L. J must prove one clear 6-1/2-inch width envelope before either board is cut."
+    },
+    {
+      "entry": "I = 1-1/2 x 9-1/4 x 84-3/4",
+      "assessment": "Not a typo. It conditionally yields two continuous 4-3/8-inch lanes plus one 1/8-inch kerf only if the clear jointed width is at least 8-7/8 inches.",
+      "action": "Preserve full length and release I-01 only after CHK-ST-02."
+    },
+    {
+      "entry": "K = 1-6/16; J/L = 1-5/16",
+      "assessment": "K simplifies to 1-3/8 and J/L equal 1-5/16. K conditionally supplies one stile core and one parallel stile back face; J/L supply the signed short-core map. Raw thickness does not prove flat dressed yield.",
+      "action": "Use only under the balanced LS-05 layer schedule and its staged whole-thickness planing controls."
+    }
+  ],
+  "fallback": {
+    "conservative_door_plan": "The baseline purchase quantity for the door is zero. Preserve every long board until the full dressed map, carrier-planing trials, signed core/face maps, and lamination coupons pass.",
+    "if_stile_face_fails": "Purchase one continuous long face board of adequate thickness and width; never end-splice a stile face.",
+    "if_stile_core_fails": "Purchase one clear long core board for the failed stile; never butt-, Domino-, or casually scarf-joint a stile core.",
+    "if_short_member_plan_fails": "Revise CM-05 first using clear finished-white-oak STOCK-N/O as short-member core reserve; revise FP-05 using clear uncommitted A-O reserve only where planing loss is justified; then purchase only the failed short-member layer if the signed map still cannot close.",
+    "if_panel_plan_fails": "Remap D-101H from M to clear STOCK-A first; use other door-only clear reserve only after the structural map is protected, then purchase replacement 4/4 panel stock.",
+    "moulding": "Use only the separate S4S 4/4 and 6/4 purchase. Do not transfer A-O remnants to moulding until the completed door, retained coupons, and repair reserve are released."
+  }
+}

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">1</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Installed moulding anatomy</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">The default package is restrained, flat, and subordinate to surviving house evidence.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">SYSTEM</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="271" y="105" width="638" height="765" fill="#E9E5DE" stroke="#E9E5DE" stroke-width="0"/>
+<rect x="428" y="253" width="324" height="564" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="489.56" y="281.2" width="200.88" height="90.24" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<rect x="489.56" y="410.92" width="200.88" height="95.88000000000001" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<rect x="489.56" y="557.56" width="200.88" height="67.67999999999999" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<rect x="489.56" y="676.0" width="94.44" height="112.80000000000001" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<rect x="596.0" y="676.0" width="94.44" height="112.80000000000001" fill="#E8D4AD" stroke="#A46F36" stroke-width="2"/>
+<circle cx="721.22" cy="546.28" r="7" fill="#C5A24C" stroke="#20272D" stroke-width="2"/>
+<rect x="308" y="133" width="564" height="26" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="308" y="159" width="26" height="666" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="846" y="159" width="26" height="666" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="334" y="159" width="512" height="78" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="334" y="237" width="78" height="588" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="768" y="237" width="78" height="588" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="291.0" y="109" width="598" height="24" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<text x="95" y="180" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">M-204 OPTIONAL CAP</text>
+<polyline points="103,196 590,112" fill="none" stroke="#2E6F73" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="590,112 580.9846956956012,119.91986668442655 578.8524494541871,107.55791526098983" fill="#2E6F73"/>
+<text x="88" y="315" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">M-202 BACKBAND</text>
+<polyline points="96,331 322,300" fill="none" stroke="#173A56" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="322,300 312.7169816569108,307.604312621261 311.0122395081764,295.1761924401651" fill="#173A56"/>
+<text x="88" y="430" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">M-201 SIDE CASING</text>
+<polyline points="96,446 350,430" fill="none" stroke="#2E6F73" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="350,430 340.18426307312933,436.9029927265257 339.39562187670737,424.3833137333271" fill="#2E6F73"/>
+<text x="88" y="755" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">BASEBOARD INTERFACE</text>
+<polyline points="96,771 315,790" fill="none" stroke="#173A56" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="315,790 304.265860137784,795.364535526808 305.3501222468568,782.8669880590741" fill="#173A56"/>
+<text x="950" y="185" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">M-201 HEAD CASING</text>
+<polyline points="958,201 630,145" fill="none" stroke="#2E6F73" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="630,145 641.1399706423532,140.53894025062334 639.0287767584846,152.90450442756847" fill="#2E6F73"/>
+<text x="950" y="335" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">3/16 REVEAL</text>
+<polyline points="958,351 760,290" fill="none" stroke="#173A56" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="760,290 771.6235385103097,287.01782755372074 767.9301260186138,299.00628121529104" fill="#173A56"/>
+<text x="950" y="500" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">M-203 STOP (BEHIND SLAB)</text>
+<polyline points="958,516 748,515" fill="none" stroke="#2E6F73" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="748,515 758.2600457799771,508.77653950018356 758.2003107739345,521.3208907691208" fill="#2E6F73"/>
+<rect x="920" y="610" width="500" height="250" fill="#F4F0E8" stroke="#2E6F73" stroke-width="3"/>
+<text x="938" y="639" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">Base release</text>
+<text x="944" y="677" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• One trimmed face: 2 legs + 1 head</text>
+<text x="944" y="711" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Three-piece backband on that face</text>
+<text x="944" y="745" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• One three-piece stop set total</text>
+<text x="944" y="779" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Duplicate face trim for the other room</text>
+<text x="944" y="813" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="400" text-anchor="start" dominant-baseline="middle">• Cap and plinth require field evidence</text>
+</svg>

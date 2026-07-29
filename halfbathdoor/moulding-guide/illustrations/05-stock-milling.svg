@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000">
+<rect width="1500" height="1000" fill="white"/>
+<rect x="0" y="0" width="1500" height="92" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="58" cy="46" r="27" fill="#C29359" stroke="white" stroke-width="3"/>
+<text x="58" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">5</text>
+<text x="105" y="34" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Mill stable profile families</text>
+<text x="105" y="69" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Work from wide, supported mother blanks; rest stock before final dimensions.</text>
+<rect x="1260" y="18" width="210" height="56" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1365" y="46" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">MILLING</text>
+<text x="30" y="975" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | quarter-sawn white oak | written dimensions control</text>
+<rect x="55" y="155" width="255" height="275" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<circle cx="90" cy="190" r="22" fill="#C29359" stroke="#173A56" stroke-width="2"/>
+<text x="90" y="190" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">1</text>
+<text x="125" y="190" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="start" dominant-baseline="middle">ROUGH CUT</text>
+<text x="83" y="240" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- Add 2 in length</text>
+<text x="83" y="282" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- Place defects</text>
+<text x="83" y="324" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- Pair ray figure</text>
+<polyline points="315,292 343,292" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="343,292 332.7697057352859,298.2722467471679 332.7697057352859,285.7277532528321" fill="#2E6F73"/>
+<rect x="350" y="155" width="255" height="275" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<circle cx="385" cy="190" r="22" fill="#C29359" stroke="#173A56" stroke-width="2"/>
+<text x="385" y="190" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+<text x="420" y="190" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="start" dominant-baseline="middle">FLATTEN</text>
+<text x="378" y="240" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- Joint one face</text>
+<text x="378" y="282" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- Joint one edge</text>
+<text x="378" y="324" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- Plane as family</text>
+<polyline points="610,292 638,292" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="638,292 627.7697057352859,298.2722467471679 627.7697057352859,285.7277532528321" fill="#2E6F73"/>
+<rect x="645" y="155" width="255" height="275" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<circle cx="680" cy="190" r="22" fill="#C29359" stroke="#173A56" stroke-width="2"/>
+<text x="680" y="190" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">3</text>
+<text x="715" y="190" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="start" dominant-baseline="middle">REST</text>
+<text x="673" y="240" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- Sticker flat</text>
+<text x="673" y="282" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- Recheck bow</text>
+<text x="673" y="324" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- Return to final T</text>
+<polyline points="905,292 933,292" fill="none" stroke="#2E6F73" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="933,292 922.7697057352859,298.2722467471679 922.7697057352859,285.7277532528321" fill="#2E6F73"/>
+<rect x="940" y="155" width="255" height="275" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<circle cx="975" cy="190" r="22" fill="#C29359" stroke="#173A56" stroke-width="2"/>
+<text x="975" y="190" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="middle" dominant-baseline="middle">4</text>
+<text x="1010" y="190" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="start" dominant-baseline="middle">RIP + LABEL</text>
+<text x="968" y="240" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- Reference edge</text>
+<text x="968" y="282" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- Final width</text>
+<text x="968" y="324" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">- ID / face / top</text>
+<rect x="55" y="500" width="1370" height="360" fill="#F4F0E8" stroke="#A46F36" stroke-width="3"/>
+<text x="85" y="535" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">SAFE STOP-BLANK METHOD</text>
+<rect x="120" y="635" width="500" height="95" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<polyline points="245,635 245,730" fill="none" stroke="#A33B32" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="370,635 370,730" fill="none" stroke="#A33B32" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="495,635 495,730" fill="none" stroke="#A33B32" stroke-width="3" stroke-linejoin="round"/>
+<text x="370" y="610" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">Plane one wide mother blank to 3/8 in</text>
+<polyline points="120,730 120,783" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="245,730 245,783" fill="none" stroke="#2E6F73" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="120,775 245,775" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="120,775 133,768 133,782" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="245,775 232,768 232,782" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<rect x="130.0" y="744" width="105" height="26" fill="white" stroke="white" stroke-width="0"/>
+<text x="182.5" y="757" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="middle">RIP 1-1/4</text>
+<polyline points="665,680 780,680" fill="none" stroke="#2E6F73" stroke-width="8" stroke-linejoin="round"/>
+<polygon points="780,680 761.2444605146909,691.4991190364746 761.2444605146909,668.5008809635254" fill="#2E6F73"/>
+<rect x="820" y="645" width="135" height="70" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<rect x="995" y="645" width="135" height="70" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<rect x="1170" y="645" width="135" height="70" fill="#D7B47B" stroke="#20272D" stroke-width="3"/>
+<text x="1080" y="610" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">Then rip supported strips to 1-1/4 in</text>
+<text x="1080" y="760" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle" dominant-baseline="middle">Never plane a loose 1-1/4 x 3/8 strip.</text>
+<text x="85" y="825" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="400" text-anchor="start" dominant-baseline="middle">Use infeed/outfeed support, guards, extraction, push blocks, and a zero-clearance strategy suited to the machine.</text>
+</svg>

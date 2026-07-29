@@ -27,17 +27,18 @@ Machine guards remain installed wherever their use is intended. Support long and
 
 ## Procedure
 
-1. Rehearse each glue-up stage with relieved test tenons; recorded time plus a 25 percent margin must remain within the selected adhesive's published open or assembly time at the measured shop temperature.
-2. Stage A: glue the center muntin to D-101E and D-101F with four clean 6 x 40 mm tenons, capture D-101K/L dry with compliant spacers, clamp square, and allow the module to reach full cure.
+1. Rehearse each glue-up stage with relieved, never-shortened test tenons and time from first simulated adhesive contact through the final geometry and panel-movement acceptance. The final rehearsal gate must finish at or below 75 percent of the selected adhesive manufacturer's current published OPEN time at the measured shop temperature; no differently labeled timing window qualifies.
+2. Stage A: glue the center muntin to D-101E and D-101F with four clean 6 x 40 mm tenons, capture D-101K/L dry with four approved 3/4-inch-long foam spacers, clamp square, and allow the module to reach full cure.
 3. Stage B: apply a controlled film to both mating mortise walls and every face of twenty-six clean 10 x 50 mm frame tenons; never fill the bottom of a mortise.
 4. Load the cured lower module, remaining rails, and panels between the stiles; never glue a panel tongue or groove.
-5. Clamp shoulders closed, measure diagonals, remove twist with winding sticks while pressure remains light, then clean squeeze-out and allow full cure.
+5. For each live stage, start the timer at first adhesive contact. Record clamp complete only as a checkpoint; keep timing through the final geometry and panel-movement acceptance, which must pass at or below 75 percent of current published open time. Then clean squeeze-out and allow full cure.
 
 ## Quality-control checklist
 
 - all shoulders closed
 - diagonals within 1/16 inch
 - twist within 1/32 inch
+- final live geometry and panel-movement gate at or below 75 percent of published open time
 
 ## Common problems
 

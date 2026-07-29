@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">4</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Panel groove and floating tongue cutaway</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">The 7/32 +/-0.005-inch tongue enters a centered 1/4 x 1/2 groove without glue.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">CUTAWAY</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<text x="450" y="145" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="middle" dominant-baseline="middle">EXACT CROSS-SECTION  /  SHOW FACE →</text>
+<rect x="230" y="625" width="80.0" height="250" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="310.0" y="625" width="280.0" height="250" fill="#C29359" stroke="#20272D" stroke-width="3"/>
+<rect x="590.0" y="625" width="80.0" height="250" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<polyline points="310.00,625.00 310.00,875.00" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="590.00,625.00 590.00,875.00" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<rect x="410.0" y="625" width="80.0" height="160.0" fill="#FFFFFF" stroke="#173A56" stroke-width="4"/>
+<rect x="414.0" y="733.0" width="72.0" height="52" fill="#A8D2D0" stroke="#2E6F73" stroke-width="3"/>
+<circle cx="429.0" cy="747.0" r="3" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="450.0" cy="762.0" r="3" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="471.0" cy="746.0" r="3" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="434.0" cy="775.0" r="3" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="472.0" cy="773.0" r="3" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<text x="450.0" y="815" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle" dominant-baseline="middle">1/4 + 7/8 CORE + 1/4</text>
+<text x="450.0" y="851" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">GROOVE STAYS IN 7/8 CORE</text>
+<text x="65" y="585" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">FOAM INSERT / COMPRESSED</text>
+<polyline points="70.00,600.00 180.00,600.00 450.00,759.00" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<rect x="370.0" y="240" width="160.0" height="175" fill="#EAD7B1" stroke="#173A56" stroke-width="4"/>
+<rect x="415.0" y="415" width="70.0" height="140.0" fill="#EAD7B1" stroke="#173A56" stroke-width="4"/>
+<text x="450.0" y="315" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.500 FIELD</text>
+<polyline points="521.00,530.00 502.00,617.00" fill="none" stroke="#2E6F73" stroke-width="7" stroke-linejoin="round"/>
+<polygon points="502.00,617.00 495.42,598.11 515.85,602.57" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polyline points="230.00,925.00 670.00,925.00" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="230.00,925.00 241.08,918.21 241.08,931.79" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="670.00,925.00 658.92,931.79 658.92,918.21" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<text x="450.0" y="903.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">1.375</text>
+<polyline points="410.00,587.00 490.00,587.00" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="410.00,587.00 421.08,580.21 421.08,593.79" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="490.00,587.00 478.92,593.79 478.92,580.21" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<text x="450.0" y="569.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.250</text>
+<polyline points="524.00,625.00 524.00,785.00" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="524.00,625.00 530.79,636.08 517.21,636.08" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="524.00,785.00 517.21,773.92 530.79,773.92" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<text x="594.0" y="705.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.500</text>
+<polyline points="415.00,220.00 485.00,220.00" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="415.00,220.00 426.08,213.21 426.08,226.79" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="485.00,220.00 473.92,226.79 473.92,213.21" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<text x="450.0" y="202.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.21875 ±0.005</text>
+<polyline points="380.00,415.00 380.00,555.00" fill="none" stroke="#173A56" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="380.00,415.00 386.79,426.08 373.21,426.08" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="380.00,555.00 373.21,543.92 386.79,543.92" fill="#173A56" stroke="#173A56" stroke-width="0" stroke-linejoin="round"/>
+<text x="268.0" y="485.0" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.4375 ±0.005</text>
+<text x="450" y="972" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">TONGUE BOTTOM CLEARANCE  0.0625</text>
+<rect x="840" y="145" width="650" height="280" fill="#EEF4F7" stroke="#173A56" stroke-width="3"/>
+<text x="864" y="183" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="700" text-anchor="start" dominant-baseline="middle">TONGUE CORNER RELIEF  /  PLAN</text>
+<rect x="900" y="230" width="280" height="150" fill="#EAD7B1" stroke="#173A56" stroke-width="4"/>
+<polyline points="942.00,230.00 942.00,272.00 900.00,272.00" fill="none" stroke="#A33B32" stroke-width="7" stroke-linejoin="round"/>
+<rect x="900" y="230" width="42" height="42" fill="#FFFFFF" stroke="#A33B32" stroke-width="3"/>
+<text x="1220" y="243" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="start" dominant-baseline="middle">REMOVE</text>
+<text x="1220" y="283" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">0.4375 × 0.4375</text>
+<text x="1220" y="323" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="700" text-anchor="start" dominant-baseline="middle">ALL 4 CORNERS</text>
+<text x="1260" y="403" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" text-anchor="middle" dominant-baseline="middle">DO NOT CUT INTO 0.500 FIELD</text>
+<rect x="840" y="455" width="650" height="210" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="864" y="486" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="700" text-anchor="start" dominant-baseline="middle">FOAM PANEL SPACER  /  NOMINAL SIZE</text>
+<rect x="900" y="550" width="300" height="54" fill="#A8D2D0" stroke="#2E6F73" stroke-width="3"/>
+<circle cx="930" cy="577" r="4" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="980" cy="577" r="4" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="1030" cy="577" r="4" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="1080" cy="577" r="4" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="1130" cy="577" r="4" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="1170" cy="577" r="4" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<polyline points="900.00,536.00 1200.00,536.00" fill="none" stroke="#2E6F73" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="900.00,536.00 911.08,529.21 911.08,542.79" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="1200.00,536.00 1188.92,542.79 1188.92,529.21" fill="#2E6F73" stroke="#2E6F73" stroke-width="0" stroke-linejoin="round"/>
+<text x="1050.0" y="519.0" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.750 LENGTH</text>
+<rect x="1290" y="545" width="62" height="62" fill="#A8D2D0" stroke="#2E6F73" stroke-width="3"/>
+<circle cx="1311" cy="564" r="4" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<circle cx="1334" cy="587" r="4" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+<text x="1321.0" y="615" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">0.265 × 0.265 NOM.</text>
+<text x="1165" y="650" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="middle">COMPRESS; SAMPLE-TEST BOTH CLEARANCE FAMILIES</text>
+<rect x="840" y="690" width="650" height="280" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="858" y="720" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700" text-anchor="start" dominant-baseline="middle">Movement, spacer, and glue boundary</text>
+<text x="864" y="758" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="start" dominant-baseline="middle">• Full panels: 0.250 total side clearance</text>
+<text x="864" y="795" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="start" dominant-baseline="middle">• Lower pair: 0.125 total side clearance</text>
+<text x="864" y="832" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="start" dominant-baseline="middle">• Parallel clearance: 0.0625 total</text>
+<text x="864" y="869" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="start" dominant-baseline="middle">• Prefinish edges; panel tongues remain dry</text>
+<text x="864" y="906" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" text-anchor="start" dominant-baseline="middle">• Spacer does not set panel cut size</text>
+</svg>

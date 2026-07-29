@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050">
+<rect width="1600" height="1050" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1600" height="98" fill="#173A56" stroke="#173A56" stroke-width="0"/>
+<circle cx="59" cy="49" r="29" fill="#C29359" stroke="#FFFFFF" stroke-width="3"/>
+<text x="59" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">11</text>
+<text x="108" y="35" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="middle">Head casing joint options</text>
+<text x="108" y="72" fill="#DCE7EC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="middle">Match one adjacent historic joint language: mitered surround or square-butt head.</text>
+<rect x="1320" y="19" width="245" height="60" fill="#2E6F73" stroke="#2E6F73" stroke-width="0"/>
+<text x="1442" y="49" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" text-anchor="middle" dominant-baseline="middle">FIELD CHOICE</text>
+<text x="28" y="1022" fill="#65717A" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="middle">DC-1916-001 | Rev. G | dimension-controlled isometric | written dimensions control</text>
+<text x="385" y="145" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">A  TRUE MITERED SURROUND</text>
+<text x="1190" y="145" fill="#2E6F73" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="middle" dominant-baseline="middle">B  SQUARE-BUTT HEAD</text>
+<polygon points="202.00,297.00 362.00,457.00 362.00,747.00 202.00,747.00" fill="#D4D0C8" stroke="#D4D0C8" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="190.00,285.00 350.00,445.00 350.00,735.00 190.00,735.00" fill="#C29359" stroke="#20272D" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="202.00,297.00 702.00,297.00 702.00,457.00 362.00,457.00" fill="#D4D0C8" stroke="#D4D0C8" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="190.00,285.00 690.00,285.00 690.00,445.00 350.00,445.00" fill="#C29359" stroke="#20272D" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="190.00,285.00 350.00,445.00" fill="none" stroke="#A33B32" stroke-width="6" stroke-linejoin="round"/>
+<text x="425" y="510" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">ONE 45° SEAM</text>
+<polyline points="350.00,445.00 425.00,510.00" fill="none" stroke="#A33B32" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="145.00,240.00 190.00,285.00 190.00,735.00 145.00,735.00" fill="#A46F36" stroke="#20272D" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="145.00,240.00 735.00,240.00 735.00,285.00 190.00,285.00" fill="#A46F36" stroke="#20272D" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="145.00,240.00 190.00,285.00" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round"/>
+<rect x="960" y="405" width="160" height="330" fill="#C29359" stroke="#20272D" stroke-width="4"/>
+<rect x="820" y="245" width="620" height="160" fill="#C29359" stroke="#20272D" stroke-width="4"/>
+<polyline points="960.00,405.00 1120.00,405.00" fill="none" stroke="#A33B32" stroke-width="6" stroke-linejoin="round"/>
+<text x="1200" y="485" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">SQUARE BUTT</text>
+<polyline points="1120.00,410.00 1170.00,470.00" fill="none" stroke="#A33B32" stroke-width="3" stroke-linejoin="round"/>
+<rect x="780" y="205" width="700" height="45" fill="#A46F36" stroke="#20272D" stroke-width="3"/>
+<rect x="750" y="170" width="760" height="35" fill="#D5AE72" stroke="#20272D" stroke-width="3"/>
+<text x="1130" y="188" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">M-204 OPTIONAL CAP / EVIDENCE ONLY</text>
+<text x="1130" y="228" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">M-202C HEAD BACKBAND — DO NOT OMIT</text>
+<text x="800" y="765" fill="#A33B32" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">M-204 0.875 × 1.500 BEARS ON COMPLETED M-202C</text>
+<text x="800" y="805" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" text-anchor="middle" dominant-baseline="middle">CAP LENGTH = ACTUAL M-202C OUTSIDE + 2P  |  P = 0.750 EACH END</text>
+<rect x="120" y="835" width="1360" height="130" fill="#EDF5F4" stroke="#2E6F73" stroke-width="3"/>
+<text x="138" y="865" fill="#173A56" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" text-anchor="start" dominant-baseline="middle">Length controls</text>
+<text x="144" y="903" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Mitered head short = W + 2R; long = W + 2R + 2C.</text>
+<text x="144" y="943" fill="#20272D" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="middle">• Square leg = H side + R; square head = W + 2R + 2C.</text>
+</svg>
